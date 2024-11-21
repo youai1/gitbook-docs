@@ -1,3 +1,7 @@
+---
+description: Configure settings for the Text to Speech block.
+---
+
 # Generate Chart Block Settings
 
 ## How to generate charts
