@@ -60,6 +60,7 @@
   * [Menu Block Settings](automation-workflows/types-of-automation-blocks/menu-block-settings.md)
   * [Logic Block Settings](automation-workflows/types-of-automation-blocks/logic-block-settings.md)
   * [Jump Block Settings](automation-workflows/types-of-automation-blocks/jump-block-settings.md)
+  * [Generate Chart Block Settings](automation-workflows/types-of-automation-blocks/generate-chart-block-settings.md)
 * [Connect Automation Blocks](automation-workflows/connect-automation-blocks.md)
 * [Arrange the Blocks in Your Automation Workflow](automation-workflows/arrange-the-blocks-in-your-automation-workflow.md)
 * [Manage Workflows](automation-workflows/manage-workflows.md)
