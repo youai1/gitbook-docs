@@ -1,5 +1,5 @@
 ---
-description: Technical documentation, feature walkthroughs, and more
+description: Welcome to MindStudio
 layout:
   title:
     visible: true
@@ -13,18 +13,30 @@ layout:
     visible: false
 ---
 
-# MindStudio Documentation
+# Overview
 
-## What is MindStudio?
+MindStudio's intelligence infrastructure gives everyone—from developers to non-technical teams—the power to build and deploy specialized AI Workers.
 
-[**MindStudio**](https://youai.ai/mindstudio) is a platform that lets businesses rapidly create, deploy, and distribute bespoke AI-powered applications.
+## Get Started
 
-Using MindStudio, businesses can build AIs without code to create powerful web applications with onboarding screens, menus, forms, multi‑step workflows, databases, and more.
+If you are new to MindStudio, start here to learn the essentials and make your first AI Worker.
 
-MindStudio is AI agnostic, leverage a list of existing AI models to perform tasks in your app based on which model is best suited for your use case.
+<table data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Quickstart Guide</strong></td><td>Everything you need to know to get started creating AI Workers.</td><td><a href="get-started/quickstart-guide.md">quickstart-guide.md</a></td></tr><tr><td><strong>What is an AI Worker?</strong></td><td>Learn about AI Worker core capabilities and how they work.</td><td><a href="get-started/what-is-an-ai-worker.md">what-is-an-ai-worker.md</a></td></tr><tr><td><strong>AI Worker Use Cases</strong></td><td>Explore use cases across multiple job functions and departments.</td><td><a href="get-started/ai-worker-use-cases.md">ai-worker-use-cases.md</a></td></tr></tbody></table>
 
-This application layer acts as the bridge between raw AI capabilities and real world utility. While foundational models provide the base intelligence, the application layer molds it into a shape we can use and gives it specific capabilities that stretch far beyond any individual model.
+## For Developers
 
-Building AI powered apps using MindStudio is simple and doesn't require any technical knowledge to get started.&#x20;
+MindStudio has best-in-class developer tools to build scalable AI Workers for a variety of fuzzy computing tasks.
 
-***
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>API Reference</strong></td><td>Integrate MindStudio's AI Workers into your applications. Leverage our API for serverless AI function calling.</td><td><h4>API Reference</h4></td><td><a href="developers/api-reference.md">api-reference.md</a></td></tr><tr><td><strong>NPM Package</strong></td><td>Install the MindStudio NPM package for easy integration of MindStudio's AI Workers into your Node.js projects.</td><td><h4>NPM Package</h4></td><td><a href="developers/npm-package.md">npm-package.md</a></td></tr></tbody></table>
+
+## Capabilities
+
+MindStudio offers powerful capabilities that enable you to create, test, and deploy sophisticated AI Workers with ease.
+
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Build AI Workers</strong></td><td>Explore editor features involved in building AI Workers like prompts, blocks, functions, workflows and more. Learn how to combine these elements to create powerful AI Workers.</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Test &#x26; Evaluate</strong></td><td>Learn about the tools and techniques for testing AI Workers. Understand how to evaluate performance, debug issues, and ensure your AI Workers meet quality standards before deployment.</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish &#x26; Deploy</strong></td><td>Learn how to prepare an AI Worker for publishing. Explore various deployment options including integration with no-code automation platforms and deployment to custom applications.</td><td><a href="building-ai-workers/publishing-and-versioning.md">publishing-and-versioning.md</a></td></tr><tr><td><strong>Workspace Management</strong></td><td>Discover how to effectively organize and manage your AI Workers, usage controls, billing settings and team members within the MindStudio workspace.</td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
+
+## Additional Resources
+
+Find helpful resources to enhance your experience with MindStudio.
+
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Contact Support</strong></td><td>Need help or have questions? Reach out to us via email with any questions you may have about MindStudio.</td><td><a href="mailto:support@mindstudio.ai">mailto:support@mindstudio.ai</a></td></tr><tr><td><strong>Glossary</strong></td><td>A comprehensive list of key terms and concepts used in MindStudio.</td><td><a href="additional-resources/glossary.md">glossary.md</a></td></tr></tbody></table>
