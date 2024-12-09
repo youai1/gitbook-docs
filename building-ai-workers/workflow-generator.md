@@ -54,9 +54,6 @@ Example:&#x20;
 
 1. If the generated workflow looks good, click **Accept and Build**.
 2. MindStudio will automatically construct the workflow on the canvas.
-3. Use the preview mode to test the draft:
-   * Input test data.
-   * Observe the execution in real-time, including the generated outputs.
 {% endstep %}
 
 {% step %}
@@ -66,12 +63,15 @@ Example:&#x20;
   * Review logs for actions, variable updates, and custom function outputs.
   * Identify and fix any issues or edge cases.
 * Refine the workflow by adjusting blocks, variables, or custom function code.
+* Use the preview mode to test the draft:
+  * Input test data.
+  * Observe the execution in real-time, including the generated outputs.
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **Important! Review Your AI Generated Builds**
+## **Important: Review Your AI Generated Builds**
 
 While the **Generate Workflow** feature in MindStudio is a powerful tool for automating workflow creation, it’s essential to review all generated outputs when accepting an auto-generated build. The feature uses AI to interpret your descriptions and generate workflows, but it is still prone to occasional errors or misconfigurations.
 
