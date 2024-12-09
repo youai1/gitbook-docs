@@ -1,5 +1,5 @@
 ---
-description: Automatically generate a detailed workflow with AI
+description: Automatically generate your workflows with AI
 ---
 
 # Workflow Generator
