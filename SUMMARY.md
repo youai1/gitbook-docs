@@ -10,6 +10,7 @@
 ## Building AI Workers
 
 * [Editor Overview](building-ai-workers/editor-overview.md)
+* [Workflow Generator](building-ai-workers/workflow-generator.md)
 * [Writing Prompts](building-ai-workers/writing-prompts.md)
 * [AI Models](building-ai-workers/ai-models.md)
 * [Variables](building-ai-workers/variables.md)
