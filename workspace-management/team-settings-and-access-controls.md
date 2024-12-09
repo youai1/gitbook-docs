@@ -1,3 +1,7 @@
+---
+description: Manage collaboration and sharing within your workspace
+---
+
 # Team Settings & Access Controls
 
 A MindStudio Workspace has different **Roles and Access Controls** to manage collaboration and sharing within your workspace. Whether assigning workspace-wide roles or sharing access to individual AI Workers, you can ensure every user has the right level of permissions for their responsibilities. This guide explains the available roles and access controls in MindStudio.

@@ -14,7 +14,7 @@ Define the text you want to convert to audio. Use `{{variables}}` to dynamically
 
 ### **Output Variable**
 
-Creates a new variable and saves the audio file URL to it. Enter a `variable_name` \*\*\*\*to store the response for later use in the workflow.
+Creates a new variable and saves the audio file URL to it. Enter a `variable_name` to store the response for later use in the workflow.
 
 ### **Model Settings**
 

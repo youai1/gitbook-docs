@@ -14,11 +14,7 @@ Provide text instructions for analyzing the image. Use <mark style="color:red;">
 
 #### **Example Prompt**:
 
-{% code overflow="wrap" %}
-```markdown
-Identify the objects in the image and describe their arrangement. Focus on colors and sizes.
-```
-{% endcode %}
+`Identify the objects in the image and describe their arrangement. Focus on colors and sizes.`
 
 ### **Image URL**
 

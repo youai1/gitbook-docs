@@ -48,21 +48,17 @@ Crafting effective prompts for image generation ensures that the AI model produc
 
 ### **Example Image Prompt**:
 
-{% code overflow="wrap" %}
-```markdown
-Generate a hyper-realistic image of a futuristic cityscape at sunset. The city should feature towering skyscrapers with glass facades reflecting the orange and pink hues of the sunset. 
-
-Include floating vehicles with soft neon underlights flying between the buildings, creating a sense of motion. 
-
-In the foreground, add a bustling street market with humans and humanoid robots interacting, showcasing a blend of futuristic technology and traditional market stalls. 
-
-Use a warm color palette dominated by orange, pink, and gold, with subtle accents of teal and blue in the neon lights. 
-
-The sky should be filled with soft clouds, and the setting sun should cast long shadows across the scene. 
-
-Ensure the image feels dynamic and alive, capturing both the grandeur of the skyline and the vibrancy of the street-level activity. The overall style should balance photorealism with a slight cinematic glow for a futuristic yet inviting atmosphere.
-```
-{% endcode %}
+> Generate a hyper-realistic image of a futuristic cityscape at sunset. The city should feature towering skyscrapers with glass facades reflecting the orange and pink hues of the sunset.
+>
+> Include floating vehicles with soft neon underlights flying between the buildings, creating a sense of motion.
+>
+> In the foreground, add a bustling street market with humans and humanoid robots interacting, showcasing a blend of futuristic technology and traditional market stalls.
+>
+> Use a warm color palette dominated by orange, pink, and gold, with subtle accents of teal and blue in the neon lights.
+>
+> The sky should be filled with soft clouds, and the setting sun should cast long shadows across the scene.
+>
+> Ensure the image feels dynamic and alive, capturing both the grandeur of the skyline and the vibrancy of the street-level activity. The overall style should balance photorealism with a slight cinematic glow for a futuristic yet inviting atmosphere.
 
 #### Example Output (DALL-E 3):
 

@@ -62,17 +62,13 @@ Include specific instructions or context in your query to guide the retrieval pr
 
 **Examples**:
 
-{% code overflow="wrap" %}
 ```markdown
 Find troubleshooting steps for {{deviceName}} related to connectivity issues.
 ```
-{% endcode %}
 
-{% code overflow="wrap" %}
 ```markdown
 Retrieve all safety precautions mentioned in the {{documentType}}.
 ```
-{% endcode %}
 
 #### **Limit Query Scope**
 
@@ -80,11 +76,9 @@ Tailor the query to focus on a specific part of the Data Source to improve accur
 
 **Example**:
 
-{% code overflow="wrap" %}
 ```
 Search the "user guide" section for instructions on resetting the {{productName}}.
 ```
-{% endcode %}
 
 #### **Include Actionable Keywords**
 
@@ -92,17 +86,13 @@ Use actionable keywords like "retrieve," "explain," "summarize," or "list" to ma
 
 **Examples**:
 
-{% code overflow="wrap" %}
 ```markdown
 "Summarize the maintenance steps for the {{productName}}."
 ```
-{% endcode %}
 
-{% code overflow="wrap" %}
 ```markdown
 "List all recommended accessories for {{productName}}."
 ```
-{% endcode %}
 
 #### **Test and Refine**
 

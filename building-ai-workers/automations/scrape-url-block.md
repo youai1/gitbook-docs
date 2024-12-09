@@ -19,7 +19,7 @@ Provide the webpage URL you want to scrape. You can input a static URL directly 
 
 ### **Output Variable**
 
-Creates a new variable and saves the extracted text to it. Enter a `variable_name` \*\*\*\*to store the response for later use in the workflow.
+Creates a new variable and saves the extracted text to it. Enter a `variable_name` to store the response for later use in the workflow.
 
 ### **Provider**
 

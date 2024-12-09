@@ -13,7 +13,7 @@ The **Post to Slack Block** allows you to send messages directly to a Slack chan
 Choose how the message will be formatted before sending to Slack:
 
 * **Markdown Text**: Use Slack-compatible Markdown to create formatted text messages \
-  (e.g., **`bold*`**, **`_italic_`**, **`>`** for blockquotes).
+  (e.g., **`*bold*`**, _`_italic_`_, **`>`** for blockquotes).
 * **Slack Block Kit Blocks**: Design a highly customized message layout using Slack's **Block Kit**. Block Kit enables advanced formatting, such as interactive elements, sections, dividers, and more. Learn more at [Slack Block Kit Documentation](https://api.slack.com/block-kit).
 
 ### **Channel**

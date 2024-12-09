@@ -75,11 +75,9 @@ Define the **Return Data** that the sub-workflow will return to the parent workf
 * <mark style="color:red;">`customer_profile`</mark>: Returns customer details retrieved from the sub-workflow.
 * <mark style="color:red;">`order_status`</mark>: Returns the status of the processed order from the sub-workflow.
 
-{% hint style="warning" %}
-If a workflow lacks these configurations, you will see an error message:
+**Note:** If a workflow lacks these configurations, you will see an error message:
 
-_**"The selected workflow has not been configured with launch variables and structured outputs."**_
-{% endhint %}
+> _**"The selected workflow has not been configured with launch variables and structured outputs."**_
 
 ***
 

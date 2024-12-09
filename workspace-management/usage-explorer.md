@@ -10,7 +10,7 @@ The **Usage Explorer** provides in-depth insights into your MindStudio workspace
 * Monitoring worker or model usage.
 * Allocating spending across teams or workflows.
 
-![Screenshot 2024-12-06 at 3.57.13 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5efd0d6c-050f-47e9-bfe9-3d92e8dc24a6/91b623dd-5b6d-4799-a77f-f8ed1dfd36a0/Screenshot_2024-12-06_at_3.57.13_PM.png)
+![Usage Explorer](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.26 PM.png>)
 
 ***
 
@@ -45,7 +45,7 @@ Below the visualizations, you can choose filters to view usage and spend by Work
 * **Users**: The number of unique users who interacted with the worker.
 * **Spend**: The total cost associated with that worker.
 
-![Screenshot 2024-12-06 at 4.16.26 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5efd0d6c-050f-47e9-bfe9-3d92e8dc24a6/60dd0753-dd85-46e6-b92b-226ca72752b5/Screenshot_2024-12-06_at_4.16.26_PM.png)
+![Usage by AI Worker](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.26 PM.png>)
 
 Clicking the caret next to the AI Worker will open the AI Worker.
 
@@ -59,7 +59,7 @@ See which team members are generating the most activity and spending.
 * **Runs**: The total number of times the worker was executed.
 * **Spend**: The total cost associated with that worker.
 
-![Screenshot 2024-12-06 at 4.16.44 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5efd0d6c-050f-47e9-bfe9-3d92e8dc24a6/6e04dbd4-c31b-48bd-a0fe-6c4f366bd93b/Screenshot_2024-12-06_at_4.16.44_PM.png)
+![Usage by User](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.44 PM.png>)
 
 Clicking the caret next to the User will open an accordion to show a drill down of usage for the selected user.
 
@@ -73,7 +73,7 @@ Analyze spending across various AI models to optimize your deployments.
 * **Runs**: The total number of times the worker was executed.
 * **Spend**: The total cost associated with that worker.
 
-![Screenshot 2024-12-06 at 4.17.03 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/5efd0d6c-050f-47e9-bfe9-3d92e8dc24a6/af2a7c7a-9746-4dd6-a908-a3ea706b5e02/Screenshot_2024-12-06_at_4.17.03_PM.png)
+![Usage by Model](<../.gitbook/assets/Screenshot 2024-12-06 at 4.17.03 PM.png>)
 
 Clicking the caret next to the Model will open an accordion to show a drill down of usage for the selected Model.
 

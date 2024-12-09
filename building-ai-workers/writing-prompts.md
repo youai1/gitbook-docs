@@ -139,9 +139,6 @@ Here are some common Markdown features and how to use them:
            "summary_length": "3 sentences"
        }
        ````
-
-       ```
-       ```
 5. **Bold and Italics**
    * **Purpose:** Emphasize key instructions.
    *   Example:

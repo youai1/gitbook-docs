@@ -16,9 +16,7 @@ Publishing creates a versioned release of your AI Worker, locking in its current
 2. Click the **Publish** button in the top-right corner.
 3. Open the current version of your AI Worker.
 
-{% hint style="danger" %}
 **Note:** Before publishing, ensure you've opened up the AI Worker Settings and verified all metadata fields are correctly configured. This includes checking the name, description, API function name, icons, usage limits, and sharing settings.
-{% endhint %}
 
 ***
 
@@ -101,9 +99,7 @@ The **Sharing** tab allows you to configure how your AI Worker can be accessed a
 
 When enabled, others can create a copy of your AI Worker and modify it to build their own version. **Remixing is enabled by default.**
 
-{% hint style="danger" %}
 **Note**: Enabling this setting makes your AI Worker publicly remixable by anyone.
-{% endhint %}
 
 #### **Password Protect**:
 

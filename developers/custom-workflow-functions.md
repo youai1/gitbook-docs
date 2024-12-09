@@ -61,23 +61,41 @@ The **Code Tab** is the central workspace for writing the logic of your function
 
 ### Available Methods
 
-**`ai.config`** – Object containing configuration variables defined in MindStudio
+#### **`ai.config`**
 
-**`ai.vars`** – Object containing runtime variables defined by other functions or blocks.
+Object containing configuration variables defined in MindStudio
 
-**`ai.getConfig(variableName)`** – Return the value of a configuration variable. If the configuration variable resolves to a runtime variable, resolve that value before returning
+#### **`ai.vars`**
 
-**`ai.log(value)`** – Update the progress text for the user. If your function takes a long time to run, this can be helpful in communicating what is happening to the user.
+Object containing runtime variables defined by other functions or blocks.
 
-**`ai.scrapeUrl(url)`** – Scrape the contents of a URL and return an object containing the text extracted from the page, the raw HTML, and some structured metadata (page title, description, resolved URL, thumbnail image URL).
+#### **`ai.getConfig(variableName)`**
 
-**`ai.searchGoogle(query)`** – Search Google for a query and return the first page of results. Returns an object containing all the results as a block of text, as well as individually as an array of objects containing the title, description, and URL for each result.
+Return the value of a configuration variable. If the configuration variable resolves to a runtime variable, resolve that value before returning
 
-**`ai.queryDataSource(dataSourceId, query, numResults)`** – Perform a query against a data source defined in a project. Returns a string result. If `numResults` is not provided, only one chunk will be returned.
+#### **`ai.log(value)`**
 
-**`ai.uploadFile(body)`**– Upload a file and return a URL. File must be a valid Base 64 data URL.
+Update the progress text for the user. If your function takes a long time to run, this can be helpful in communicating what is happening to the user.
 
-**`ai.crmLog(value)`**– For apps with logging enabled, log a value to the app's user logs.
+#### **`ai.scrapeUrl(url)`**
+
+Scrape the contents of a URL and return an object containing the text extracted from the page, the raw HTML, and some structured metadata (page title, description, resolved URL, thumbnail image URL).
+
+#### **`ai.searchGoogle(query)`**
+
+Search Google for a query and return the first page of results. Returns an object containing all the results as a block of text, as well as individually as an array of objects containing the title, description, and URL for each result.
+
+#### **`ai.queryDataSource(dataSourceId, query, numResults)`**
+
+Perform a query against a data source defined in a project. Returns a string result. If `numResults` is not provided, only one chunk will be returned.
+
+#### **`ai.uploadFile(body)`**
+
+Upload a file and return a URL. File must be a valid Base 64 data URL.
+
+#### **`ai.crmLog(value)`**
+
+For apps with logging enabled, log a value to the app's user logs.
 
 ## Configuration Tab
 
