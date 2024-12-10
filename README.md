@@ -17,10 +17,6 @@ layout:
 
 MindStudio's intelligence infrastructure gives everyone—from developers to non-technical teams—the power to build and deploy specialized AI Workers.
 
-<table data-view="cards"><thead><tr><th></th></tr></thead><tbody><tr><td><strong>Get Started</strong></td></tr><tr><td></td></tr><tr><td></td></tr></tbody></table>
-
-
-
 ## Get Started
 
 If you are new to MindStudio, start here to learn the essentials and make your first AI Worker.
