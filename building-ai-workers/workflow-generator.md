@@ -12,28 +12,22 @@ Workflow Generator Tutorial
 
 
 
-## How to use the Workflow Generator&#x20;
+## How to use the Workflow Generator
 
-{% stepper %}
-{% step %}
-### Access the Workflow Generator
+### Step 1: Access the Workflow Generator
 
 1. Open a new or existing project in MindStudio.
 2. Navigate to the bottom bar and select the **Generate Workflow** button.
-{% endstep %}
 
-{% step %}
-### Describe your AI Worker
+### Step 2: Describe your AI Worker
 
 A modal will appear asking you to describe what you want your AI Worker to do. Click **Generate** to let MindStudio process your request.
 
 Example:&#x20;
 
 > Ask the user for their name and birthday, then write them a horoscope.
-{% endstep %}
 
-{% step %}
-### View the AI Generated Workflow Proposal
+### Step 3: View the AI Generated Workflow Proposal
 
 #### **Once the workflow is generated:**
 
@@ -47,17 +41,13 @@ Example:&#x20;
 * **Variables**: Input fields like `name` and `birthdate`.
 * **Custom Functions**: Auto-generated JavaScript or Python functions, such as one to compute a zodiac sign from a birthdate.
 * **Automation Steps**: A preview of the blocks added to the workflow.
-{% endstep %}
 
-{% step %}
-### Approve Proposal and Test
+### Step 4: Approve Proposal and Test
 
 1. If the generated workflow looks good, click **Accept and Build**.
 2. MindStudio will automatically construct the workflow on the canvas.
-{% endstep %}
 
-{% step %}
-### Debug and Refine
+### Step 5: Debug and Refine
 
 * Use the [**Debugger**](../test-and-evaluate/debugger.md) to analyze the execution of the workflow:
   * Review logs for actions, variable updates, and custom function outputs.
@@ -66,8 +56,6 @@ Example:&#x20;
 * Use the preview mode to test the draft:
   * Input test data.
   * Observe the execution in real-time, including the generated outputs.
-{% endstep %}
-{% endstepper %}
 
 ***
 
