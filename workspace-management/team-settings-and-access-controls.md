@@ -24,7 +24,7 @@ Inviting people to your workspace in MindStudio is simple and ensures your team 
 
 ***
 
-### **Workspace Role Quick Reference Table**
+### **Workspace Role Reference Table**
 
 <table data-full-width="false"><thead><tr><th width="149">Role</th><th>View AI Workers?</th><th>Edit AI Workers?</th><th>Manage Users? </th><th>Access Workspace Settings</th></tr></thead><tbody><tr><td><strong>Owner</strong></td><td>All</td><td>All</td><td>All</td><td>Yes</td></tr><tr><td><strong>Admin</strong></td><td>All</td><td>All</td><td>All (except Owners)</td><td>Yes</td></tr><tr><td><strong>Member</strong></td><td>All</td><td>Only their own</td><td>No</td><td>No</td></tr><tr><td><strong>Guest</strong></td><td>Invite Only</td><td>Invite Only</td><td>No</td><td>No</td></tr></tbody></table>
 
@@ -53,9 +53,9 @@ On the **Team Page**, you can manage the permissions of guests for specific AI W
 
 ***
 
-### Team Role Types
+## Team Role Types
 
-#### **Member**
+### **Member**
 
 The **Member** role is ideal for contributors who create and collaborate within the workspace but do not need administrative permissions.
 
@@ -71,7 +71,7 @@ The **Member** role is ideal for contributors who create and collaborate within 
 * Cannot share Edit Access for AI Workers they do not own.
 * Cannot access any workspace settings pages including:
 
-#### **Admin**
+### **Admin**
 
 The **Admin** role allows for broader workspace management, including user and workspace settings management, without full ownership authority.
 
@@ -86,7 +86,7 @@ The **Admin** role allows for broader workspace management, including user and w
 
 * Cannot remove or downgrade Owners.
 
-#### **Owner**
+### **Owner**
 
 The **Owner** role has complete control of a workspace.
 
