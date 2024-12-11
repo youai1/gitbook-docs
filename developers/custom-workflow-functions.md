@@ -31,29 +31,19 @@ There are two primary ways to create a new function in MindStudio. Both approach
 
 Functions in MindStudio can be written in either JavaScript or Python, giving you flexibility to choose the language that best suits your needs. The function editor provides a modern development environment with syntax highlighting, auto-completion, and real-time error checking.
 
-{% stepper %}
-{% step %}
-### Configure Function Details
+### 1. Configure Function Details
 
 These details are displayed in the **Function Details** panel on the right. Provide a **Name** and optional **Description** for your function. Then select the programming environment for your function: **JavaScript** (Node.js) or **Python**.
 
-{% hint style="info" %}
 **Note:** For Python functions, you can import external libraries to extend functionality.
-{% endhint %}
-{% endstep %}
 
-{% step %}
-### Write the Function
+### 2. Write the Function
 
 Use the **Code Tab** to write the logic for your function. Utilize the available methods (see reference table below) to integrate your function seamlessly with configurations.
-{% endstep %}
 
-{% step %}
-### (Optional) Create Configurations
+### 3. (Optional) Create Configurations
 
 Use the **Configurations Tab** to define JSON for customizable settings that users can modify when implementing your function in their workflows. These settings can include input fields, drop-downs, toggles, and other UI elements that make your function more flexible and user-friendly.
-{% endstep %}
-{% endstepper %}
 
 ## Code Tab
 

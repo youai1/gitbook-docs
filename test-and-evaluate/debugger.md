@@ -4,37 +4,25 @@ The **Debugger** is a critical tool in MindStudio for testing, troubleshooting, 
 
 ## How to Use the Debugger
 
-{% stepper %}
-{% step %}
-### Access the Debugger
+### 1. Access the Debugger
 
 Open the desired workflow in MindStudio. Switch to the **Debugger** tab from the workflow interface.
-{% endstep %}
 
-{% step %}
-### Run the Workflow
+### 2. Run the Workflow
 
 Use test inputs or variables to trigger the workflow. The workflow execution will be logged in real time. You can run the workflow in many different ways outlined below.
-{% endstep %}
 
-{% step %}
-### Analyze Logs
+### 3. Analyze Logs
 
 Review the action logs to verify the workflow behaves as expected. Check the **Billing Events** section to ensure cost efficiency. Observe the **Runtime Variables** panel to confirm variable values are correctly updated at each step.
-{% endstep %}
 
-{% step %}
-### Troubleshoot Errors
+### 4. Troubleshoot Errors
 
 Identify blocks with errors or unexpected behavior. Adjust inputs, fix errors, and re-run the workflow to validate changes.
-{% endstep %}
 
-{% step %}
 ### (Optional) Export Logs
 
 Use the **Export** button to download debugging data for documentation or collaborative troubleshooting.
-{% endstep %}
-{% endstepper %}
 
 ## How to Run & Test Workflows
 
@@ -42,8 +30,6 @@ There are several ways to run and test workflows in MindStudio's debugger, each 
 
 **Follow these steps to test a workflow:**
 
-{% stepper %}
-{% step %}
 ### **Select Run Type**
 
 Click the **Preview** button at the top right corner of the screen to open the preview menu. There are 3 options depending on the block(s) you have selected:
@@ -52,31 +38,19 @@ Click the **Preview** button at the top right corner of the screen to open the p
 * **Start from selection:** Executes the workflow starting at the selected step (block), skipping all preceding steps.
 * **Run Selection:** Executes only the selected portion of the workflow, limited to one or more connected blocks.
 
-{% hint style="info" %}
 **Note:** You can select one or multiple blocks by clicking and dragging to create a selection box around them, or by holding Shift while clicking individual blocks. This selection will define the scope of your test execution.
-{% endhint %}
 
-
-{% endstep %}
-
-{% step %}
 ### **Input Variable Information**
 
 Enter the necessary variable data into the provided input fields within the modal. This information is required for the workflow's execution.
-{% endstep %}
 
-{% step %}
 ### **Run the Selection**
 
 After entering the variable data, click the **Run** button at the bottom of the modal. This will execute the workflow starting from the selected block.
-{% endstep %}
 
-{% step %}
 ### **View Run Logs**
 
 Once the test starts, the **Run Log** for the selected portion of the workflow will appear at the bottom of the **Automations** tab. Outputs generated during the test are automatically stored in the debugger, and these logs are accessible from the main **Debugger** panel, where all execution logs are stored for reference.
-{% endstep %}
-{% endstepper %}
 
 ## Anatomy of Debugger
 
