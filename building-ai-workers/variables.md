@@ -9,7 +9,9 @@ Variables in MindStudio are dynamic placeholders that store data during workflow
 **Example:**
 
 * Variable Name: `userName`
-* Usage: `"Hello,`` `<mark style="color:red;">`{{userName}}`</mark>`! Welcome to our app."`
+* Usage: `"Hello,`` `<mark style="color:red;">`{{userName}}`</mark>`! Welcome to our app."`&#x20;
+
+***
 
 ## Creating Variables
 
@@ -18,6 +20,8 @@ Variables are created automatically in MindStudio whenever:
 * A **User Input** collects data.
 * A block generates an output (e.g., **Generate Text Block**, **Analyze Image Block**).
 * You manually define them in the **Start Block**.
+
+***
 
 ## **Types of Variables**
 
@@ -28,6 +32,8 @@ These are defined in the **Start Block** of your workflow. Values for these vari
 ### **Runtime Variables**
 
 Some blocks, such as **Generate Text Blocks** or **User Input Blocks**, assign values for the variable while the workflow is running. For Example, after performing a Google Search, the block can store the results in a variable called `google_result`.
+
+***
 
 ## Calling Variables
 
@@ -42,23 +48,27 @@ In the summary, make sure to write about the following topic:
 {{topic}}
 ```
 
-### **Extracting a Value from a JSON Structure**
+***
+
+## **Extracting a Value from a JSON Structure**
 
 MindStudio provides tools for extracting specific values from JSON objects using the **JSON Path** syntax and the `get` helper. This allows workflows to handle and manipulate structured data with precision, making them more dynamic and adaptable.
 
 ***
 
-#### **Using JSON Path with the `get` Helper**
+### **`get` Helper - Query JSON Variables**
 
 The `get` helper allows you to query JSON variables for specific values using JSON Path expressions. This feature is especially useful when working with nested or complex JSON structures.
 
-**Syntax**:
+#### **Syntax**:
 
 ```handlebars
 {{get myVariable "$.path.to.value"}}
 ```
 
-#### **Examples 1: Extract a Nested Value**:
+***
+
+#### **Example 1: Extract a Nested Value**:
 
 Given the following  JSON assigned to <mark style="color:red;">`myJsonVariable`</mark>:
 
@@ -73,7 +83,7 @@ Given the following  JSON assigned to <mark style="color:red;">`myJsonVariable`<
 }
 ```
 
-Use this to extract the email address:
+**Use this to extract the email address:**
 
 ```handlebars
 {{get myJsonVariable "$.user.details.email"}}
@@ -81,7 +91,9 @@ Use this to extract the email address:
 
 **Output**: <mark style="color:blue;">`alice@example.com`</mark>
 
-#### **Example2: Extract the First Item in an Array**:
+***
+
+#### **Example 2: Extract the First Item in an Array**:
 
 Given the following JSON:
 
@@ -101,6 +113,8 @@ Use this to extract the name of the first item:
 ```
 
 **Output**: <mark style="color:blue;">`Foo`</mark>
+
+***
 
 #### **Example 3: Extract Multiple Values**:
 
@@ -129,11 +143,15 @@ JSON Path also allows for querying multiple elements. Given the following JSON:
 2. **Validate JSON Structure**: Ensure your variable contains valid JSON data before attempting to extract values.
 3. **Handle Missing Values**: Include fallback logic in your workflow to handle cases where the expected path does not exist in the JSON.
 
-### **Using Handlebars Templating**
+***
+
+## **Using Handlebars Templating**
 
 MindStudio leverages the [**Handlebars templating language**](https://handlebarsjs.com/guide/expressions.html#basic-usage) to make working with variables intuitive and powerful. Handlebars allows you to include, manipulate, and conditionally render data directly in your prompts, outputs, and logic.
 
-#### **Conditional Logic**
+***
+
+### **Conditional Logic**
 
 Handlebars supports `if-else` logic for dynamic outputs:
 
@@ -146,6 +164,8 @@ Hello! Please log in to get started.
 ```
 
 For a full list of expressions, see [Handlebars Documentation](https://handlebarsjs.com/guide/expressions.html#basic-usage).
+
+***
 
 ### **Special Handlebars Methods in MindStudio**
 
@@ -177,6 +197,8 @@ If `userProfile` contains:
 ```json
 {"name":"John","age":30}
 ```
+
+***
 
 #### <mark style="color:red;">**`{{sample varName number token}}`**</mark>
 
