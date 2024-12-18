@@ -138,6 +138,8 @@ config = {
 						//"select" = Dropdown menu
 						//"map" = Creates input for key:value pairs
 						//"dataSource" = Dropdown menu to select a data source
+						//"transition" = Allows users to select a block for dynamic transitions, similar to menu or logic block
+
 					
 					selectOptions: [
 					//Only use when using "select" input type.
