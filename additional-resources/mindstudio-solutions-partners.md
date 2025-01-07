@@ -8,7 +8,7 @@ Thanks for your interest in becoming a MindStudio Partner.
 
 * Start by learning about [the MindStudio platform](../get-started/quickstart-guide.md) and [the Partner Program](http://mindstudio.ai/partners).
 * [Apply to the MindStudio Partner Program](http://mindstudio.ai/partners/apply) when you’re ready. You’ll hear back in 1-2 business days with our decision.
-* If you’ve been accepted to the program or are looking for resources, visit the [MindStudio Partner Hub](https://partners.mindstudio.ai/) and review all the educational guides.
+* If you’ve been accepted to the program or are looking for resources, visit the[ MindStudio Partner Hub](https://mindstudioai.notion.site/MindStudio-Partner-Hub-119b0c63a7ff80169038cfc43b3e0e16) and review all the educational guides.
 
 **Connect with us.** Partners get expedited technical support via [support@mindstudio.ai](mailto:support@mindstudio.ai) and partner support via [partners@mindstudio.ai](mailto:partners@mindstudio.ai).
 
