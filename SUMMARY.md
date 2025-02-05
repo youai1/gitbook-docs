@@ -65,7 +65,6 @@
 
 ## Additional Resources
 
-* [FAQs](additional-resources/faqs.md)
 * [Glossary](additional-resources/glossary.md)
 * [MindStudio Solutions Partners](additional-resources/mindstudio-solutions-partners.md)
 * [MindStudio Certification](additional-resources/mindstudio-certification.md)
