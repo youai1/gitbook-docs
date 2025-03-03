@@ -106,11 +106,10 @@ Dynamic Inputs open new possibilities for AI-driven workflows:
 
 ***
 
-### **Key Takeaways**
+### **Conclusion**
 
-* **Dynamic Inputs leverage variables and arrays** to adjust prompts in real time.
-* **Follow-up questions are generated and stored in an array**, ensuring adaptability.
+* **Dynamic Variables leverage arrays** to adjust varaibles in real time.
 * **The Logic Block determines when to stop questioning** and proceed with generating results.
-* **Handlebars helpers like `{{last}}` retrieve the most recent question** for dynamic presentation.
+* **Handlebars helpers like `{{lastItem}}` retrieve the most recent question** for dynamic presentation.
 
 This pattern is a **powerful way to build interactive and intelligent AI Workers** that adapt to user needs dynamically. While it requires a deeper understanding of arrays and variable management, the flexibility it provides makes it a game-changer for many AI-driven workflows.
