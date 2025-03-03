@@ -14,6 +14,7 @@
 * [Writing Prompts](building-ai-workers/writing-prompts.md)
 * [AI Models](building-ai-workers/ai-models.md)
 * [Variables](building-ai-workers/variables.md)
+* [Dynamic Variables](building-ai-workers/dynamic-variables.md)
 * [Data Sources](building-ai-workers/data-sources.md)
 * [Automations](building-ai-workers/automations/README.md)
   * [Start Block](building-ai-workers/automations/start-block.md)
