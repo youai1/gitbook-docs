@@ -4,7 +4,7 @@ description: >-
   folder.
 ---
 
-# Create Gmail Draft
+# Create Gmail Draft Block
 
 {% embed url="https://youtu.be/MIUi2KDaqzQ" %}
 

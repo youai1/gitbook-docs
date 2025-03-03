@@ -34,7 +34,7 @@
   * [Jump Block](building-ai-workers/automations/jump-block.md)
   * [Run Workflow Block](building-ai-workers/automations/run-workflow-block.md)
   * [Terminator Block](building-ai-workers/automations/terminator-block.md)
-  * [Create Gmail Draft](building-ai-workers/automations/create-gmail-draft.md)
+  * [Create Gmail Draft Block](building-ai-workers/automations/create-gmail-draft-block.md)
 * [Publishing & Versioning](building-ai-workers/publishing-and-versioning.md)
 
 ## Workspace Management
