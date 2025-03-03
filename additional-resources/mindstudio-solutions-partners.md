@@ -16,6 +16,6 @@ Thanks for your interest in becoming a MindStudio Partner.
 
 MindStudio Partners are a global network of consultants, agencies, and professional service firms that help clients with their AI workers. They are experts in configuring workflows, building custom applications, and setting teams up to work with AI.
 
-You can hire a partner to build and manage AI workers for your team. Find the right partner for your budget and needs on the [MindStudio Partner Directory](https://www.notion.so/MindStudio-Solutions-Partners-152b0c63a7ff802fa73efea50ab9dabe?pvs=21).
+You can hire a partner to build and manage AI workers for your team. Find the right partner for your budget and needs on the MindStudio Partner Directory.
 
 ![1600x900-horizontal-X (2).png](<../.gitbook/assets/1600x900-horizontal-X (2).png>)
