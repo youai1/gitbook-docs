@@ -4,7 +4,7 @@ description: Search for posts on Bluesky in a MindStudio Workflow
 
 # Search Bluesky Posts
 
-## Sample Output
+### Sample Output
 
 ```json
 {
