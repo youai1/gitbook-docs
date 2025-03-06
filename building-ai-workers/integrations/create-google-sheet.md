@@ -7,5 +7,5 @@ description: Create a new Google Sheet document in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+This block outputs the created Google Sheet URL.
 ```

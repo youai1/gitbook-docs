@@ -6,6 +6,7 @@ description: Run a specified scenario on Make.com in a MindStudio workflow
 
 ## Sample Output
 
-```json
-// Some code
 ```
+This block will output the triggered scenario's response as plain text, if there is any.
+```
+

@@ -7,5 +7,5 @@ description: Creates an email draft in Gmail in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+No output.
 ```

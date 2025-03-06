@@ -7,5 +7,5 @@ description: Send a message to a specified Slack channel in a MindStudio workflo
 ## Sample Output
 
 ```json
-// Some code
+No output.
 ```

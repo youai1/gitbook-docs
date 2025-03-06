@@ -7,5 +7,5 @@ description: Update labels on Google email messages in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+No output.
 ```

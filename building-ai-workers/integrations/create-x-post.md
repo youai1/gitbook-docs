@@ -7,5 +7,6 @@ description: Make a new post on X in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+No output.
 ```
+

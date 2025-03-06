@@ -7,5 +7,5 @@ description: Run an Apify actor in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+This block is still in Beta.
 ```

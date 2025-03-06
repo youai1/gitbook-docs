@@ -7,5 +7,6 @@ description: Create a new Google Doc document in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+This block outputs the created Google Doc URL.
 ```
+

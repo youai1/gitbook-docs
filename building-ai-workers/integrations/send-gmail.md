@@ -7,5 +7,5 @@ description: Sends an email via Gmail account in a MindStudio workflow
 ## Sample Output
 
 ```json
-// Some code
+No output.
 ```
