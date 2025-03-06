@@ -1,5 +1,5 @@
 ---
-description: Get general details of a Facebook page
+description: Get general details of a Facebook page in a MindStudio workflow
 ---
 
 # Scrape Facebook Page
