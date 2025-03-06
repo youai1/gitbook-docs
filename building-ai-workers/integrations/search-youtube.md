@@ -1,2 +1,7 @@
-# Page 2
+# Search YouTube
 
+## Sample Output
+
+```json
+// Some code
+```

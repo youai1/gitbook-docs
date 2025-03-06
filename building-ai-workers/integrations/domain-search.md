@@ -1,2 +1,7 @@
-# Page 10
+# Domain Search
 
+## Sample Output
+
+```json
+// Some code
+```

@@ -1,2 +1,7 @@
-# Page 1
+# Search YouTube Trends
 
+## Sample Output
+
+```json
+// Some code
+```
