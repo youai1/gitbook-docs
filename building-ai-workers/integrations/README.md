@@ -46,32 +46,30 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Hunter.io Blocks
 
-| Block Name          | Purpose                             |
-| ------------------- | ----------------------------------- |
-| Combined Enrichment | Get company & person data via email |
-| Company Enrichment  | Enrich company data using a domain  |
-| Domain Search       | Find emails for a given website     |
-| Email Finder        | Find a person's email for a domain  |
-| Email Verification  | Verify a person's email address     |
-| Person Enrichment   | Enrich person's data via email      |
+| Block Name                                    | Purpose                             |
+| --------------------------------------------- | ----------------------------------- |
+| [Combined Enrichment](combined-enrichment.md) | Get company & person data via email |
+| [Company Enrichment](company-enrichment.md)   | Enrich company data using a domain  |
+| [Domain Search](domain-search.md)             | Find emails for a given website     |
+| [Email Finder](email-finder.md)               | Find a person's email for a domain  |
+| [Email Verification](email-verification.md)   | Verify a person's email address     |
+| [Person Enrichment](person-enrichment.md)     | Enrich person's data via email      |
 
 ### YouTube Blocks
 
-| Block Name             | Purpose                                   |
-| ---------------------- | ----------------------------------------- |
-| Fetch YouTube Captions | Fetch captions from a YouTube video       |
-| Fetch YouTube Channel  | Fetch details from a YouTube channel      |
-| Fetch YouTube Comments | Fetch all comments from a YouTube video   |
-| Fetch YouTube Video    | Fetch details from a YouTube video        |
-| Search YouTube         | Retrieve YouTube search results           |
-| Search YouTube Trends  | Search for trends by a specified category |
+| Block Name                                          | Purpose                                   |
+| --------------------------------------------------- | ----------------------------------------- |
+| [Fetch YouTube Captions](fetch-youtube-captions.md) | Fetch captions from a YouTube video       |
+| [Fetch YouTube Channel](fetch-youtube-channel.md)   | Fetch details from a YouTube channel      |
+| [Fetch YouTube Comments](fetch-youtube-comments.md) | Fetch all comments from a YouTube video   |
+| [Fetch YouTube Video](fetch-youtube-video.md)       | Fetch details from a YouTube video        |
+| [Search YouTube](search-youtube.md)                 | Retrieve YouTube search results           |
+| [Search YouTube Trends](search-youtube-trends.md)   | Search for trends by a specified category |
 
 ### Other Automations
 
-| Block Name    | Purpose                                     |
-| ------------- | ------------------------------------------- |
-| Apify         | Run an Apify actor                          |
-| Run Scenario  | Run a specified scenario on Make.com        |
-| Post to Slack | Send a message to a specified Slack channel |
-|               |                                             |
-|               |                                             |
+| Block Name                        | Purpose                                     |
+| --------------------------------- | ------------------------------------------- |
+| [Apify](apify.md)                 | Run an Apify actor                          |
+| [Run Scenario](run-scenario.md)   | Run a specified scenario on Make.com        |
+| [Post to Slack](post-to-slack.md) | Send a message to a specified Slack channel |
