@@ -4,7 +4,7 @@ description: The first part of any workflow in MindStudio
 
 # Start Block
 
-The **Start Block** is the first part of any workflow in MindStudio. It initializes your AI worker, defines how and when the workflow begins, and sets up key variables that are used throughout the workflow.
+The **Start Block** is the first part of any workflow in MindStudio. It initializes your AI Agent, defines how and when the workflow begins, and sets up key variables that are used throughout the workflow.
 
 ## Configurations
 

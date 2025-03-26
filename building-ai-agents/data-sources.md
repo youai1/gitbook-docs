@@ -1,5 +1,5 @@
 ---
-description: Leverage Retrieval Augmented Generation (RAG) in your AI Workers
+description: Leverage Retrieval Augmented Generation (RAG) in your AI Agents
 ---
 
 # Data Sources

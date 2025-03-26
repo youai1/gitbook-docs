@@ -4,11 +4,11 @@ description: Get a high-level overview of the MindStudio AI Editor
 
 # Editor Overview
 
-After creating a new AI Worker, you’ll land in the MindStudio Editor. The editor is made of two key areas: the **Explorer** and the **Navigator** (commonly referred to as the **Workspace Area**).
+After creating a new AI Agent, you’ll land in the MindStudio Editor. The editor is made of two key areas: the **Explorer** and the **Navigator** (commonly referred to as the **Workspace Area**).
 
 ### **Explorer Tab**
 
-On the left you’ll find the **Explorer Tab.** This is where you'll find all of the resources used to build your AI workers.
+On the left you’ll find the **Explorer Tab.** This is where you'll find all of the resources used to build your AI Agents.
 
 ### Types of Resources
 
@@ -30,7 +30,7 @@ Learn more about Functions →
 
 #### **User Inputs**
 
-Interfaces that humans interact with to provide context to the AI worker.
+Interfaces that humans interact with to provide context to the AI Agent.
 
 ![](../.gitbook/assets/Frame-3.jpg)
 
@@ -38,7 +38,7 @@ Learn more about User Inputs →
 
 #### **Workflows**&#x20;
 
-Sequences of automated actions that your AI workers follow when they are run.
+Sequences of automated actions that your AI Agents follow when they are run.
 
 ![](../.gitbook/assets/Frame-4.jpg)
 
@@ -55,9 +55,9 @@ The large area covering the rest of the Editor if the Main Workspace, also refer
 The Top Bar in the Editor contains the following controls:
 
 * **Back Button:** Navigates to the Workspace Overview Screen
-* **Title:** Access general AI Worker Settings
-* **Preview Button:** Opens a draft preview of the AI Worker
-* **Publish Button:** Saves and deploys all changes to the AI Worker
+* **Title:** Access general AI Agent Settings
+* **Preview Button:** Opens a draft preview of the AI Agent
+* **Publish Button:** Saves and deploys all changes to the AI Agent
 
 #### Bottom Bar
 

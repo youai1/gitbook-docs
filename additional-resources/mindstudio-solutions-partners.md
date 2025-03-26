@@ -1,6 +1,6 @@
 # MindStudio Solutions Partners
 
-Building custom AI workers is not only a business — it’s a revolution transforming how people work. MindStudio Solutions Partners are at the forefront.
+Building custom AI Agents is not only a business — it’s a revolution transforming how people work. MindStudio Solutions Partners are at the forefront.
 
 ## Become a partner
 
@@ -14,8 +14,8 @@ Thanks for your interest in becoming a MindStudio Partner.
 
 ## Find a partner
 
-MindStudio Partners are a global network of consultants, agencies, and professional service firms that help clients with their AI workers. They are experts in configuring workflows, building custom applications, and setting teams up to work with AI.
+MindStudio Partners are a global network of consultants, agencies, and professional service firms that help clients with their AI Agents. They are experts in configuring workflows, building custom applications, and setting teams up to work with AI.
 
-You can hire a partner to build and manage AI workers for your team. Find the right partner for your budget and needs on the [MindStudio Partner Directory](https://partners.mindstudio.ai/).
+You can hire a partner to build and manage AI Agents for your team. Find the right partner for your budget and needs on the [MindStudio Partner Directory](https://partners.mindstudio.ai/).
 
 ![1600x900-horizontal-X (2).png](<../.gitbook/assets/1600x900-horizontal-X (2).png>)

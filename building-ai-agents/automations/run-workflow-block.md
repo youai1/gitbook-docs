@@ -10,18 +10,18 @@ The **Run Workflow Block** allows you to execute a separate workflow within your
 
 ## **Configurations**
 
-### **App**
+### **Agent**
 
-Select the AI Worker containing the workflow you want to run.
+Select the AI Agent containing the workflow you want to run.
 
-* Use the dropdown to choose the appropriate AI Worker.
-* Ensure the selected AI Worker contains the workflow you want to execute.
+* Use the dropdown to choose the appropriate AI Agent.
+* Ensure the selected AI Agent contains the workflow you want to execute.
 
 ### **Workflow**
 
-Choose the specific workflow within the selected AI Worker to execute.
+Choose the specific workflow within the selected AI Agent to execute.
 
-* Select from available workflows in the chosen AI Worker.
+* Select from available workflows in the chosen AI Agent.
 * For modular workflows, ensure the selected workflow is designed for integration.
 
 ### **Launch Variables**

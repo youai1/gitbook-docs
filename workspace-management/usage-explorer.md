@@ -7,7 +7,7 @@ description: Get insights on usage and spend.
 The **Usage Explorer** provides in-depth insights into your MindStudio workspace's usage and spending, helping you monitor and optimize your resources. The **Usage Explorer** is ideal for:
 
 * Identifying cost-saving opportunities.
-* Monitoring worker or model usage.
+* Monitoring Agent or model usage.
 * Allocating spending across teams or workflows.
 
 ![Usage Explorer](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.26 PM.png>)
@@ -36,18 +36,18 @@ A **pie chart** shows the spend distribution for the selected period, allowing y
 
 ## Usage Views
 
-Below the visualizations, you can choose filters to view usage and spend by Worker, User, or Model.
+Below the visualizations, you can choose filters to view usage and spend by Agent, User, or Model.
 
-### **Usage by Worker**
+### **Usage by Agent**
 
-* **Worker name**: The name of the AI Worker.
-* **Runs**: The total number of times the worker was executed.
-* **Users**: The number of unique users who interacted with the worker.
-* **Spend**: The total cost associated with that worker.
+* **Agent name**: The name of the AI Agent.
+* **Runs**: The total number of times the Agent was executed.
+* **Users**: The number of unique users who interacted with the Agent.
+* **Spend**: The total cost associated with that Agent.
 
-![Usage by AI Worker](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.26 PM.png>)
+![Usage by AI Agent](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.26 PM.png>)
 
-Clicking the caret next to the AI Worker will open the AI Worker.
+Clicking the caret next to the AI Agent will open the AI Agent.
 
 ***
 
@@ -56,8 +56,8 @@ Clicking the caret next to the AI Worker will open the AI Worker.
 See which team members are generating the most activity and spending.
 
 * **User Name**: The name of the workspace member.
-* **Runs**: The total number of times the worker was executed.
-* **Spend**: The total cost associated with that worker.
+* **Runs**: The total number of times the Agent was executed.
+* **Spend**: The total cost associated with that Agent.
 
 ![Usage by User](<../.gitbook/assets/Screenshot 2024-12-06 at 4.16.44 PM.png>)
 
@@ -70,8 +70,8 @@ Clicking the caret next to the User will open an accordion to show a drill down 
 Analyze spending across various AI models to optimize your deployments.
 
 * **User Name**: The name of the workspace member.
-* **Runs**: The total number of times the worker was executed.
-* **Spend**: The total cost associated with that worker.
+* **Runs**: The total number of times the Agent was executed.
+* **Spend**: The total cost associated with that Agent.
 
 ![Usage by Model](<../.gitbook/assets/Screenshot 2024-12-06 at 4.17.03 PM.png>)
 
@@ -88,5 +88,5 @@ Click the **Export** button in the top-right corner to download usage data for f
 ## Pro Tips
 
 * Regularly check your **Spend Breakdown** to manage costs effectively.
-* Use the **Usage by Worker** table to identify high-cost workflows and optimize them.
+* Use the **Usage by Agent** table to identify high-cost workflows and optimize them.
 * Export data periodically to track spending trends over time.

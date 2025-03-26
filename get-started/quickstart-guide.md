@@ -1,10 +1,10 @@
 ---
-description: Everything you need to know to get started creating AI Workers.
+description: Everything you need to know to get started creating AI Agents.
 ---
 
 # Quickstart Guide
 
-In this article, we’ll be guiding you through everything you need to know to get started on MindStudio and teaching you to create your first AI Worker.
+In this article, we’ll be guiding you through everything you need to know to get started on MindStudio and teaching you to create your first AI Agent.
 
 {% embed url="https://youtu.be/AWREivjAm0o" %}
 
@@ -14,7 +14,7 @@ Before starting, you will need to [create a MindStudio Account](https://app.mind
 
 ## Getting Started
 
-After creating an account, you'll land on the **Workspace Overview Screen**, where you can view all published AI workers. If there are no AI Workers published, then you will see the Getting Started Guide.
+After creating an account, you'll land on the **Workspace Overview Screen**, where you can view all published AI Agents. If there are no AI Agents published, then you will see the Getting Started Guide.
 
 ## Workspace Overview
 
@@ -22,22 +22,22 @@ From the Workspace Overview Screen, you’ll find several controls on the left. 
 
 * Create new workspaces.
 * Access general [Workspace Settings](https://www.notion.so/Workspace-Settings-144b0c63a7ff805e949fe1055ce8db40?pvs=21).
-* Explore [Usage Explorer](https://www.notion.so/Usage-Explorer-144b0c63a7ff80e19016ebc3110c47c4?pvs=21) to view AI worker activity.
+* Explore [Usage Explorer](https://www.notion.so/Usage-Explorer-144b0c63a7ff80e19016ebc3110c47c4?pvs=21) to view AI Agent activity.
 * Manage [Billing Settings](https://www.notion.so/Billing-Settings-144b0c63a7ff80b99b15cb474f0ad334?pvs=21) (e.g., budget limits, payment methods).
 * [Invite team members](https://www.notion.so/Inviting-New-Members-144b0c63a7ff802c80cec5028ba6aa7b?pvs=21) to your workspace.
 * Access [developer tools](https://www.notion.so/API-Reference-141b0c63a7ff802eb069ce487dfa28c2?pvs=21) like API Keys, Request Logs, and Documentation.
 
-## **Building your First AI Worker**
+## **Building your First AI Agent**
 
-In this guide, we’ll build an example AI worker to find daily tech news, summarize it, and sends an email every morning at 8:00 AM.
+In this guide, we’ll build an example AI Agent to find daily tech news, summarize it, and sends an email every morning at 8:00 AM.
 
 <figure><img src="../.gitbook/assets/Frame.jpg" alt=""><figcaption></figcaption></figure>
 
 
 
-### Step 1: Create a New AI Worker
+### Step 1: Create a New AI Agent
 
-To create an AI worker, click on the **Create AI Worker** button at the top-right. This will create a new worker and open the MindStudio Editor.
+To create an AI Agent, click on the **Create New Agent** button at the top-right. This will create a new Agent and open the MindStudio Editor.
 
 #### MindStudio Editor Overview
 
@@ -45,15 +45,15 @@ The editor is made of two key areas: the **Explorer Tab** and the **Navigator**.
 
 **Explorer Tab**
 
-This is where you'll find all of the resources used to build your AI workers. This includes resources like **Data Sources**, **Functions**, **User Inputs**, and **Workflows**
+This is where you'll find all of the resources used to build your AI Agents. This includes resources like **Data Sources**, **Functions**, **User Inputs**, and **Workflows**
 
-<figure><img src="../.gitbook/assets/Frame-1.jpg" alt=""><figcaption><p>Data Sources let you upload and vectorize files to leverage RAG in your AI Workers.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame-1.jpg" alt=""><figcaption><p>Data Sources let you upload and vectorize files to leverage RAG in your AI Agents.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Frame-2.jpg" alt=""><figcaption><p>Functions let you execute custom JavaScript code in your AI Workers.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame-2.jpg" alt=""><figcaption><p>Functions let you execute custom JavaScript code in your AI Agents.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Frame-3.jpg" alt=""><figcaption><p>User Inputs are interfaces that Humans interact with to provide context to the AI Worker.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame-3.jpg" alt=""><figcaption><p>User Inputs are interfaces that Humans interact with to provide context to the AI Agent.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Frame-4.jpg" alt=""><figcaption><p>Workflows are sequences of automated actions that AI Workers follow when they are run.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Frame-4.jpg" alt=""><figcaption><p>Workflows are sequences of automated actions that AI Agents follow when they are run.</p></figcaption></figure>
 
 **Navigator (Main Workspace)**
 
@@ -63,14 +63,14 @@ The large area covering the rest of the Editor if the Main Workspace, also refer
 
 ### Step 2: Write the System Prompt
 
-The System Prompt serves as the AI worker's core instructions, defining its role, capabilities, and constraints.
+The System Prompt serves as the AI Agent's core instructions, defining its role, capabilities, and constraints.
 
 You can write a system prompt manually by typing into the blank space below, or you can click on the **Generate Prompt** button at the bottom left to have the **Prompt Generator** to write the prompt for you.
 
 #### Using the Prompt Generator
 
 * Click on the **Generate Prompt** button at the bottom left of the prompt area. This will open the Prompt Generator Modal.
-*   Using natural language, enter a brief description of what your AI worker is supposed to do. For this build, we can type something like:
+*   Using natural language, enter a brief description of what your AI Agent is supposed to do. For this build, we can type something like:
 
     <pre class="language-markdown"><code class="lang-markdown"><strong>Find daily technology news, summarize it, and send an email at 8:00 AM.
     </strong></code></pre>
@@ -83,9 +83,9 @@ Once your System Prompt is written, navigate to the **Automations** tab.
 
 ### Step 3: Design a Workflow in the Automations Tab
 
-The **Automations Tab** is where you design the workflow for your AI worker. This section allows you to define the sequence of actions your AI worker will follow.
+The **Automations Tab** is where you design the workflow for your AI Agent. This section allows you to define the sequence of actions your AI Agent will follow.
 
-#### **Example Workflow: Daily Tech News AI Worker**
+#### **Example Workflow: Daily Tech News AI** Agent
 
 
 
@@ -143,7 +143,7 @@ Every block that uses AI has the ability to override the underlying models setti
 
 ### **Step 5: Test and Evaluate Your Workflow**
 
-Testing and evaluation are critical steps to ensure your AI worker performs as expected. MindStudio provides tools to debug, validate, and optimize your AI Workers.
+Testing and evaluation are critical steps to ensure your AI Agent performs as expected. MindStudio provides tools to debug, validate, and optimize your AI Agents.
 
 ***
 
@@ -171,23 +171,23 @@ Testing and evaluation are critical steps to ensure your AI worker performs as e
 
 ***
 
-### Step 6: Publish Your AI Worker
+### Step 6: Publish Your AI Agent
 
-Once your AI worker has been tested and evaluated to ensure it functions correctly, the next step is to publish it. Publishing makes your AI worker available for use and integration.
+Once your AI Agent has been tested and evaluated to ensure it functions correctly, the next step is to publish it. Publishing makes your AI Agent available for use and integration.
 
-#### **Steps to Publish Your AI Worker**
+#### **Steps to Publish Your AI** Agent
 
 1. **Set Metadata**
    * Navigate to the **Explorer Tab** and click on the root menu.
    * Add the following details:
-     * **Name**: Give your AI worker a descriptive and unique name.
-     * **Description**: Provide a short explanation of what your AI worker does.
+     * **Name**: Give your AI Agent a descriptive and unique name.
+     * **Description**: Provide a short explanation of what your AI Agent does.
    * Go through other sections and configure other settings.
 2. **Publish the Workflow**
-   * Click the **Publish** button to finalize your AI worker.
-   * Once published, the AI worker will be accessible via the **AI Worker Tab** in your workspace. Click on the confirmation message to view your AI Worker
+   * Click the **Publish** button to finalize your AI Agent.
+   * Once published, the AI Agent will be accessible via the **Published Tab** in your workspace. Click on the confirmation message to view your AI Agent.
 3. **Integration Options**
-   * After publishing, you can integrate your AI worker with external tools and platforms, such as:
+   * After publishing, you can integrate your AI Agent with external tools and platforms, such as:
      * **Zapier**: Automate workflows across apps.
      * **Make**: Build advanced automation scenarios.
      * **API**: Use the provided documentation to connect via custom APIs.
@@ -197,12 +197,12 @@ Once your AI worker has been tested and evaluated to ensure it functions correct
      * Selecting a workflow.
      * Providing launch variables (e.g., `topic = "daily tech news"`).
    * Run the test and review the logs for successful execution.
-5. **View the AI Worker in the Workspace Overview**
-   * View the newly published AI worker under the **Home Tab**.
-   * Confirm it is listed alongside other published workers.
+5. **View the AI Agent in the Workspace Overview**
+   * View the newly published AI Agent under the **Home Tab**.
+   * Confirm it is listed alongside other published Agents.
 
 ## **Conclusion**
 
-Congratulations on creating and publishing your first AI worker in MindStudio! We’ve covered everything from writing system prompts and building workflows to testing, debugging, and publishing. MindStudio is a powerful and versatile platform, enabling you to create AI Workers tailored to specific needs.
+Congratulations on creating and publishing your first AI Agent in MindStudio! We’ve covered everything from writing system prompts and building workflows to testing, debugging, and publishing. MindStudio is a powerful and versatile platform, enabling you to create AI Agents tailored to specific needs.
 
 Remember, this guide is just the beginning. The possibilities with MindStudio are endless, and we’re excited to see what you’ll build. If you ever need help, our **Support Chat** is just a click away.

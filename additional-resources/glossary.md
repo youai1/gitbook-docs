@@ -4,9 +4,9 @@ description: Definitions of MindStudio Terms
 
 # Glossary
 
-#### **AI Worker**
+#### **AI Agent**
 
-An AI-powered automation or workflow created within MindStudio. AI Workers are designed to perform specific tasks, ranging from data processing to content generation, and can be deployed in various applications.
+An AI-powered automation or workflow created within MindStudio. AI Agents are designed to perform specific tasks, ranging from data processing to content generation, and can be deployed in various applications.
 
 #### **Automation Block**
 
@@ -14,7 +14,7 @@ A modular unit within a workflow that performs a specific function (e.g., genera
 
 #### **Canvas**
 
-The visual interface where workflows are designed and structured. The canvas allows users to connect automation blocks and configure their interactions to build AI Workers.
+The visual interface where workflows are designed and structured. The canvas allows users to connect automation blocks and configure their interactions to build AI Agents.
 
 #### **Data Source**
 
@@ -22,7 +22,7 @@ An external or internal repository of information (e.g., databases, APIs) that w
 
 #### **Drafts**
 
-Unpublished versions of workflows or AI Workers within a workspace. Drafts allow users to iterate and test changes before making them live.
+Unpublished versions of workflows or AI Agents within a workspace. Drafts allow users to iterate and test changes before making them live.
 
 #### **Function**
 
@@ -38,15 +38,15 @@ A set of instructions or input text sent to an underlying model to guide its beh
 
 #### **Underlying Model**
 
-The AI or machine learning model powering an AI Worker's functionality. Examples include GPT models for natural language processing or DALL-E for image generation.
+The AI or machine learning model powering an AI Agent's functionality. Examples include GPT models for natural language processing or DALL-E for image generation.
 
 #### **Usage**
 
-A metric that tracks the consumption of resources (e.g., API calls, compute time) within a workspace. It provides insights into how AI Workers and workflows are utilized, helping monitor costs and efficiency.
+A metric that tracks the consumption of resources (e.g., API calls, compute time) within a workspace. It provides insights into how AI Agents and workflows are utilized, helping monitor costs and efficiency.
 
 #### **User Input**
 
-Data or parameters provided by end-users or external systems that are used to guide the behavior of an AI Worker or workflow. User inputs can be configured in the workflow for flexibility.
+Data or parameters provided by end-users or external systems that are used to guide the behavior of an AI Agent or workflow. User inputs can be configured in the workflow for flexibility.
 
 #### **Variable**
 
@@ -54,4 +54,4 @@ A placeholder used within workflows to store and pass data between steps. Variab
 
 #### **Workspace**
 
-A dedicated environment in MindStudio for organizing and managing AI Workers, workflows, team members, and billing settings. Workspaces allow teams to collaborate and operate independently within the platform.
+A dedicated environment in MindStudio for organizing and managing AI Agents, workflows, team members, and billing settings. Workspaces allow teams to collaborate and operate independently within the platform.

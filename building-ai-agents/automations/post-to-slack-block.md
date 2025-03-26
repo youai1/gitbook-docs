@@ -1,5 +1,5 @@
 ---
-description: Send messages from your AI Worker directly to a Slack channel
+description: Send messages from your AI Agent directly to a Slack channel
 ---
 
 # Post to Slack Block

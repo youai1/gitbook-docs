@@ -1,10 +1,10 @@
 ---
-description: Integrate MindStudio's AI Workers into your Node.js projects.
+description: Integrate MindStudio's AI Agents into your Node.js projects.
 ---
 
 # NPM Package
 
-The [**MindStudio NPM Package**](https://www.npmjs.com/package/mindstudio) is your toolkit for integrating AI-powered workflows seamlessly into any application. This client library offers type-safe interfaces to help you execute MindStudio AI Workers with ease and confidence.
+The [**MindStudio NPM Package**](https://www.npmjs.com/package/mindstudio) is your toolkit for integrating AI-powered workflows seamlessly into any application. This client library offers type-safe interfaces to help you execute MindStudio AI Agents with ease and confidence.
 
 ## **Quick Start**
 
@@ -97,7 +97,7 @@ npx mindstudio test --worker myWorker --workflow generateText --input '{"prompt"
 
 ### **`list`**
 
-List available workers and workflows:
+List available Agents and workflows:
 
 ```jsx
 # List from existing configuration

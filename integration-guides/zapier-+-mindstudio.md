@@ -1,10 +1,10 @@
 ---
-description: Integrate MindStudio AI Workers with Zapier
+description: Integrate MindStudio AI Agents with Zapier
 ---
 
 # Zapier + MindStudio
 
-This guide walks you through the steps to integrate MindStudio AI Workers with Zapier, allowing you to trigger workflows and seamlessly connect them to other apps like Slack. By following this tutorial, you can create a Zap that triggers when a Slack channel receives a new message and responds with the output from your MindStudio workflow.
+This guide walks you through the steps to integrate MindStudio AI Agents with Zapier, allowing you to trigger workflows and seamlessly connect them to other apps like Slack. By following this tutorial, you can create a Zap that triggers when a Slack channel receives a new message and responds with the output from your MindStudio workflow.
 
 {% @supademo/embed demoId="cm2wamwyo02i8krgpgl4574gl" url="https://app.supademo.com/demo/cm2wamwyo02i8krgpgl4574gl" %}
 

@@ -28,7 +28,7 @@ After making edits to the workspace name, company name, or logo, use the "Save C
 
 #### **Slack Integration**
 
-Integrate with Slack by clicking the "Add to Slack" button. Once configured, AI Workers can notify you of their actions directly in Slack.
+Integrate with Slack by clicking the "Add to Slack" button. Once configured, AI Agents can notify you of their actions directly in Slack.
 
 #### **Workspace ID**
 

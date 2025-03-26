@@ -4,19 +4,19 @@ description: Learn about prompt engineering for AI tasks.
 
 # Writing Prompts
 
-Prompts are the foundation of how your AI worker understands and executes tasks. A well-written prompt ensures your AI worker delivers precise and meaningful results.
+Prompts are the foundation of how your AI Agent understands and executes tasks. A well-written prompt ensures your AI Agent delivers precise and meaningful results.
 
 ***
 
 ## What is a Prompt?
 
-A prompt is a set of instructions that tells the AI worker what to do. It provides the context and parameters for generating the desired output. Just like giving someone directions, a good prompt ensures the AI knows exactly what to deliver. In MindStudio, prompts can be used at two levels: **System Prompts** and **Block Prompts**.
+A prompt is a set of instructions that tells the AI Agent what to do. It provides the context and parameters for generating the desired output. Just like giving someone directions, a good prompt ensures the AI knows exactly what to deliver. In MindStudio, prompts can be used at two levels: **System Prompts** and **Block Prompts**.
 
 ***
 
 ### System Prompt
 
-The System Prompt appears in the **Prompt Tab** of a workflow file. It serves as the AI worker's core instructions, defining its role, capabilities, and constraints and acts as the foundation, guiding how the AI behaves throughout the workflow.
+The System Prompt appears in the **Prompt Tab** of a workflow file. It serves as the AI Agent's core instructions, defining its role, capabilities, and constraints and acts as the foundation, guiding how the AI behaves throughout the workflow.
 
 When you write a system prompt, you’re establishing the AI's "role" and general approach to tasks. Every action in the workflow will follow this overarching guidance unless overridden by specific block prompts.
 
@@ -25,7 +25,7 @@ You can write a system prompt manually by typing into the blank space of the **P
 #### Using the Prompt Generator
 
 1. Click on the **Generate Prompt** button at the bottom left of the prompt area. This will open the Prompt Generator Modal.
-2. Using natural language, enter a brief description of what your AI worker is supposed to do.
+2. Using natural language, enter a brief description of what your AI Agent is supposed to do.
    1.  **Example:**
 
        {% code overflow="wrap" %}
@@ -67,8 +67,8 @@ A good prompt is clear, specific, and provides enough context for the AI to unde
 
 #### **Key aspects of an effective Prompts:**
 
-* **Clarity**: Use straightforward language to avoid confusion. Clearly define the AI worker's purpose and main tasks
-* **Specificity**: Be detailed about what you want. Specify any limitations or guidelines that your AI Worker should follow when executing its task
+* **Clarity**: Use straightforward language to avoid confusion. Clearly define the AI Agent's purpose and main tasks
+* **Specificity**: Be detailed about what you want. Specify any limitations or guidelines that your AI Agent should follow when executing its task
 * **Context**: Explain the purpose or provide a scenario to guide the AI. Context can be provided via direct instruction or by calling Variables within a prompt.
 * **Output Format**: Outline the expected format or structure of its output.
 

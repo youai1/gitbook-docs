@@ -90,4 +90,4 @@ An optional image displayed above the input field when presented to the end user
 
 ### Test Value
 
-Pre-fills the input field with a sample response when previewing workflows. This simplifies front-end testing when viewing a draft preview of an AI Worker.
+Pre-fills the input field with a sample response when previewing workflows. This simplifies front-end testing when viewing a draft preview of an AI Agent.

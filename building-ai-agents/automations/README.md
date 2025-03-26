@@ -1,10 +1,10 @@
 ---
-description: Learn how to design automated workflows for your AI Workers
+description: Learn how to design automated workflows for your AI Agents
 ---
 
 # Automations
 
-The **Automations Tab** is where you design the workflow for your AI worker. This section allows you to define the sequence of actions your AI worker will follow.
+The **Automations Tab** is where you design the workflow for your AI Agent. This section allows you to define the sequence of actions your AI Agent will follow.
 
 ## Workflow Blocks Reference
 
@@ -12,7 +12,7 @@ The **Automations Tab** is where you design the workflow for your AI worker. Thi
 
 ## What is a Workflow?
 
-Workflows are sequences of automated actions that your AI workers follow when they are run.
+Workflows are sequences of automated actions that your AI Agents follow when they are run.
 
 ![Frame-4.jpg](../../.gitbook/assets/Frame-4.jpg)
 

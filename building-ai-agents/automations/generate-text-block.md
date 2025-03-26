@@ -1,5 +1,5 @@
 ---
-description: Use an AI model to generate text in your AI Workers.
+description: Use an AI model to generate text in your AI Agents.
 ---
 
 # Generate Text Block

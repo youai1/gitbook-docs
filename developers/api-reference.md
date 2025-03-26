@@ -1,5 +1,5 @@
 ---
-description: Run AI Workers via API request.
+description: Run AI Agents via API request.
 ---
 
 # API Reference
@@ -86,7 +86,7 @@ const data = await response.json();
 console.log(data);
 ```
 
-Note: Replace <mark style="color:blue;">`YOUR_ACCESS_TOKEN`</mark> and <mark style="color:blue;">`YOUR_APP_ID`</mark> with your actual Bearer token and app ID, and adjust the request body according to your specific app requirements.
+Note: Replace <mark style="color:blue;">`YOUR_ACCESS_TOKEN`</mark> and <mark style="color:blue;">`YOUR_APP_ID`</mark> with your actual Bearer token and Agent ID, and adjust the request body according to your specific app requirements.
 
 ## Load an app
 

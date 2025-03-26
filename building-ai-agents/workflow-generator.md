@@ -4,7 +4,7 @@ description: Automatically generate your workflows with AI
 
 # Workflow Generator
 
-The **Workflow Generator** feature in MindStudio is a powerful tool that simplifies the creation of AI Workers. By describing your desired outcome, the feature automatically generates a detailed workflow plan, complete with prompts, variables, automation steps, and custom functions.&#x20;
+The **Workflow Generator** feature in MindStudio is a powerful tool that simplifies the creation of AI Agents. By describing your desired outcome, the feature automatically generates a detailed workflow plan, complete with prompts, variables, automation steps, and custom functions.&#x20;
 
 {% embed url="https://www.loom.com/share/9fc1b9ec3a5c465f86014d8a996a5069?sid=95bceb22-4263-4c22-a6d4-66b70b00fd8f" %}
 Workflow Generator Tutorial
@@ -19,9 +19,9 @@ Workflow Generator Tutorial
 1. Open a new or existing project in MindStudio.
 2. Navigate to the bottom bar and select the **Generate Workflow** button.
 
-### Step 2: Describe your AI Worker
+### Step 2: Describe your AI Agent
 
-A modal will appear asking you to describe what you want your AI Worker to do. Click **Generate** to let MindStudio process your request.
+A modal will appear asking you to describe what you want your AI Agent to do. Click **Generate** to let MindStudio process your request.
 
 Example:&#x20;
 

@@ -1,10 +1,10 @@
 ---
-description: Integrate MindStudio AI Workers with Make.com
+description: Integrate MindStudio AI Agents with Make.com
 ---
 
 # Make.com + MindStudio
 
-This guide provides step-by-step instructions on integrating Make.com with MindStudio AI Workers. With this integration, you can trigger workflows directly from Make.com using your MindStudio app and easily pass variables to your flows.
+This guide provides step-by-step instructions on integrating Make.com with MindStudio AI Agents. With this integration, you can trigger workflows directly from Make.com using your MindStudio app and easily pass variables to your flows.
 
 {% @supademo/embed demoId="cm2adbsqz08x34irjspr7813i" url="https://app.supademo.com/demo/cm2adbsqz08x34irjspr7813i" %}
 

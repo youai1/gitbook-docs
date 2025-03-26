@@ -4,7 +4,7 @@ description: Extract text content from a webpage
 
 # Scrape URL Block
 
-The **Scrape URL Block** allows you to extract text content from a webpage and use it within your workflow. This block is ideal for gathering data dynamically from online sources to provide context for your AI Workers.
+The **Scrape URL Block** allows you to extract text content from a webpage and use it within your workflow. This block is ideal for gathering data dynamically from online sources to provide context for your AI Agents.
 
 ## **Configurations**
 

@@ -12,7 +12,7 @@ By leveraging **variables, arrays, and Handlebars helpers**, Dynamic Inputs allo
 
 ### **How Dynamic Inputs Work**
 
-Dynamic Inputs use **variables** to store and retrieve responses, allowing the workflow to adjust its next question dynamically. This pattern is useful in AI Workers that require multiple layers of questioning before generating a final result.
+Dynamic Inputs use **variables** to store and retrieve responses, allowing the workflow to adjust its next question dynamically. This pattern is useful in AI Agents that require multiple layers of questioning before generating a final result.
 
 #### **Key Elements**
 
@@ -112,4 +112,4 @@ Dynamic Inputs open new possibilities for AI-driven workflows:
 * **The Logic Block determines when to stop questioning** and proceed with generating results.
 * **Handlebars helpers like `{{lastItem}}` retrieve the most recent question** for dynamic presentation.
 
-This pattern is a **powerful way to build interactive and intelligent AI Workers** that adapt to user needs dynamically. While it requires a deeper understanding of arrays and variable management, the flexibility it provides makes it a game-changer for many AI-driven workflows.
+This pattern is a **powerful way to build interactive and intelligent AI** Agents that adapt to user needs dynamically. While it requires a deeper understanding of arrays and variable management, the flexibility it provides makes it a game-changer for many AI-driven workflows.

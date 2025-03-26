@@ -1,5 +1,5 @@
 ---
-description: Use AI models to generate images in your AI Workers.
+description: Use AI models to generate images in your AI Agents.
 ---
 
 # Generate Image Block

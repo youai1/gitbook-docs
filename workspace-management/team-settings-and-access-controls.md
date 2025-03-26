@@ -4,11 +4,11 @@ description: Manage collaboration and sharing within your workspace
 
 # Team Settings & Access Controls
 
-A MindStudio Workspace has different **Roles and Access Controls** to manage collaboration and sharing within your workspace. Whether assigning workspace-wide roles or sharing access to individual AI Workers, you can ensure every user has the right level of permissions for their responsibilities. This guide explains the available roles and access controls in MindStudio.
+A MindStudio Workspace has different **Roles and Access Controls** to manage collaboration and sharing within your workspace. Whether assigning workspace-wide roles or sharing access to individual AI Agents, you can ensure every user has the right level of permissions for their responsibilities. This guide explains the available roles and access controls in MindStudio.
 
 ## Team Settings
 
-Workspace roles define access levels for managing both the workspace and its AI Workers. These roles are designed to support various levels of responsibility, from contributors to administrators.
+Workspace roles define access levels for managing both the workspace and its AI Agents. These roles are designed to support various levels of responsibility, from contributors to administrators.
 
 ***
 
@@ -26,21 +26,21 @@ Inviting people to your workspace in MindStudio is simple and ensures your team 
 
 ### **Workspace Role Reference Table**
 
-<table data-full-width="false"><thead><tr><th width="149">Role</th><th>View AI Workers?</th><th>Edit AI Workers?</th><th>Manage Users? </th><th>Access Workspace Settings</th></tr></thead><tbody><tr><td><strong>Owner</strong></td><td>All</td><td>All</td><td>All</td><td>Yes</td></tr><tr><td><strong>Admin</strong></td><td>All</td><td>All</td><td>All (except Owners)</td><td>Yes</td></tr><tr><td><strong>Member</strong></td><td>All</td><td>Only their own</td><td>No</td><td>No</td></tr><tr><td><strong>Guest</strong></td><td>Invite Only</td><td>Invite Only</td><td>No</td><td>No</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="149">Role</th><th>View AI Agents?</th><th>Edit AI Agents?</th><th>Manage Users? </th><th>Access Workspace Settings</th></tr></thead><tbody><tr><td><strong>Owner</strong></td><td>All</td><td>All</td><td>All</td><td>Yes</td></tr><tr><td><strong>Admin</strong></td><td>All</td><td>All</td><td>All (except Owners)</td><td>Yes</td></tr><tr><td><strong>Member</strong></td><td>All</td><td>Only their own</td><td>No</td><td>No</td></tr><tr><td><strong>Guest</strong></td><td>Invite Only</td><td>Invite Only</td><td>No</td><td>No</td></tr></tbody></table>
 
 ***
 
-### **Managing Guest Access to AI Workers**
+### **Managing Guest Access to AI Agents**
 
-On the **Team Page**, you can manage the permissions of guests for specific AI Workers, allowing you to adjust their access levels or remove access as needed.
+On the **Team Page**, you can manage the permissions of guests for specific AI Agents, allowing you to adjust their access levels or remove access as needed.
 
 1. Navigate to the **Team Page** of your workspace. Then find the guest whose access you want to manage in the list.
 2. **Click Manage Button** to open the **Manage User Access** modal.
 3. **Adjust Access Levels**
-   * Review the AI Workers the guest has access to, listed in the modal.
-   * Use the dropdown next to each AI Worker to update the access level:
-     * **Use Only**: Limits the guest to viewing and using the AI Worker.
-     * **Edit Access**: Allows the guest to edit the AI Worker.
+   * Review the AI Agents the guest has access to, listed in the modal.
+   * Use the dropdown next to each AI Agent to update the access level:
+     * **Use Only**: Limits the guest to viewing and using the AI Agent.
+     * **Edit Access**: Allows the guest to edit the AI Agent.
 4. (optional) To **remove the guest** entirely, click the red trash icon next to their role.
 
 ***
@@ -61,14 +61,14 @@ The **Member** role is ideal for contributors who create and collaborate within 
 
 **Capabilities**:
 
-* Create new AI Workers.
-* View all AI Workers in the workspace, including those they did not create.
-* Invite Guests to view and edit AI Workers that they create.
+* Create new AI Agents.
+* View all AI Agents in the workspace, including those they did not create.
+* Invite Guests to view and edit AI Agents that they create.
 
 **Restrictions**:
 
-* Cannot edit AI Workers created by others unless explicitly invited.
-* Cannot share Edit Access for AI Workers they do not own.
+* Cannot edit AI Agents created by others unless explicitly invited.
+* Cannot share Edit Access for AI Agents they do not own.
 * Cannot access any workspace settings pages including:
 
 ### **Admin**
@@ -77,7 +77,7 @@ The **Admin** role allows for broader workspace management, including user and w
 
 **Capabilities**:
 
-* View and edit all AI Workers.
+* View and edit all AI Agents.
 * Access and modify all workspace settings.
 * Invite and manage Admins, Members, and Guests.
 * Downgrade or remove Admins, Members, and Guests.
@@ -92,22 +92,22 @@ The **Owner** role has complete control of a workspace.
 
 **Capabilities**:
 
-* View and edit all AI Workers.
+* View and edit all AI Agents.
 * Access and modify all workspace settings.
 * Invite and assign any role (Owners, Admins, Members, Guests).
 * Downgrade or remove any role (Owners, Admins, Members, Guests).
 
 ***
 
-## **AI Worker Access Controls**
+## **AI Agent Access Controls**
 
-MindStudio also provides controls for granting Guest access to specific AI Workers without workspace-wide permissions.
+MindStudio also provides controls for granting Guest access to specific AI Agents without workspace-wide permissions.
 
-### Sharing an AI Worker
+### Sharing an AI Agent
 
 You can add new guests with specific permissions using the **Sharing & Access Controls** modal. Here’s how to do it:
 
-1. Open the AI Worker you want to share.
+1. Open the AI Agent you want to share.
 2. Click the **Share** button to bring up the **Sharing & Access Controls** modal.
 
 #### **Inviting a Guest**
@@ -118,8 +118,8 @@ You can add new guests with specific permissions using the **Sharing & Access Co
    * Once the email is entered and the access level selected, click the **Invite** button.
 3. **Choose a Permission Level**
    * Select the desired access level from the dropdown menu:
-     * **Edit Access**: Allows the guest to edit the AI Worker.
-     * **Use Only**: Limits the guest to viewing and using the AI Worker without editing.
+     * **Edit Access**: Allows the guest to edit the AI Agent.
+     * **Use Only**: Limits the guest to viewing and using the AI Agent without editing.
 4. **Optional: Generate an Invite Link**
    * Use the **Invite Link** section to generate a sharable link for the guest.
    * The default access level for the link can be set to **Use Only** or **Edit Access** using the dropdown menu.
@@ -127,7 +127,7 @@ You can add new guests with specific permissions using the **Sharing & Access Co
 
 ***
 
-#### **Managing AI Worker Access**
+#### **Managing AI Agent Access**
 
 Once guests are added, their details appear in the modal under "People with Access."
 
@@ -144,32 +144,32 @@ A Guest with **Use Only** access is designed for users who are intended to use t
 
 **Capabilities**:
 
-* View and use specific AI Workers they are invited to.
+* View and use specific AI Agents they are invited to.
 * View the workspace they are invited to.
-* Guests can only see the specific AI Workers that they have been invited to.
+* Guests can only see the specific AI Agents that they have been invited to.
 
 **Restrictions**:
 
-* Cannot edit AI Workers.
-* Cannot view all AI Workers in the workspace.
+* Cannot edit AI Agents.
+* Cannot view all AI Agents in the workspace.
 * Cannot view editor controls.
 * Cannot share links or manage permissions.
-* Cannot access other AI Workers or workspace settings.
+* Cannot access other AI Agents or workspace settings.
 
 #### **Edit Access**
 
-A Guest with **Edit Access** role allows for collaborative editing of specific AI Workers without granting workspace-wide access.
+A Guest with **Edit Access** role allows for collaborative editing of specific AI Agents without granting workspace-wide access.
 
 **Capabilities**:
 
-* Edit AI Workers they are explicitly invited to.
-* View editor controls for the invited AI Workers.
-* Guests can only see the specific AI Workers that they have been invited to.
+* Edit AI Agents they are explicitly invited to.
+* View editor controls for the invited AI Agents.
+* Guests can only see the specific AI Agents that they have been invited to.
 
 **Restrictions**:
 
 * Cannot view or access workspace settings.
-* Cannot edit or access AI Workers they have not been invited to.
+* Cannot edit or access AI Agents they have not been invited to.
 * Cannot invite or manage other users.
 * Cannot share links or manage permissions.
-* Cannot access other AI Workers or workspace settings.
+* Cannot access other AI Agents or workspace settings.

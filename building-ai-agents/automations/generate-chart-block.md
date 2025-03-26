@@ -1,5 +1,5 @@
 ---
-description: Create charts in your AI Workers
+description: Create charts in your AI Agents
 ---
 
 # Generate Chart Block
