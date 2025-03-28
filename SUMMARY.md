@@ -7,6 +7,10 @@
 * [What is an AI Agent?](get-started/what-is-an-ai-agent.md)
 * [AI Agent Use Cases](get-started/ai-agent-use-cases.md)
 
+***
+
+* [Free vs. Paid AI Agents](free-vs.-paid-ai-agents.md)
+
 ## Building AI Agents
 
 * [Editor Overview](building-ai-agents/editor-overview.md)
