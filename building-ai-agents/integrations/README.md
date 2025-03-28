@@ -1,6 +1,5 @@
 ---
 description: Leverage third-party services in your MindStudio workflows
-hidden: true
 ---
 
 # Integrations
