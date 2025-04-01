@@ -39,7 +39,6 @@
   * [Jump Block](building-ai-agents/automations/jump-block.md)
   * [Run Workflow Block](building-ai-agents/automations/run-workflow-block.md)
   * [Terminator Block](building-ai-agents/automations/terminator-block.md)
-  * [Create Gmail Draft Block](building-ai-agents/automations/create-gmail-draft-block.md)
 * [Integrations](building-ai-agents/integrations/README.md)
   * [Search Bluesky Posts](building-ai-agents/integrations/search-bluesky-posts.md)
   * [Scrape Facebook Page](building-ai-agents/integrations/scrape-facebook-page.md)
