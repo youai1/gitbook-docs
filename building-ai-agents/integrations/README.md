@@ -65,6 +65,13 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 | [Search YouTube](search-youtube.md)                 | Retrieve YouTube search results           |
 | [Search YouTube Trends](search-youtube-trends.md)   | Search for trends by a specified category |
 
+### Notion Blocks
+
+| Block Name  | Purpose                 |
+| ----------- | ----------------------- |
+| Create Page | Create a page in Notion |
+| Update Page | Update a page in Notion |
+
 ### Other Automations
 
 | Block Name                        | Purpose                                     |

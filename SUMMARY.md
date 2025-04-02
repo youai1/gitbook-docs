@@ -79,6 +79,8 @@
   * [Fetch YouTube Video](building-ai-agents/integrations/fetch-youtube-video.md)
   * [Search YouTube](building-ai-agents/integrations/search-youtube.md)
   * [Search YouTube Trends](building-ai-agents/integrations/search-youtube-trends.md)
+  * [Create Notion Page](building-ai-agents/integrations/create-notion-page.md)
+  * [Update Notion Page](building-ai-agents/integrations/update-notion-page.md)
   * [Apify](building-ai-agents/integrations/apify.md)
   * [Run Scenario](building-ai-agents/integrations/run-scenario.md)
   * [Post to Slack](building-ai-agents/integrations/post-to-slack.md)
