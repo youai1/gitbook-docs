@@ -6,33 +6,33 @@ description: Learn about general workspace controls and navigation
 
 The MindStudio workspace is your central hub for managing AI Agents, integrations, and account settings. Here's a high-level overview of the workspace controls, as shown in the screenshot:
 
-![](<../.gitbook/assets/Screenshot 2024-12-06 at 3.08.41 PM.png>)
+<figure><img src="../.gitbook/assets/Screenshot Capture - 2025-04-02 - 15-25-15 1.png" alt=""><figcaption></figcaption></figure>
 
 ## **Left Navigation Menu**
 
-#### **Published**
+#### **Agents**
 
-Displays all active AI Agents and drafts. This is the primary area to manage your workflows, edit drafts, and view published Agents.
+Displays all AI agents available to run. This includes AI agents that are automatically available to any MindStudio user as well as any agents you have built yourself.&#x20;
 
-#### **Drafts**
+#### **History**
 
-A dedicated section for unfinished AI Agents, allowing you to revisit and refine them later.
+Displays a history of all your runs made by an AI agent and their output.
 
-#### **Workspace Settings**
+#### **Usage**
 
-Access workspace-level configurations such as API keys, usage limits, and general workspace information.
+Monitors the usage of your AI Agents to analyze performance and resource consumption.
 
-#### **Usage Explorer**
+#### **Build**
 
-Monitor the usage of your AI Agents to analyze performance and resource consumption.
+Displays all published AI agents and drafts. This is the primary area to manage your workflows, edit drafts, and view published agents.
+
+#### **Workspace**
+
+Allows you to manage any workspace settings such as workspace name, integrations, and team members.
 
 #### **Billing Settings**
 
 Manage subscription plans, billing details, and payment methods for your account.
-
-#### **Team**
-
-Add, remove, or manage team members and their roles within the workspace.
 
 #### **Developers**
 
@@ -42,21 +42,46 @@ Access advanced features like API documentation and serverless function integrat
 
 Access MindStudio's help resources or contact support for assistance.
 
-#### **Find a Certified Partner**
+#### **Community**
 
-Explore professional services to extend your AI capabilities with certified MindStudio Partners.
+Links directly to our [community forum](https://community.mindstudio.ai/).
 
 ***
 
-## **Main Workspace**
+## **Agents Home**
 
-This is where you will find all of your published AI Agents.
+This is where you can access and run all available AI agents.&#x20;
 
-#### **Resources**
+#### **Starred**
 
-Quick links to guides and tutorials.
+This section displays the AI agents you frequently use, giving you quick and easy access to your favorites.&#x20;
 
-#### **Header Controls**
+#### **My Agents**
+
+This section shows all the AI agents you've built and published. Drafts, however, will not appear here.
+
+#### **Categories**
+
+Other agents available to run will be displayed in the categories below:
+
+1. Research
+2. Analyze Content
+3. For Creators&#x20;
+4. For Students&#x20;
+5. Youtube&#x20;
+6. For Venture Capitalists
+7. Image Generation
+8. For Developers&#x20;
+9. Chat with Web Pages
+10. Miscellaneous&#x20;
+
+***
+
+## **Build Section**
+
+This is where you will find all of your published AI Agents and drafts.
+
+**Header Controls**
 
 * **Search Bar**: Quickly locate specific AI Agents by name.
 * **Filters and Sorting**: Refine the displayed AI Agents based on activity, publish date, or name.
@@ -79,38 +104,14 @@ Displays all published AI Agents, including their run history and statuses. Each
 
 ***
 
-## **Top Navigation Bar**
-
-The top navigation bar provides essential controls and quick access to different sections of your workspace:
-
-#### **Home Tab**
-
-Returns you to the main workspace dashboard where you can manage your AI Agents.
-
-#### **+ Tab**
-
-These tabs allow you to open and use your published AI Agents and drafts.
-
-#### **Profile Picture**
-
-Clicking on your profile picture in the top navigation bar reveals the following options:
-
-* **My Account**: Access your account details, including personal information, workspace affiliations, and preferences.
-* **Switch to Dark Mode**: Toggle between light and dark modes for the workspace interface, allowing for a more comfortable viewing experience based on your preference.
-* **Pending Invites**: View and manage invitations to collaborate with others in shared workspaces.
-* **Affiliate Program**: Learn more about and participate in the MindStudio Affiliate Program, which may include benefits for promoting MindStudio.
-* **Log Out**: Safely log out of your current session and return to the login screen.
-
-***
-
 ## Create a New Workspace
 
-1. Click on your Workspace icon at the top left of the left-hand panel.
+1. Click on your Workspace name at the bottom left of the side panel.
 2. Select Create New Workspace.&#x20;
 
 ***
 
 ## Navigate to a Different Workspace
 
-1. Click on your Workspace icon at the top left of the left-hand panel.
+1. Click on your Workspace icon at the bottom left of the side panel.
 2. Select the Workspace that you'd like to view.&#x20;
