@@ -67,10 +67,10 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Notion Blocks
 
-| Block Name  | Purpose                 |
-| ----------- | ----------------------- |
-| Create Page | Create a page in Notion |
-| Update Page | Update a page in Notion |
+| Block Name                                                                                   | Purpose                 |
+| -------------------------------------------------------------------------------------------- | ----------------------- |
+| [Create Page](https://help.mindstudio.ai/building-ai-agents/integrations/create-notion-page) | Create a page in Notion |
+| [Update Page](update-notion-page.md)                                                         | Update a page in Notion |
 
 ### Other Automations
 
