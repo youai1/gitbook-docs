@@ -31,7 +31,7 @@ Here are a few examples of free AI agents:
 
 ### **Paid AI Agents**
 
-MindStudio also offers AI Agents that leverage complex AI models, advanced workflows, and sometimes even integrate custom data. This additional complexity means these agents are more costly to run. Users must be subscribed
+MindStudio also offers AI Agents that leverage complex AI models, advanced workflows, and sometimes even integrate custom data. This additional complexity means these agents are more costly to run.
 
 Here are some examples of tasks run by paid AI agents:
 
