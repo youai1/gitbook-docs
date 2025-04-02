@@ -40,7 +40,7 @@ Save the responses to a variable that can be used in other parts of the workflow
 
 ### Output Format
 
-Select the output format for the repsonse data:
+Select the output format for the response data:
 
 1. Text (Default)
 2. JSON
