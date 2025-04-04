@@ -6,6 +6,8 @@ description: Manage your workspace’s financial activities
 
 The **Billing Settings** section in MindStudio provides comprehensive tools to manage your workspace’s financial activities, including monitoring balances, setting budgets, managing payment methods, and accessing receipts.
 
+<figure><img src="../.gitbook/assets/Screenshot Capture - 2025-04-04 - 09-07-53.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## Account Balance
