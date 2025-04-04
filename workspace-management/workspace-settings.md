@@ -6,7 +6,7 @@ description: Manage your workspace identity, integrations, and settings
 
 The **Workspace Settings** page allows you to manage general information and integrations for your workspace.&#x20;
 
-<figure><img src="../.gitbook/assets/Workspace settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot Capture - 2025-04-04 - 09-07-31 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Key controls
 
@@ -25,10 +25,6 @@ Optionally upload a custom logo to personalize your workspace. Logos visually re
 #### **Save Changes Button**
 
 After making edits to the workspace name, company name, or logo, use the "Save Changes" button to apply updates.
-
-#### **Slack Integration**
-
-Integrate with Slack by clicking the "Add to Slack" button. Once configured, AI Agents can notify you of their actions directly in Slack.
 
 #### **Workspace ID**
 
