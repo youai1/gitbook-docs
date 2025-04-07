@@ -25,6 +25,7 @@
   * [Generate Text Block](building-ai-agents/automations/generate-text-block.md)
   * [Generate Image Block](building-ai-agents/automations/generate-image-block.md)
   * [Generate Chart Block](building-ai-agents/automations/generate-chart-block.md)
+  * [Generate Asset Block](building-ai-agents/automations/generate-asset-block.md)
   * [Display Content Block](building-ai-agents/automations/display-content-block.md)
   * [Text to Speech Block](building-ai-agents/automations/text-to-speech-block.md)
   * [Analyze Image Block](building-ai-agents/automations/analyze-image-block.md)
