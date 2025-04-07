@@ -4,6 +4,23 @@ description: Retrieve Google Image search results in a MindStudio workflow
 
 # Search Google Images
 
+## Configuration
+
+### Search Query&#x20;
+
+Type in the text query that will be sent to Google. The search query can include variables.&#x20;
+
+### Output Variable&#x20;
+
+Specify the name of the output variable that will store the results. Example: `imageSearch_results`
+
+### Format
+
+Select the format you want to save the returned result as:
+
+* **Plain Text**
+* **JSON**
+
 ## Sample Output - Plain Text
 
 ```json

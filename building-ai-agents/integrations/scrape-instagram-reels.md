@@ -4,7 +4,23 @@ description: Get reels from an Instagram profile in a MindStudio workflow
 
 # Scrape Instagram Reels
 
-## Sample Output
+## Configuration
+
+### Username
+
+Enter the username or profile URL from which you want to scrape reels.
+
+This section can include variables.
+
+### Output
+
+Specify the name of the output variable that will store the results. Example: `Reels_result`
+
+### Advanced Settings
+
+**Result Limit:** Set the maximum amount of reels you want to scrape. The default is set to 100.
+
+### Sample Output
 
 ```json
 [{

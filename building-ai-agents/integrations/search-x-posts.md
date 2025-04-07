@@ -4,6 +4,16 @@ description: Search for posts on X by keyword in a MindStudio workflow
 
 # Search X Posts
 
+## Configuration
+
+### Search Query&#x20;
+
+Type in the text query that will be sent to X. The search query can include variables.&#x20;
+
+### Output Variable&#x20;
+
+Specify the name of the output variable that will store the results. Example: `Xpost_results`
+
 ## Sample Output
 
 ```json

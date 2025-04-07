@@ -4,7 +4,23 @@ description: Get posts from an Instagram profile in a MindStudio workflow
 
 # Scrape Instagram Posts
 
-## Sample Output
+## Configuration
+
+### Username
+
+Enter the username or profile URL of the user whose posts you want to scrape.
+
+### Output Variable
+
+Specify the name of the output variable that will store the results. Example: `Posts_result`
+
+### Advanced Settings
+
+**Result Limit:** Set the max amount of posts you want to scrape. The default is set to 100.
+
+**Only Posts Newer Than:** Set a date/time to limit for how far back the scraper should go. For example, if you want to only scrape posts 2 months old or newer you can type in `2 months`. To add a specific date you must use the format `YYYY-MM-DD`.
+
+### Sample Output
 
 ```json
 [{

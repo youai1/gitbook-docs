@@ -4,7 +4,19 @@ description: Get general details of a Facebook page in a MindStudio workflow
 
 # Scrape Facebook Page
 
-## Sample Output
+## Configuration&#x20;
+
+### Page URL
+
+Enter the URL of the Facebook page you want to scrape. Only public Facebook pages and profiles can be scraped.
+
+This section can include variables with double curly braces. Example: `{{page_URL}}`
+
+### Output Variable
+
+Specify the name of the output variable that will store the results. Example: `page_Result`
+
+### Sample Output
 
 ```json
 {

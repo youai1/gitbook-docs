@@ -4,7 +4,23 @@ description: Get data from mentions on Instagram in a MindStudio workflow
 
 # Scrape Instagram Mentions
 
-## Sample Output
+## Configuration
+
+### Username
+
+Enter the username or profile URL of the user whose mentions you want to scrape.
+
+This section can include variables.
+
+### Output Variable
+
+Specify the name of the output variable that will store the results. Example: `Mentions_results`
+
+### Advanced Settings
+
+**Results Limit:** Set the max mentions to be returned in the result.&#x20;
+
+### Sample Output
 
 ```json
 [

@@ -4,7 +4,19 @@ description: Get data from a Meta Threads profile in a MindStudio workflow
 
 # Scrape Meta Threads Profile
 
-## Sample Output
+## Configuration
+
+### Username
+
+Enter the username or profile URL of the Threads profile you want to scrape.
+
+This section can include variables.
+
+### Output Variable
+
+Specify the name of the output variable that will store the results. Example: `Threads_result`
+
+### Sample Output
 
 ```json
 {

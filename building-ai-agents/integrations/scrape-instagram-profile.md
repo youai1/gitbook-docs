@@ -4,7 +4,19 @@ description: Get data from an Instagram profile in a MindStudio workflow
 
 # Scrape Instagram Profile
 
-## Sample Output
+## Configuration
+
+### Username
+
+Enter the username or profile. URL of the profile you want to scrape.&#x20;
+
+This section can include variables.
+
+### Output Variable
+
+Specify the name of the output variable that will store the results. Example: `Profile_result`
+
+### Sample Output
 
 ```json
 {

@@ -4,6 +4,23 @@ description: Retrieve Google News search results in a MindStudio workflow
 
 # Search Google News
 
+## Configuration
+
+### Text&#x20;
+
+Define the search query that will be sent to Google News. The search query can include variables.&#x20;
+
+### Output Variable&#x20;
+
+Specify the name of the output variable that will store the results. Example: `GoogleNews_result`
+
+### Format
+
+Select the format you want to save the returned result as:
+
+* **Plain Text**
+* **JSON**
+
 ## Sample Output - Plain Text
 
 ```json

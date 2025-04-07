@@ -4,6 +4,16 @@ description: Search for posts on Bluesky in a MindStudio Workflow
 
 # Search Bluesky Posts
 
+## Configuration
+
+### Search Query&#x20;
+
+Type in the text query that will be sent to Bluesky. The search query can include variables.&#x20;
+
+### Output Variable&#x20;
+
+Specify the name of the output variable that will store the results. Example: `Bluesky_results`
+
 ### Sample Output
 
 ```json

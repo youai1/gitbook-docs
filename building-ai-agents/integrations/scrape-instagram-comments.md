@@ -4,7 +4,23 @@ description: Get Comments data from an Instagram post in a MindStudio workflow
 
 # Scrape Instagram Comments
 
-## Sample Output
+## Configuration
+
+### Post URL
+
+Enter the Instagram post/reel URL you want to scrape.
+
+This section can include variables.&#x20;
+
+### Output Variable
+
+Specify the name of the output variable that will store the results. Example: `Comments`
+
+### Advanced Settings
+
+**Result Limit:** Set the amount max amount of comments you want to scrape. The default is set to 20 comments.
+
+### Sample Output
 
 ```json
 [
