@@ -4,6 +4,27 @@ description: Fetch all comments from a YouTube video in a MindStudio workflow
 
 # Fetch YouTube Comments
 
+## Configuration&#x20;
+
+### Video URL
+
+Enter the URL for the video you want to fetch comments from. This section can include variables.&#x20;
+
+### Pages
+
+Specify the numbers of pages you want to scrape. The default will always be set to 1. The max amount of pages that can be scraped is 5.
+
+### Output Variable
+
+Store the returned Youtube comments in a variable. Example: `YTcomments`
+
+### Format&#x20;
+
+Select the format you want the YouTube comments exported as. Options include:
+
+* **Plain Text**&#x20;
+* **JSON**&#x20;
+
 ## Sample Output - Plain Text
 
 ```json

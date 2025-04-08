@@ -4,6 +4,27 @@ description: Fetch captions from a YouTube video in a MindStudio workflow
 
 # Fetch YouTube Captions
 
+## Configuration&#x20;
+
+### Video URL
+
+Enter the URL for the Youtube video you want to fetch. This section can include variables.&#x20;
+
+### Output Variable
+
+Save the video captions to a variable. Example: `Youtube_Captions`
+
+### Format
+
+Select the format you want the captions to be exported as. The options include:
+
+* **Plain Text**&#x20;
+* **JSON**
+
+### Language
+
+Select the language you want to export the video captions as. English is selected by default.&#x20;
+
 ## Sample Output - Plain Text
 
 ```json

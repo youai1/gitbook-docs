@@ -4,6 +4,29 @@ description: Search for trends by a specified category in a MindStudio workflow
 
 # Search YouTube Trends
 
+## Configuration&#x20;
+
+### Category&#x20;
+
+Specify the trend category you want to search. The options include:
+
+* **Now (default)**
+* **Music**&#x20;
+* **Gaming**
+* **Films**
+
+### Country&#x20;
+
+Select the country of origin you want to use. United States is chosen by default. For the full list of supported countries [look here. ](https://www.searchapi.io/docs/parameters/youtube/gl)
+
+### Language&#x20;
+
+Specify the language you want you want use. English is selected by default. For the full list of supported languages [look here. ](https://www.searchapi.io/docs/parameters/youtube/hl)
+
+### Output Variable&#x20;
+
+Save the returned data as a variable. Example: `Trends_Return`
+
 ## Sample Output
 
 ```json

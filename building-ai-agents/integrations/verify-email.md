@@ -2,7 +2,17 @@
 description: Use Hunter.io to verify a person's email address in a MindStudio workflow
 ---
 
-# Email Verification
+# Verify Email
+
+## Configuration&#x20;
+
+### Email
+
+Enter the email address that you want to verify. This section can include variables.
+
+### Output Variable&#x20;
+
+Save the output of the email verification to a variable. Example: `EmailVer`
 
 ## Sample Output
 

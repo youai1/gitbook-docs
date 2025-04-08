@@ -45,14 +45,14 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Hunter.io Blocks
 
-| Block Name                                    | Purpose                             |
-| --------------------------------------------- | ----------------------------------- |
-| [Combined Enrichment](combined-enrichment.md) | Get company & person data via email |
-| [Company Enrichment](company-enrichment.md)   | Enrich company data using a domain  |
-| [Domain Search](domain-search.md)             | Find emails for a given website     |
-| [Email Finder](email-finder.md)               | Find a person's email for a domain  |
-| [Email Verification](email-verification.md)   | Verify a person's email address     |
-| [Person Enrichment](person-enrichment.md)     | Enrich person's data via email      |
+| Block Name                                         | Purpose                             |
+| -------------------------------------------------- | ----------------------------------- |
+| [Combined Enrichment](combined-enrichment.md)      | Get company & person data via email |
+| [Company Enrichment](enrich-company-via-domain.md) | Enrich company data using a domain  |
+| [Domain Search](find-contact-email-for-website.md) | Find emails for a given website     |
+| [Email Finder](find-email.md)                      | Find a person's email for a domain  |
+| [Email Verification](verify-email.md)              | Verify a person's email address     |
+| [Person Enrichment](enrich-person-via-email.md)    | Enrich person's data via email      |
 
 ### YouTube Blocks
 

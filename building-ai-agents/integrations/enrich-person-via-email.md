@@ -2,7 +2,17 @@
 description: Use Hunter.io to enrich person's data via email in a MindStudio workflow
 ---
 
-# Person Enrichment
+# Enrich Person via Email
+
+## Configuration&#x20;
+
+### Email
+
+Enter the email for person whose data you want to enrich. This section can include variables.
+
+### Output
+
+Save the enriched data to a variable. Example: `personName_Enriched`
 
 ## Sample Output
 

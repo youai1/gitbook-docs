@@ -4,6 +4,39 @@ description: Retrieve content from a Google Sheet in a MindStudio workflow
 
 # Fetch Google Sheet
 
+## Configuration
+
+### Account&#x20;
+
+#### Dynamic (Ask at runtime)
+
+This setting will ask a user to login to their Google Drive account when they run the app.
+
+#### Connect a New Account
+
+Follow the instructions on the pop-up window to directly connect MindStudio to your Google Drive account.&#x20;
+
+### Spreadsheet&#x20;
+
+Add the spreadsheet URL for the Google sheet you want to fetch. If you have connected your Google Drive account, you can search for your spreadsheet by selecting the **search folder icon** next to the text field.&#x20;
+
+This section can include variables.&#x20;
+
+### Export Format
+
+Select the format you want the spreadsheet exported as. Options include:
+
+* **Comma-Seperated-Values (CSV)**
+* **JSON (Google Sheet Format)**
+
+### Range
+
+Enter the range values that you want to fetch from the spreadsheet. Example: `Sheet1!A1:Z1000`
+
+### Output Variable&#x20;
+
+Save the contents of the fetched spreadsheet to a variable. Example: `Sheet_fetch_1`
+
 ## Sample Output - JSON
 
 ```json

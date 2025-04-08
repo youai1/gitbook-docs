@@ -2,7 +2,17 @@
 description: Use Hunter.io to enrich company data using a domain in a MindStudio workflow
 ---
 
-# Company Enrichment
+# Enrich Company via Domain
+
+## Configuration&#x20;
+
+### Domain
+
+Enter the domain that you want to return the data from. This section can include variables.&#x20;
+
+### Output
+
+Save the returned data to a variable. Example: `CompanyName_Data`
 
 ## Sample Output
 

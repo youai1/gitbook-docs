@@ -4,6 +4,20 @@ description: Fetch details from a YouTube video in a MindStudio workflow
 
 # Fetch YouTube Video
 
+## Configuration&#x20;
+
+### Video URL
+
+Enter the URL for the Youtube video you want to fetch. This section can contain variables.&#x20;
+
+### Output Variable&#x20;
+
+Save the returned Youtube video data in a variable. Example: `my_video`
+
+### Format&#x20;
+
+The returned Youtube video data will always be exported in **JSON**.&#x20;
+
 ## Sample Output
 
 ```json

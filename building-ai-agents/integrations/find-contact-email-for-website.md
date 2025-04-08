@@ -2,7 +2,17 @@
 description: Use Hunter.io to find emails for a given website in a MindStudio workflow
 ---
 
-# Domain Search
+# Find Contact Email for Website
+
+## Configuration&#x20;
+
+### Domain
+
+Enter the domain for the company whose emails you want to search for. This section can include variables.&#x20;
+
+### Output&#x20;
+
+Save the returned data as a variable. Example: `Contact_Emails`
 
 ## Sample Output
 

@@ -2,7 +2,21 @@
 description: Use Hunter.io to find a person's email for a domain in a MindStudio workflow
 ---
 
-# Email Finder
+# Find Email
+
+## Configuration&#x20;
+
+### Domain
+
+Enter the domain that you want to use to find the email. This section can include variables.&#x20;
+
+### Name
+
+Enter the **first name** and **last name** of the person whose email you are searching for.&#x20;
+
+### Output&#x20;
+
+Save the returned email address as a variable. Example: `Name_Email_1`
 
 ## Sample Output
 

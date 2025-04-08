@@ -4,6 +4,20 @@ description: Fetch details from a YouTube channel in a MindStudio workflow
 
 # Fetch YouTube Channel
 
+## Configuration&#x20;
+
+### Channel URL
+
+Enter the URL for the Youtube channel that you want to fetch. This section can include variables.&#x20;
+
+### Output Variable&#x20;
+
+Save the channel data to a variable. Example: `YTchannel_data`
+
+### Format
+
+The Youtube channel data will always be exported in **JSON**.
+
 ## Sample Output
 
 ```json
