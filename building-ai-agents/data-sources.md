@@ -38,6 +38,32 @@ To make the AI use a Data Source, you must include a **Query Data Source Block**
 
 ***
 
+## Automatic Summary Generation
+
+Every file uploaded to a data source is automatically summarized. This summary is created by processing the first few chunks of the document, and it appears on the right side when viewing the document.
+
+<figure><img src="../.gitbook/assets/Access Snippet 3.png" alt=""><figcaption></figcaption></figure>
+
+## Data Source Snippets
+
+### Access Snippet
+
+Users can directly access the full text of any document within a data source. A snippet is displayed on the document view that allows users to copy and retrieve the actual text.&#x20;
+
+This snippet can be used the same as a variable with double curly braces. Example: `{{dataSource "Data_Source_Name" "document.pdf"}}`
+
+<figure><img src="../.gitbook/assets/Access Snippet 1.png" alt=""><figcaption></figcaption></figure>
+
+### Index Snippet
+
+An index snippet lists the names, summaries, and metadata of every file within a single data source. This index can be used as the basis for user input—allowing the system or agents to select the most appropriate document based on a topic.&#x20;
+
+This snippet can be used the same as a variable with double curly braces. Example: `{{dataSource "Data_Source_Name"}}`
+
+<figure><img src="../.gitbook/assets/Index Snippet.png" alt=""><figcaption></figcaption></figure>
+
+***
+
 ## Managing Data Sources
 
 ### **Create a Data Source**
