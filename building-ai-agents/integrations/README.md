@@ -32,10 +32,6 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 | [Search Google Images](search-google-images.md) | Retrieve Google Image search results      |
 | [Search Google Trends](search-google-trends.md) | Retrieve Google Trends keyword results    |
 | [Search Google News](search-google-news.md)     | Retrieve Google News search results       |
-| [Search Gmail Emails](search-gmail-emails.md)   | Retrieve Gmail search results             |
-| [Create Gmail Draft](create-gmail-draft.md)     | Creates an email draft in Gmail           |
-| [Send Gmail](send-gmail.md)                     | Sends an email via Gmail account          |
-| [Update Gmail Labels](update-gmail-labels.md)   | Update labels on Google email messages    |
 | [Create Google Doc](create-google-doc.md)       | Create a new Google Doc document          |
 | [Fetch Google Doc](fetch-google-doc.md)         | Retrieve content from a Google Doc        |
 | [Update Google Doc](update-google-doc.md)       | Update values of an existing Google Doc   |
@@ -45,14 +41,13 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Hunter.io Blocks
 
-| Block Name                                         | Purpose                             |
-| -------------------------------------------------- | ----------------------------------- |
-| [Combined Enrichment](combined-enrichment.md)      | Get company & person data via email |
-| [Company Enrichment](enrich-company-via-domain.md) | Enrich company data using a domain  |
-| [Domain Search](find-contact-email-for-website.md) | Find emails for a given website     |
-| [Email Finder](find-email.md)                      | Find a person's email for a domain  |
-| [Email Verification](verify-email.md)              | Verify a person's email address     |
-| [Person Enrichment](enrich-person-via-email.md)    | Enrich person's data via email      |
+| Block Name                                                | Purpose                            |
+| --------------------------------------------------------- | ---------------------------------- |
+| [Enrich Company via Domain](enrich-company-via-domain.md) | Enrich company data using a domain |
+| [Find Contact Email for Website](find-email.md)           | Find emails for a given website    |
+| [Find Email](find-email.md)                               | Find a person's email for a domain |
+| [Verify Email](verify-email.md)                           | Verify a person's email address    |
+| [Enrich Person via Email](enrich-person-via-email.md)     | Enrich person's data via email     |
 
 ### YouTube Blocks
 
@@ -74,8 +69,12 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Other Automations
 
-| Block Name                        | Purpose                                     |
-| --------------------------------- | ------------------------------------------- |
-| [Apify](apify.md)                 | Run an Apify actor                          |
-| [Run Scenario](run-scenario.md)   | Run a specified scenario on Make.com        |
-| [Post to Slack](post-to-slack.md) | Send a message to a specified Slack channel |
+| Block Name                          | Purpose                                     |
+| ----------------------------------- | ------------------------------------------- |
+| [Apify](apify.md)                   | Run an Apify actor                          |
+| [Run Scenario](run-scenario.md)     | Run a specified scenario on Make.com        |
+| [Post to Slack](post-to-slack.md)   | Send a message to a specified Slack channel |
+| [HTTP Request](http-request.md)     | Send an HTTP request                        |
+| [Run Node](run-node.md)             | Trigger an n8n workflow                     |
+| [Create Contact](create-contact.md) | Create a contact in ActiveCampaign          |
+| [Add Note](add-note.md)             | Add a note to a contact in ActiveCampaign   |
