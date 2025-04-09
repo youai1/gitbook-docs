@@ -85,6 +85,7 @@
   * [Apify](building-ai-agents/integrations/apify.md)
   * [Run Scenario](building-ai-agents/integrations/run-scenario.md)
   * [Post to Slack](building-ai-agents/integrations/post-to-slack.md)
+  * [HTTP Request](building-ai-agents/integrations/http-request.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
 ## Workspace Management
