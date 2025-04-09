@@ -86,6 +86,9 @@
   * [Run Scenario](building-ai-agents/integrations/run-scenario.md)
   * [Post to Slack](building-ai-agents/integrations/post-to-slack.md)
   * [HTTP Request](building-ai-agents/integrations/http-request.md)
+  * [Run Node](building-ai-agents/integrations/run-node.md)
+  * [Create Contact](building-ai-agents/integrations/create-contact.md)
+  * [Add Note](building-ai-agents/integrations/add-note.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
 ## Workspace Management
