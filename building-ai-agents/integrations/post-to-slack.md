@@ -48,11 +48,3 @@ If you are using the **Slack Block Kit Blocks** message type, the content area w
 ]
 ```
 {% endcode %}
-
-
-
-## Sample Output
-
-```json
-No output.
-```
