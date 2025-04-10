@@ -89,6 +89,8 @@
   * [Run Node](building-ai-agents/integrations/run-node.md)
   * [Create Contact](building-ai-agents/integrations/create-contact.md)
   * [Add Note](building-ai-agents/integrations/add-note.md)
+  * [Send Email](building-ai-agents/integrations/send-email.md)
+  * [Send SMS](building-ai-agents/integrations/send-sms.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
 ## Workspace Management
