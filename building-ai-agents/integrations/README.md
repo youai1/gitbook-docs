@@ -78,3 +78,5 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 | [Run Node](run-node.md)             | Trigger an n8n workflow                     |
 | [Create Contact](create-contact.md) | Create a contact in ActiveCampaign          |
 | [Add Note](add-note.md)             | Add a note to a contact in ActiveCampaign   |
+| [Send Email](send-email.md)         | Send an email to a registered email address |
+| [Send SMS](send-sms.md)             | Send an SMS to a valid phone number         |
