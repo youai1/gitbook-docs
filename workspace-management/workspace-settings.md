@@ -29,3 +29,7 @@ After making edits to the workspace name, company name, or logo, use the "Save C
 #### **Workspace ID**
 
 A unique identifier for the workspace is displayed at the bottom. This ID can be copied and used for API integrations or when connecting external applications.
+
+{% hint style="info" %}
+You are **NOT** able to delete a Workspace but you can [delete your account. ](account-settings.md#delete-account)
+{% endhint %}
