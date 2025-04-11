@@ -169,7 +169,7 @@ For a full list of expressions, see [Handlebars Documentation](https://handlebar
 
 ### **Special Handlebars Methods in MindStudio**
 
-In addition to standard Handlebars features, MindStudio introduces two special methods for advanced functionality:
+In addition to standard Handlebars features, MindStudio introduces special methods for advanced functionality:
 
 #### <mark style="color:red;">**`{{json varName}}`**</mark>
 
@@ -224,3 +224,610 @@ Extracts a portion of the variable's content based on specified parameters.
       ```
       {{sample textVar 10 letter}}
       ```
+
+***
+
+<mark style="color:red;">`{{#if condition}}`</mark>
+
+Converts a conditional block that renders content only when the condition is true.
+
+Example:
+
+If **isLoggedIn** is true
+
+**Usage:**
+
+```handlebars
+{{#if isLoggedIn}}
+  Welcome back!
+{{/if}}
+```
+
+**Output:**
+
+```handlebars
+Welcome back!
+```
+
+***
+
+<mark style="color:red;">`{{#unless condition}}`</mark>
+
+Converts a conditional block that renders content only when the condition is false.
+
+**Example:**
+
+If **isLoggedIn** is false
+
+**Usage:**
+
+```handlebars
+{{#unless isLoggedIn}}
+  Please sign in.
+{{/unless}}
+```
+
+**Output:**
+
+```handlebars
+Please sign in.
+```
+
+***
+
+<mark style="color:red;">`{{#each array}}`</mark>
+
+Iterates over an array or object and renders the block for every item.
+
+**Example:**
+
+If **items** contains:
+
+```handlebars
+["Apple", "Banana", "Cherry"]
+```
+
+**Usage:**
+
+```handlebars
+{{#each items}}
+  {{this}}
+{{/each}}
+```
+
+**Output:**
+
+```handlebars
+opyApple
+Banana
+Cherry
+```
+
+***
+
+<mark style="color:red;">`{{#with object}}`</mark>
+
+Changes the evaluation context to the provided object for the enclosed block.
+
+**Example:**
+
+If **user** contains:
+
+```handlebars
+{ "name": "Alice", "age": 25 }
+```
+
+**Usage:**
+
+```handlebars
+{{#with user}}
+  {{name}} is {{age}} years old.
+{{/with}}
+```
+
+**Output:**
+
+```handlebars
+Alice is 25 years old.
+```
+
+***
+
+<mark style="color:red;">`{{lookup object key}}`</mark>
+
+Dynamically looks up a property from an object using a key.
+
+**Example:**
+
+If **user** contains:
+
+```handlebars
+{ "name": "Alice", "role": "admin" }
+```
+
+Usage:
+
+```handlebars
+{{lookup user "role"}}
+```
+
+Output:
+
+```handlebars
+admin
+```
+
+***
+
+<mark style="color:red;">`{{log value}}`</mark>
+
+Logs a value to the console for debugging purposes.
+
+**Example:**
+
+If **debugData** contains:
+
+```handlebars
+{"error": "Not Found"}
+```
+
+**Usage:**
+
+```handlebars
+{{log debugData}}
+```
+
+**Output:**
+
+_<mark style="color:red;">`(Check the browser console for the logged value)`</mark>_
+
+***
+
+<mark style="color:red;">`{{get varName "property"}}`</mark>
+
+Retrieves a nested property using a JSONPath expression from a JSON object.
+
+**Example:**
+
+If **userData** contains:
+
+```handlebars
+{
+  "name": "Alice",
+  "contact": { "email": "alice@example.com" }
+}
+```
+
+**Usage:**
+
+```handlebars
+{{get userData "$.contact.email"}}
+```
+
+**Output:**
+
+```handlebars
+alice@example.com
+```
+
+***
+
+<mark style="color:red;">`{{add num increment}}`</mark>
+
+Adds a numeric increment to a given number.
+
+**Example:**
+
+If **num** is:
+
+```handlebars
+5
+```
+
+**Usage:**
+
+```handlebars
+{{add 5 3}}
+```
+
+**Output:**
+
+```handlebars
+8
+```
+
+***
+
+<mark style="color:red;">`{{subtract num decrement}}`</mark>
+
+Subtracts a numeric value from a given number.
+
+**Example**:
+
+If **num** is:
+
+```handlebars
+10
+```
+
+**Usage:**
+
+```handlebars
+{{subtract 10 4}}
+```
+
+**Output:**
+
+```handlebars
+6
+```
+
+***
+
+<mark style="color:red;">`{{multiply value multiplier}}`</mark>
+
+Multiplies two numbers.
+
+**Example:**
+
+If **value** is:
+
+```
+2
+```
+
+**Usage:**
+
+```
+{{multiply 2 5}}
+```
+
+**Output:**
+
+```
+10
+```
+
+***
+
+<mark style="color:red;">`{{divide dividend divisor}}`</mark>
+
+Divides one number by another.
+
+**Example:**
+
+If **dividend** is:
+
+```handlebars
+10
+```
+
+**Usage:**
+
+```handlebars
+{{divide 10 2}}
+```
+
+**Output:**
+
+```handlebars
+5
+```
+
+***
+
+<mark style="color:red;">`{{eq var1 var2}}`</mark>
+
+Checks if two values are equal using the double-equals operator.
+
+**Example:**
+
+If **var1** contains:
+
+```handlebars
+5
+```
+
+and **var2** contains:
+
+```handlebars
+"5"
+```
+
+**Usage:**
+
+```handlebars
+{{eq 5 "5"}}
+```
+
+**Output:**
+
+```handlebars
+true
+```
+
+***
+
+<mark style="color:red;">`{{gt value1 value2}}`</mark>
+
+Checks if the first value is greater than the second value.
+
+**Example:**
+
+If **value1** is:
+
+```handlebars
+10
+```
+
+and **value2** is:
+
+```handlebars
+5
+```
+
+**Usage:**
+
+```handlebars
+{{gt 10 5}}
+```
+
+**Output:**
+
+```handlebars
+true
+```
+
+***
+
+<mark style="color:red;">`{{gte value1 value2}}`</mark>
+
+Checks if the first value is greater than or equal to the second value.
+
+**Example:**
+
+If **value1** is:
+
+```handlebars
+10
+```
+
+and **value2** is:
+
+```handlebars
+10
+```
+
+**Usage:**
+
+```handlebars
+{{gte 10 10}}
+```
+
+**Output:**
+
+```handlebars
+true
+```
+
+***
+
+<mark style="color:red;">`{{lt value1 value2}}`</mark>
+
+Checks if the first value is less than the second value.
+
+**Example:**
+
+If **value1** is:
+
+```handlebars
+5
+```
+
+and **value2** is:
+
+```handlebars
+10
+```
+
+**Usage:**
+
+```handlebars
+{{lt 5 10}}
+```
+
+**Output:**
+
+```handlebars
+true
+```
+
+***
+
+<mark style="color:red;">`{{lte value1 value2}}`</mark>
+
+Checks if the first value is less than or equal to the second value.
+
+**Example:**
+
+If **value1** is:
+
+```handlebars
+5
+```
+
+and **value2** is:
+
+```handlebars
+5
+```
+
+**Usage:**
+
+```handlebars
+{{lte 5 5}}
+```
+
+**Output:**
+
+```handlebars
+true
+```
+
+***
+
+<mark style="color:red;">`{{isEmpty varName}}`</mark>
+
+Evaluates whether a variable is empty (null, undefined, an empty string, an empty array, or an empty object).
+
+**Example:**
+
+If **data** contains:
+
+```handlebars
+""
+```
+
+Usage:
+
+```handlebars
+{{isEmpty data}}
+```
+
+Output:
+
+```handlebars
+true
+```
+
+***
+
+<mark style="color:red;">`{{length varName}}`</mark>
+
+Returns the length of an array or a string. Returns "NaN" if the variable is not an array or string.
+
+**Example:**
+
+If **list** contains:
+
+```handlebars
+["a", "b", "c"]
+```
+
+**Usage:**
+
+```handlebars
+{{length list}}
+```
+
+**Output:**
+
+```handlebars
+3
+```
+
+***
+
+<mark style="color:red;">`{{markdown varName}}`</mark>
+
+Converts a Markdown-formatted string into HTML.
+
+**Example:**
+
+If **markdownText** contains:
+
+```markdown
+# Hello World
+This is **bold** text.
+```
+
+**Usage:**
+
+```handlebars
+{{markdown markdownText}}
+```
+
+**Output:**
+
+```html
+<h1>Hello World</h1>
+<p>This is <strong>bold</strong> text.</p>
+```
+
+***
+
+<mark style="color:red;">`{{formattedNumber number fractionDigits}}`</mark>
+
+Formats a number using locale‑specific formatting with a fixed number of fractional digits.
+
+**Example:**
+
+If **amount** is:
+
+```handlebars
+1234.567
+```
+
+**Usage:**
+
+```handlebars
+{{formattedNumber 1234.567 2}}
+```
+
+**Output:**
+
+```handlebars
+1,234.57
+```
+
+***
+
+<mark style="color:red;">`{{abbreviatedNumber number fractionDigits}}`</mark>
+
+Formats a number into a compact, abbreviated notation (e.g., 1K, 1M) with a specified number of fractional digits.
+
+**Example:**
+
+If **amount** is:
+
+```handlebars
+1500
+```
+
+**Usage:**
+
+```handlebars
+{{abbreviatedNumber 1500 1}}
+```
+
+**Output:**
+
+```handlebars
+1.5k
+```
+
+***
+
+<mark style="color:red;">`{{date varName format}}`</mark>
+
+Formats a date string according to the specified format. Supports both custom formats (e.g., "YYYY-MM-DD") and relative keywords like "fromNow" or "toNow".
+
+**Example:**
+
+If **dateString** contains:
+
+```handlebars
+2020-01-01T00:00:00Z
+```
+
+**Usage:**
+
+```handlebars
+{{date dateString "YYYY-MM-DD"}}
+```
+
+**Output:**
+
+```handlebars
+2020-01-01
+```
