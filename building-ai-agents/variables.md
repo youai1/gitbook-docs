@@ -233,7 +233,7 @@ Converts a conditional block that renders content only when the condition is tru
 
 Example:
 
-If **isLoggedIn** is true
+If `isLoggedIn` is true
 
 **Usage:**
 
@@ -257,7 +257,7 @@ Converts a conditional block that renders content only when the condition is fal
 
 **Example:**
 
-If **isLoggedIn** is false
+If `isLoggedIn` is false
 
 **Usage:**
 
@@ -281,7 +281,7 @@ Iterates over an array or object and renders the block for every item.
 
 **Example:**
 
-If **items** contains:
+If `items` contains:
 
 ```handlebars
 ["Apple", "Banana", "Cherry"]
@@ -311,7 +311,7 @@ Changes the evaluation context to the provided object for the enclosed block.
 
 **Example:**
 
-If **user** contains:
+If `user` contains:
 
 ```handlebars
 { "name": "Alice", "age": 25 }
@@ -339,7 +339,7 @@ Dynamically looks up a property from an object using a key.
 
 **Example:**
 
-If **user** contains:
+If `user` contains:
 
 ```handlebars
 { "name": "Alice", "role": "admin" }
@@ -365,7 +365,7 @@ Logs a value to the console for debugging purposes.
 
 **Example:**
 
-If **debugData** contains:
+If `debugData` contains:
 
 ```handlebars
 {"error": "Not Found"}
@@ -389,7 +389,7 @@ Retrieves a nested property using a JSONPath expression from a JSON object.
 
 **Example:**
 
-If **userData** contains:
+If **`userData`**&#x63;ontains:
 
 ```handlebars
 {
@@ -418,7 +418,7 @@ Adds a numeric increment to a given number.
 
 **Example:**
 
-If **num** is:
+If `num` is:
 
 ```handlebars
 5
@@ -444,7 +444,7 @@ Subtracts a numeric value from a given number.
 
 **Example**:
 
-If **num** is:
+If `num` is:
 
 ```handlebars
 10
@@ -470,7 +470,7 @@ Multiplies two numbers.
 
 **Example:**
 
-If **value** is:
+If `value` is:
 
 ```
 2
@@ -496,7 +496,7 @@ Divides one number by another.
 
 **Example:**
 
-If **dividend** is:
+If `dividend` is:
 
 ```handlebars
 10
@@ -522,13 +522,13 @@ Checks if two values are equal using the double-equals operator.
 
 **Example:**
 
-If **var1** contains:
+If `var1` contains:
 
 ```handlebars
 5
 ```
 
-and **var2** contains:
+and `var2` contains:
 
 ```handlebars
 "5"
@@ -554,13 +554,13 @@ Checks if the first value is greater than the second value.
 
 **Example:**
 
-If **value1** is:
+If `value1` is:
 
 ```handlebars
 10
 ```
 
-and **value2** is:
+and `value2` is:
 
 ```handlebars
 5
@@ -586,7 +586,7 @@ Checks if the first value is greater than or equal to the second value.
 
 **Example:**
 
-If **value1** is:
+If `value1` is:
 
 ```handlebars
 10
@@ -618,13 +618,13 @@ Checks if the first value is less than the second value.
 
 **Example:**
 
-If **value1** is:
+If `value1` is:
 
 ```handlebars
 5
 ```
 
-and **value2** is:
+and `value2` is:
 
 ```handlebars
 10
@@ -650,13 +650,13 @@ Checks if the first value is less than or equal to the second value.
 
 **Example:**
 
-If **value1** is:
+If `value1` is:
 
 ```handlebars
 5
 ```
 
-and **value2** is:
+and `value2` is:
 
 ```handlebars
 5
@@ -682,7 +682,7 @@ Evaluates whether a variable is empty (null, undefined, an empty string, an empt
 
 **Example:**
 
-If **data** contains:
+If `data` contains:
 
 ```handlebars
 ""
@@ -708,7 +708,7 @@ Returns the length of an array or a string. Returns "NaN" if the variable is not
 
 **Example:**
 
-If **list** contains:
+If `list` contains:
 
 ```handlebars
 ["a", "b", "c"]
@@ -734,7 +734,7 @@ Converts a Markdown-formatted string into HTML.
 
 **Example:**
 
-If **markdownText** contains:
+If `markdownText` contains:
 
 ```markdown
 # Hello World
@@ -762,7 +762,7 @@ Formats a number using locale‑specific formatting with a fixed number of fract
 
 **Example:**
 
-If **amount** is:
+If `amount` is:
 
 ```handlebars
 1234.567
@@ -788,7 +788,7 @@ Formats a number into a compact, abbreviated notation (e.g., 1K, 1M) with a spec
 
 **Example:**
 
-If **amount** is:
+If `amount` is:
 
 ```handlebars
 1500
@@ -814,7 +814,7 @@ Formats a date string according to the specified format. Supports both custom fo
 
 **Example:**
 
-If **dateString** contains:
+If `dateString` contains:
 
 ```handlebars
 2020-01-01T00:00:00Z
