@@ -211,18 +211,18 @@ Extracts a portion of the variable's content based on specified parameters.
 * **Examples**:
   *   Extract the first 5 words:
 
-      ```
-      {{sample textVar 5 word}}
+      ```handlebars
+      {{sample textVar 5 "word"}}
       ```
   *   Extract the last 3 lines:
 
-      ```
-      {{sample textVar -3 line}}
+      ```handlebars
+      {{sample textVar -3 "line"}}
       ```
   *   Extract the first 10 letters:
 
-      ```
-      {{sample textVar 10 letter}}
+      ```handlebars
+      {{sample textVar 10 "letter"}}
       ```
 
 ***
