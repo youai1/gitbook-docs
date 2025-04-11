@@ -227,7 +227,7 @@ Extracts a portion of the variable's content based on specified parameters.
 
 ***
 
-<mark style="color:red;">`{{#if condition}}`</mark>
+#### <mark style="color:red;">`{{#if condition}}`</mark>
 
 Converts a conditional block that renders content only when the condition is true.
 
@@ -251,7 +251,7 @@ Welcome back!
 
 ***
 
-<mark style="color:red;">`{{#unless condition}}`</mark>
+#### <mark style="color:red;">`{{#unless condition}}`</mark>
 
 Converts a conditional block that renders content only when the condition is false.
 
@@ -275,7 +275,7 @@ Please sign in.
 
 ***
 
-<mark style="color:red;">`{{#each array}}`</mark>
+#### <mark style="color:red;">`{{#each array}}`</mark>
 
 Iterates over an array or object and renders the block for every item.
 
@@ -305,7 +305,7 @@ Cherry
 
 ***
 
-<mark style="color:red;">`{{#with object}}`</mark>
+#### <mark style="color:red;">`{{#with object}}`</mark>
 
 Changes the evaluation context to the provided object for the enclosed block.
 
@@ -333,7 +333,7 @@ Alice is 25 years old.
 
 ***
 
-<mark style="color:red;">`{{lookup object key}}`</mark>
+#### <mark style="color:red;">`{{lookup object key}}`</mark>
 
 Dynamically looks up a property from an object using a key.
 
@@ -359,7 +359,7 @@ admin
 
 ***
 
-<mark style="color:red;">`{{log value}}`</mark>
+#### <mark style="color:red;">`{{log value}}`</mark>
 
 Logs a value to the console for debugging purposes.
 
@@ -383,7 +383,7 @@ _<mark style="color:red;">`(Check the browser console for the logged value)`</ma
 
 ***
 
-<mark style="color:red;">`{{get varName "property"}}`</mark>
+#### <mark style="color:red;">`{{get varName "property"}}`</mark>
 
 Retrieves a nested property using a JSONPath expression from a JSON object.
 
@@ -412,7 +412,7 @@ alice@example.com
 
 ***
 
-<mark style="color:red;">`{{add num increment}}`</mark>
+#### <mark style="color:red;">`{{add num increment}}`</mark>
 
 Adds a numeric increment to a given number.
 
@@ -438,7 +438,7 @@ If **num** is:
 
 ***
 
-<mark style="color:red;">`{{subtract num decrement}}`</mark>
+#### <mark style="color:red;">`{{subtract num decrement}}`</mark>
 
 Subtracts a numeric value from a given number.
 
@@ -464,7 +464,7 @@ If **num** is:
 
 ***
 
-<mark style="color:red;">`{{multiply value multiplier}}`</mark>
+#### <mark style="color:red;">`{{multiply value multiplier}}`</mark>
 
 Multiplies two numbers.
 
@@ -490,7 +490,7 @@ If **value** is:
 
 ***
 
-<mark style="color:red;">`{{divide dividend divisor}}`</mark>
+#### <mark style="color:red;">`{{divide dividend divisor}}`</mark>
 
 Divides one number by another.
 
@@ -516,7 +516,7 @@ If **dividend** is:
 
 ***
 
-<mark style="color:red;">`{{eq var1 var2}}`</mark>
+#### <mark style="color:red;">`{{eq var1 var2}}`</mark>
 
 Checks if two values are equal using the double-equals operator.
 
@@ -548,7 +548,7 @@ true
 
 ***
 
-<mark style="color:red;">`{{gt value1 value2}}`</mark>
+#### <mark style="color:red;">`{{gt value1 value2}}`</mark>
 
 Checks if the first value is greater than the second value.
 
@@ -580,7 +580,7 @@ true
 
 ***
 
-<mark style="color:red;">`{{gte value1 value2}}`</mark>
+#### <mark style="color:red;">`{{gte value1 value2}}`</mark>
 
 Checks if the first value is greater than or equal to the second value.
 
@@ -612,7 +612,7 @@ true
 
 ***
 
-<mark style="color:red;">`{{lt value1 value2}}`</mark>
+#### <mark style="color:red;">`{{lt value1 value2}}`</mark>
 
 Checks if the first value is less than the second value.
 
@@ -644,7 +644,7 @@ true
 
 ***
 
-<mark style="color:red;">`{{lte value1 value2}}`</mark>
+#### <mark style="color:red;">`{{lte value1 value2}}`</mark>
 
 Checks if the first value is less than or equal to the second value.
 
@@ -676,7 +676,7 @@ true
 
 ***
 
-<mark style="color:red;">`{{isEmpty varName}}`</mark>
+#### <mark style="color:red;">`{{isEmpty varName}}`</mark>
 
 Evaluates whether a variable is empty (null, undefined, an empty string, an empty array, or an empty object).
 
@@ -702,7 +702,7 @@ true
 
 ***
 
-<mark style="color:red;">`{{length varName}}`</mark>
+#### <mark style="color:red;">`{{length varName}}`</mark>
 
 Returns the length of an array or a string. Returns "NaN" if the variable is not an array or string.
 
@@ -728,7 +728,7 @@ If **list** contains:
 
 ***
 
-<mark style="color:red;">`{{markdown varName}}`</mark>
+#### <mark style="color:red;">`{{markdown varName}}`</mark>
 
 Converts a Markdown-formatted string into HTML.
 
@@ -756,7 +756,7 @@ This is **bold** text.
 
 ***
 
-<mark style="color:red;">`{{formattedNumber number fractionDigits}}`</mark>
+#### <mark style="color:red;">`{{formattedNumber number fractionDigits}}`</mark>
 
 Formats a number using locale‑specific formatting with a fixed number of fractional digits.
 
@@ -782,7 +782,7 @@ If **amount** is:
 
 ***
 
-<mark style="color:red;">`{{abbreviatedNumber number fractionDigits}}`</mark>
+#### <mark style="color:red;">`{{abbreviatedNumber number fractionDigits}}`</mark>
 
 Formats a number into a compact, abbreviated notation (e.g., 1K, 1M) with a specified number of fractional digits.
 
@@ -808,7 +808,7 @@ If **amount** is:
 
 ***
 
-<mark style="color:red;">`{{date varName format}}`</mark>
+#### <mark style="color:red;">`{{date varName format}}`</mark>
 
 Formats a date string according to the specified format. Supports both custom formats (e.g., "YYYY-MM-DD") and relative keywords like "fromNow" or "toNow".
 
