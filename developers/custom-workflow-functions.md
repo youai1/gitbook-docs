@@ -6,7 +6,7 @@ description: Execute custom code in your AI workflow
 
 **Functions** in MindStudio empower you to extend the capabilities of your workflows by running JavaScript or Python code directly within your automation. Functions are created within the Editor and are executed in a workflow via the Run Function Block.
 
-When working with the **Function Tab** in MindStudio, the interface is designed to to write and test code, and support supporting dynamic inputs, configurations, and debugging features to ensure smooth execution.
+When working with the **Function Tab** in MindStudio, the interface is designed to to write and test code, and supports dynamic inputs, configurations, and debugging features to ensure smooth execution.
 
 {% embed url="https://www.youtube.com/embed/3bgTOhacFAk" %}
 
