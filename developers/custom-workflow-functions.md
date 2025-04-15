@@ -8,6 +8,8 @@ description: Execute custom code in your AI workflow
 
 When working with the **Function Tab** in MindStudio, the interface is designed to to write and test code, and support supporting dynamic inputs, configurations, and debugging features to ensure smooth execution.
 
+{% embed url="https://youtu.be/3bgTOhacFAk" %}
+
 ## Create a New Function
 
 There are two primary ways to create a new function in MindStudio. Both approaches will create a new function in your Functions Folder, and open a blank function editor where you can specify the environment, write your code, configure inputs, and test the function.
