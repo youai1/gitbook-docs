@@ -8,7 +8,7 @@ description: Execute custom code in your AI workflow
 
 When working with the **Function Tab** in MindStudio, the interface is designed to to write and test code, and support supporting dynamic inputs, configurations, and debugging features to ensure smooth execution.
 
-{% embed url="https://youtu.be/3bgTOhacFAk" %}
+{% embed url="https://www.youtube.com/embed/3bgTOhacFAk" %}
 
 ## Create a New Function
 
