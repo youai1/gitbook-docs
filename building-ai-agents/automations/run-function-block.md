@@ -6,6 +6,8 @@ description: Execute custom JavaScript or Python code in a workflow
 
 The **Run Function Block** empowers your workflows with the ability to execute advanced, custom logic, enabling deeper integration and greater flexibility. This block ensures workflows remain adaptable to your most specific needs. This block is ideal for performing complex calculations, integrating with external APIs, or processing data dynamically.
 
+{% embed url="https://youtu.be/3bgTOhacFAk" %}
+
 ## **Configurations**
 
 ### **Function**
