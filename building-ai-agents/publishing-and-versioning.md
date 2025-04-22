@@ -107,6 +107,44 @@ When enabled, restricts access to your AI Agent with a password. Only users with
 
 ***
 
+### **Publishing**
+
+This section allows you to create a detailed landing page for your AI agent.
+
+#### **Display Name**&#x20;
+
+This will be the name displayed on the landing page for the AI agent. By default, it will use the name created in **General Details.**&#x20;
+
+#### Subtitle&#x20;
+
+Create short subtitle to be featured underneath the display name.&#x20;
+
+#### Functional Description&#x20;
+
+Create a simple description that explains what the agent does and how it works.
+
+#### Full Description&#x20;
+
+Created a full detailed description of your AI agent. Use **markdown formatting** to add numbers, bullet points, headers and more.&#x20;
+
+#### Tags
+
+Add **tags** to your landing page to optimize SEO. _This section is optional._&#x20;
+
+#### Video Tutorial
+
+Upload a **video tutorial** that will displayed at the top of your landing page. _This section is optional._&#x20;
+
+#### Sample Assets
+
+Link any **sample assets** to show others what the output of your agent might look like. _This section is optional._&#x20;
+
+#### Social Sharing Image
+
+Upload an image that will be displayed the link to your AI agent is shared. Recommended size is **1200x630.**
+
+***
+
 ### **Transfer**
 
 The **Transfer** tab allows you to reassign ownership of an AI Agent to a different workspace. This is particularly useful when moving AI Agents between personal and organizational workspaces or consolidating assets under a specific team.
