@@ -80,6 +80,12 @@ The type of User Input determines its functionality and format. See the table be
 
 The <mark style="color:red;">`variable_name`</mark> is a unique identifier for the User Input. It is used to reference the collected data in downstream workflow blocks. Use a variable name that is unique to the data being collected. (**Example:** <mark style="color:red;">`customer_goal`</mark> , <mark style="color:red;">`client_industry`</mark> , <mark style="color:red;">`first_name`</mark> )
 
+### Multiple File Upload
+
+The User Input block allows for multiple file upload. Multiple files are stored in one JSON variable via index. **Example**: <mark style="color:red;">`[0: file 1 extracted text, 1: file 2 extracted text]`</mark>
+
+You can extract the contents of each file by using the proper [JSON structure variable syntax.](../variables.md#extracting-a-value-from-a-json-structure)
+
 ### Configurations
 
 Configurations define how the User Input behaves and what options are available. These settings vary depending on the input type.
