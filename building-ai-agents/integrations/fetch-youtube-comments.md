@@ -4,6 +4,8 @@ description: Fetch all comments from a YouTube video in a MindStudio workflow
 
 # Fetch YouTube Comments
 
+{% embed url="https://www.youtube.com/watch?v=MIOPkJJDElY" %}
+
 ## Configuration&#x20;
 
 ### Video URL
