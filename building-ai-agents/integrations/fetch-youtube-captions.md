@@ -4,7 +4,7 @@ description: Fetch captions from a YouTube video in a MindStudio workflow
 
 # Fetch YouTube Captions
 
-{% embed url="https://www.youtube.com/watch?v=6z-L5tPndeQ" %}
+
 
 ## Configuration&#x20;
 

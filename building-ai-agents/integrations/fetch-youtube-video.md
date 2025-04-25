@@ -4,7 +4,7 @@ description: Fetch details from a YouTube video in a MindStudio workflow
 
 # Fetch YouTube Video
 
-{% embed url="https://www.youtube.com/watch?v=3HEoSywNVcE" %}
+{% embed url="https://www.youtube.com/embed/3HEoSywNVcE?si=q2Fq-s4fapQZvxqw" %}
 
 ## Configuration&#x20;
 
