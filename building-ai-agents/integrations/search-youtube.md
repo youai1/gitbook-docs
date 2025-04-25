@@ -4,7 +4,7 @@ description: Retrieve YouTube search results in a MindStudio workflow
 
 # Search YouTube
 
-{% embed url="https://www.youtube.com/embed/HhABlKsq6sk?si=WA8sijOayvf3GIe9" %}
+{% embed url="https://www.youtube.com/embed/HhABlKsq6sk" %}
 
 ## Configuration&#x20;
 
