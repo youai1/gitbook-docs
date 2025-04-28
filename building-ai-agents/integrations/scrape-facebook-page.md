@@ -4,6 +4,8 @@ description: Get general details of a Facebook page in a MindStudio workflow
 
 # Scrape Facebook Page
 
+{% embed url="https://www.youtube.com/embed/shDlLr860OA" %}
+
 ## Configuration&#x20;
 
 ### Page URL

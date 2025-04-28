@@ -4,6 +4,8 @@ description: Search for posts on Bluesky in a MindStudio Workflow
 
 # Search Bluesky Posts
 
+{% embed url="https://www.youtube.com/embed/RrSCc71sMwM" %}
+
 ## Configuration
 
 ### Search Query&#x20;
