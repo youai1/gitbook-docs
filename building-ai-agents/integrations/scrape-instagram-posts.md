@@ -4,6 +4,8 @@ description: Get posts from an Instagram profile in a MindStudio workflow
 
 # Scrape Instagram Posts
 
+{% embed url="https://www.youtube.com/embed/x-RfPtxfixI" %}
+
 ## Configuration
 
 ### Username

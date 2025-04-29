@@ -4,6 +4,8 @@ description: Get data from an Instagram profile in a MindStudio workflow
 
 # Scrape Instagram Profile
 
+{% embed url="https://www.youtube.com/embed/w1q7vgZ6Ws4" %}
+
 ## Configuration
 
 ### Username

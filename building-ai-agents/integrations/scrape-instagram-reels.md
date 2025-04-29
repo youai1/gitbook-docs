@@ -4,6 +4,8 @@ description: Get reels from an Instagram profile in a MindStudio workflow
 
 # Scrape Instagram Reels
 
+{% embed url="https://www.youtube.com/embed/ksg7HU_8Sb8" %}
+
 ## Configuration
 
 ### Username
