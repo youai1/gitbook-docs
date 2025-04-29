@@ -4,6 +4,8 @@ description: Get data from mentions on Instagram in a MindStudio workflow
 
 # Scrape Instagram Mentions
 
+{% embed url="https://www.youtube.com/embed/BObBgvcJzIk" %}
+
 ## Configuration
 
 ### Username
