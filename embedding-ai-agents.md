@@ -80,7 +80,6 @@ Here’s how you can integrate it into your product:
 
 * **Always** generate a new signed URL per session.
 * **Never expose your API key** in client-side code.
-* Store `userId` mapping on your end for better traceability and analytics.
 
 ***
 
