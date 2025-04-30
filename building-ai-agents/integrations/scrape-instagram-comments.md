@@ -4,6 +4,8 @@ description: Get Comments data from an Instagram post in a MindStudio workflow
 
 # Scrape Instagram Comments
 
+{% embed url="https://www.youtube.com/embed/UJiudp4glUA" %}
+
 ## Configuration
 
 ### Post URL
