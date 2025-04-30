@@ -10,7 +10,7 @@ MindStudio allows you to embed your AI Agents seamlessly into your product or we
 
 Signed access URLs provide secure access to a specific AI Agent for a specific user. These are particularly useful if you already manage your own user accounts and want to embed an agent without forcing additional authentication steps.
 
-* URLs are valid for **24 hours**
+* URLs expirations can be set (1 hour to infinite)
 * You can generate **unlimited URLs**
 * Old URLs **do not expire** when new ones are generated
 
@@ -40,7 +40,7 @@ curl -X POST https://api.mindstudio.ai/developer/v2/generate-signed-access-url \
 #### JavaScript (Fetch) Example
 
 ```js
-jsCopyEditconst response = await fetch('https://api.mindstudio.ai/developer/v2/generate-signed-access-url', {
+const response = await fetch('https://api.mindstudio.ai/developer/v2/generate-signed-access-url', {
   method: 'POST',
   headers: {
     'Authorization': 'Bearer YOUR_API_KEY',
