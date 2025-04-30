@@ -6,6 +6,8 @@ description: via Signed Access URLs
 
 MindStudio allows you to embed your AI Agents seamlessly into your product or website, using **signed access URLs**—without requiring end users to sign up for a MindStudio account.
 
+{% embed url="https://www.youtube.com/embed/ldq-4mX28Ng" %}
+
 ## Overview
 
 Signed access URLs provide secure access to a specific AI Agent for a specific user. These are particularly useful if you already manage your own user accounts and want to embed an agent without forcing additional authentication steps.
