@@ -93,6 +93,10 @@
   * [Send SMS](building-ai-agents/integrations/send-sms.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
+***
+
+* [Embedding AI Agents](embedding-ai-agents.md)
+
 ## Workspace Management
 
 * [Workspace Overview](workspace-management/workspace-overview.md)
