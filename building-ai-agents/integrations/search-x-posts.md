@@ -4,6 +4,8 @@ description: Search for posts on X by keyword in a MindStudio workflow
 
 # Search X Posts
 
+{% embed url="https://www.youtube.com/embed/bOZ2-hWYucs" %}
+
 ## Configuration
 
 ### Search Query&#x20;
