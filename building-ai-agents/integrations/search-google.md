@@ -4,6 +4,8 @@ description: Retrieve Google search results in a MindStudio workflow
 
 # Search Google
 
+{% embed url="https://www.youtube.com/embed/xIH-bhsZ1jQ" %}
+
 ## Configuration
 
 ### Search Query&#x20;

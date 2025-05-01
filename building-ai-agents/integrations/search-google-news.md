@@ -4,6 +4,8 @@ description: Retrieve Google News search results in a MindStudio workflow
 
 # Search Google News
 
+{% embed url="https://www.youtube.com/embed/UcpYnTeASRo" %}
+
 ## Configuration
 
 ### Text&#x20;
