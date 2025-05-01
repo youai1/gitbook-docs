@@ -4,6 +4,8 @@ description: Retrieve Google Trends keyword results in a MindStudio workflow
 
 # Search Google Trends
 
+{% embed url="https://www.youtube.com/embed/Dg98GQ7gQC0" %}
+
 ## Configuration
 
 ### Query&#x20;
