@@ -117,6 +117,7 @@
 
 * [Zapier + MindStudio](integration-guides/zapier-+-mindstudio.md)
 * [Make.com + MindStudio](integration-guides/make.com-+-mindstudio.md)
+* [n8n + MindStudio](integration-guides/n8n-+-mindstudio.md)
 
 ## Developers
 
