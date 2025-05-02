@@ -4,6 +4,8 @@ description: Retrieve Google Image search results in a MindStudio workflow
 
 # Search Google Images
 
+{% embed url="https://www.youtube.com/embed/o3dOD6cdZFs" %}
+
 ## Configuration
 
 ### Search Query&#x20;
