@@ -121,12 +121,12 @@
 ## Developers
 
 * [API Reference](developers/api-reference.md)
-* [Allowing Access to Mindstudio From Your Network](developers/allowing-access-to-mindstudio-from-your-network.md)
 * [NPM Package](developers/npm-package.md)
 * [Custom Workflow Functions](developers/custom-workflow-functions.md)
 
 ## Additional Resources
 
 * [Glossary](additional-resources/glossary.md)
+* [Allowing Access to Mindstudio From Your Network](additional-resources/allowing-access-to-mindstudio-from-your-network.md)
 * [MindStudio Solutions Partners](additional-resources/mindstudio-solutions-partners.md)
 * [MindStudio Certification](additional-resources/mindstudio-certification.md)
