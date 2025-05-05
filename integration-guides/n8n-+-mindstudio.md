@@ -74,6 +74,7 @@ curl -X POST https://v1.mindstudio-api.com/developer/v2/agents/run \
 #### 7. Paste the following code into the `JSON` area
 
 ```json
+{{
 {
     "workerId": "YOUR_AGENT_ID",
     "variables": {
@@ -82,6 +83,7 @@ curl -X POST https://v1.mindstudio-api.com/developer/v2/agents/run \
     },
     "workflow": "YOUR_WORKFLOW_NAME.flow"
   }
+}}
 ```
 
 #### 8. In the `JSON`, change the following to use your own data:
