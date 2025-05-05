@@ -75,7 +75,7 @@ Use models with large context windows for summarizing lengthy documents or analy
 
 ## AI Models Reference
 
-`Last Updated: May 5, 2025`&#x20;
+**Last updated:** May 5, 2025
 
 ### Amazon
 
