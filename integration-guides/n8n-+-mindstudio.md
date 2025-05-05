@@ -78,8 +78,8 @@ curl -X POST https://v1.mindstudio-api.com/developer/v2/agents/run \
 {
     "workerId": "YOUR_AGENT_ID",
     "variables": {
-      "LAUNCH_VARAIBLE_1": "VALUE_1",
-      "LAUNCH_VARAIBLE_2": "VALUE_2",
+      "LAUNCH_VARAIBLE_1": VALUE_1,
+      "LAUNCH_VARAIBLE_2": VALUE_2,
     },
     "workflow": "YOUR_WORKFLOW_NAME.flow"
   }
