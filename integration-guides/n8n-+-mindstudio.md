@@ -67,7 +67,7 @@ curl -X POST https://v1.mindstudio-api.com/developer/v2/agents/run \
 
 #### 5. Click on `IMPORT`
 
-#### 6. Once imported, change the `Specify Body` setting to&#x20;
+#### 6. Once imported, change the `Specify Body` setting to `Using JSON`
 
 <figure><img src="../.gitbook/assets/Screenshot 2025-05-05 at 3.24.03 PM.png" alt=""><figcaption><p>Send Body Section</p></figcaption></figure>
 
