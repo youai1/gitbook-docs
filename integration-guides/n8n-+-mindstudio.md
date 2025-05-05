@@ -86,11 +86,11 @@ curl -X POST https://v1.mindstudio-api.com/developer/v2/agents/run \
 }}
 ```
 
-#### 8. In the `JSON`, change the following to use your own data:
+#### 8. In the `JSON`, replace the following with your own data:
 
 * **`YOUR_AGENT_ID`** - [See section above to get your AGENT ID](n8n-+-mindstudio.md#how-to-find-your-agent-id)
 * **`LAUNCH_VARIABLES`** - [See section above to learn how to create launch variables](n8n-+-mindstudio.md#how-to-create-launch-variables)
-* **`VALUES`** - These values will come from your n8n instance. You can clack and drag any input from the left into the JSON area to bring it into your code.
+* **`VALUES`** - These values will come from your n8n instance. You can clack and drag any input from the left into the JSON area to bring it into your code. When you drag an input in, it should look like this: `$json['Value']` . If you are not using inputs from n8n, then make sure to wrap your value in quotation marks like this: `"value"`&#x20;
 * **`YOUR_WORKFLOW_NAME`** - The name of the workflow you want to trigger (Ex: `Main.flow`)
 
 ***
