@@ -4,6 +4,8 @@ description: Retrieve content from a Google Sheet in a MindStudio workflow
 
 # Fetch Google Sheet
 
+{% embed url="https://www.youtube.com/embed/gYANwOaQGqY" %}
+
 ## Configuration
 
 ### Account&#x20;

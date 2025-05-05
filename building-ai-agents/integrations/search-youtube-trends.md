@@ -4,6 +4,8 @@ description: Search for trends by a specified category in a MindStudio workflow
 
 # Search YouTube Trends
 
+{% embed url="https://www.youtube.com/embed/5_uY3QHJCdI" %}
+
 ## Configuration&#x20;
 
 ### Category&#x20;
