@@ -73,7 +73,7 @@ The context window determines the maximum amount of text the model can process a
 
 Use models with large context windows for summarizing lengthy documents or analyzing extensive datasets. For shorter inputs, a smaller context window may suffice and reduce costs.
 
-## AI Models Reference (Text Generation)
+## AI Models Reference
 
 `Last Updated: May 5, 2025`&#x20;
 
