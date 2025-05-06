@@ -14,7 +14,7 @@ Not using Chrome? No problem. You can still use any Agent directly from the [Min
 If would like be alerted of extension releases for other browsers, [click here](https://docs.google.com/forms/d/e/1FAIpQLSdIY80PS3--QX_nBu8aYniD_7s_DXJSC0nsVmFLiMVgslILCA/viewform?usp=dialog).
 {% endhint %}
 
-## AI Superpowers at Your Fingertips: Meet MindStudio AI Agents
+## AI Superpowers at Your Fingertips
 
 In a world where professionals are expected to do more with less time, **MindStudio AI Agents** bring powerful automation and intelligence directly into your browser—helping you get things done faster, smarter, and more efficiently.
 
