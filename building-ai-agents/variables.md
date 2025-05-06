@@ -35,11 +35,11 @@ Some blocks, such as **Generate Text Blocks** or **User Input Blocks**, assign v
 
 ***
 
-## Calling Variables
+## Using Variables
 
 To use a variable in any block or prompt, reference it by enclosing the variable name in double curly braces: `{{variable_name}}`.
 
-**Example Calling Variables in a Generate Text Block**:
+**Example Using Variables in a Generate Text Block**:
 
 ```markdown
 Summarize the article titled "{{articleTitle}}". 
@@ -47,6 +47,32 @@ Summarize the article titled "{{articleTitle}}".
 In the summary, make sure to write about the following topic: 
 {{topic}}
 ```
+
+***
+
+## Tips for Working with Variables
+
+Variables are replaced with their values before the text is sent to the AI model. You must make sure your message will be coherent and legible after the variables have been substituted. For longer variables, this means using things like XML tags to offset variable content from instructions.
+
+**Incorrect:**
+
+```
+Summarize this article {{articleContent}} and find all mentions of {{personName}}.
+```
+
+_This pattern does not work because `{{articleContent}}` will be replaced with the raw text or HTML of an article. If you execute this prompt and view its logs in the_ [_Debugger_](../test-and-evaluate/debugger.md)_, you will see that what is sent to the model is a giant sentence like "Summarize this article The history of lorem ipsum has long been thought to contain dolor sit amet \[...1000 more words from the article directly pasted in] and find all mentions of Taylor Swift". While AI models are great at parsing text, using simple formatting can make prompts dramatically more effective, as well as easier for you to maintain._
+
+**Correct:**
+
+```
+<article_content>
+{{articleContent}}
+</article_content>
+
+Using the provided article content, create a summary of the article as well as a list of all mentions of {{personName}}.
+```
+
+_Offsetting with XML-style tags (it doesn't matter what the actual tags are, you can make up anything you like as long as it makes sense) helps the model understand which aspects of your prompt are instructions and which are context. In general, to achieve best results, you should strive to make your prompt as easy to read for a human as possible. A handy test is to imagine that you were to print out your prompt on paper (after all variables have been substituted) and give it to someone. Would they be able to understand what you want them to do? Or would it look like gibberish?_
 
 ***
 
