@@ -20,6 +20,8 @@ In a world where professionals are expected to do more with less time, **MindStu
 
 With over 100 ready-to-use AI Agents and the ability to build your own with zero coding, MindStudio is the ultimate productivity tool for anyone looking to automate repetitive tasks, generate insights, and supercharge their workflow.
 
+<div data-full-width="false"><figure><img src="../.gitbook/assets/slide 0.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 18.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 19.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 21.png" alt=""><figcaption></figcaption></figure></div>
+
 ## **Instant Productivity, Right in Your Browser**
 
 Whether you're analyzing complex reports, drafting marketing content, or automating sales tasks, MindStudio AI Agents operate on virtually any website, with just a click.
