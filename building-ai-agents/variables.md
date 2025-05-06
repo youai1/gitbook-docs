@@ -9,7 +9,7 @@ Variables in MindStudio are dynamic placeholders that store data during workflow
 **Example:**
 
 * Variable Name: `userName`
-* Usage: `"Hello,`` `<mark style="color:red;">`{{userName}}`</mark>`! Welcome to our app."`&#x20;
+* Usage: `"Hello {{username}}! Welcome to our app."`&#x20;
 
 ***
 
@@ -50,9 +50,9 @@ In the summary, make sure to write about the following topic:
 
 ***
 
-## Tips for Working with Variables
+## Tips for Working with Large Variables
 
-Variables are replaced with their values before the text is sent to the AI model. You must make sure your message will be coherent and legible after the variables have been substituted. For longer variables, this means using things like XML tags to offset variable content from instructions.
+Variables are replaced with their values before the text is sent to the AI model. You must make sure your message will be coherent and legible after the variables have been substituted with their values. For longer variables, this means using things like XML tags to offset variable content from instructions.
 
 **Incorrect:**
 
@@ -60,7 +60,9 @@ Variables are replaced with their values before the text is sent to the AI model
 Summarize this article {{articleContent}} and find all mentions of {{personName}}.
 ```
 
-_This pattern does not work because `{{articleContent}}` will be replaced with the raw text or HTML of an article. If you execute this prompt and view its logs in the_ [_Debugger_](../test-and-evaluate/debugger.md)_, you will see that what is sent to the model is a giant sentence like "Summarize this article The history of lorem ipsum has long been thought to contain dolor sit amet \[...1000 more words from the article directly pasted in] and find all mentions of Taylor Swift". While AI models are great at parsing text, using simple formatting can make prompts dramatically more effective, as well as easier for you to maintain._
+This pattern does not work because `{{articleContent}}` will be replaced with the raw text or HTML of an article. If you execute this prompt and view its logs in the [Debugger](../test-and-evaluate/debugger.md), you will see that what is sent to the model is a giant sentence like "Summarize this article The history of lorem ipsum has long been thought to contain dolor sit amet \[...1000 more words from the article directly pasted in] and find all mentions of Taylor Swift".&#x20;
+
+While AI models are great at parsing text, using simple formatting can make prompts dramatically more effective, as well as easier for you to maintain.
 
 **Correct:**
 
@@ -72,7 +74,9 @@ _This pattern does not work because `{{articleContent}}` will be replaced with t
 Using the provided article content, create a summary of the article as well as a list of all mentions of {{personName}}.
 ```
 
-_Offsetting with XML-style tags (it doesn't matter what the actual tags are, you can make up anything you like as long as it makes sense) helps the model understand which aspects of your prompt are instructions and which are context. In general, to achieve best results, you should strive to make your prompt as easy to read for a human as possible. A handy test is to imagine that you were to print out your prompt on paper (after all variables have been substituted) and give it to someone. Would they be able to understand what you want them to do? Or would it look like gibberish?_
+Offsetting with XML-style tags (it doesn't matter what the actual tags are, you can make up anything you like as long as it makes sense) helps the model understand which aspects of your prompt are instructions and which are context. [Anthropic](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/long-context-tips#example-quote-extraction) found that placing long variables at the top of the prompt using XML tags improved response quality by up to 30%.
+
+To achieve best results, you should strive to make your prompt as easy to read for a human as possible. A handy test is to imagine that you were to print out your prompt on paper (after all variables have been substituted) and give it to someone. Would they be able to understand what you want them to do? Or would it look like gibberish?
 
 ***
 
