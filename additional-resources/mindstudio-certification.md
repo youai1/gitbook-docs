@@ -1,4 +1,8 @@
-# MindStudio Certification Course
+---
+hidden: true
+---
+
+# MindStudio Certification
 
 ## Overview
 
@@ -83,11 +87,7 @@ The course structure strikes a balance between MindStudio knowledge and practica
 
 * **Comprehensive AI Development Training:** Covering the essentials of developing AIs using MindStudio's top-notch platform.
 
-<!---->
-
-* **Practical Projects and Exercises:** Hands-on tasks to apply the concepts learned in a real-world context.
-
-<!---->
+- **Practical Projects and Exercises:** Hands-on tasks to apply the concepts learned in a real-world context.
 
 * **Expert Guidance and Support:** Access to MindStudio professionals for insights and assistance.
 

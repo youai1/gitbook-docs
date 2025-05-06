@@ -20,7 +20,7 @@ With support for over 90 leading AI models from the most popular providers, Mind
 
 ### 🧠 **MindStudio IDE**
 
-**MindStudio IDE**—a fast, modern, AI-focused development environment that lets you:
+A fast, modern, AI-focused development environment that lets you:
 
 * Combine multiple AI models in one function
 * Instantly test and iterate in a built-in
@@ -42,15 +42,19 @@ MindStudio functions are deployed serverlessly with global scalability. Features
 
 You get all the power of enterprise-grade systems—without the overhead.
 
+<figure><img src="../.gitbook/assets/6751f0af1e6cd7e3c3127e70_image (31) (1).avif" alt=""><figcaption><p>MindStudio deployments</p></figcaption></figure>
+
 ### 🧩 **Integrate With the Tools You Already Use**
 
 MindStudio functions are easy to connect to your workflows:
 
 * **API access**: Invoke functions via RESTful API
-* **Node.js package**: Seamlessly integrate into server-side codebases
+* [**Node.js package**](https://www.npmjs.com/package/mindstudio): Seamlessly integrate into server-side codebases
 * **No-code automation**: Use with tools like **Zapier**, **Make**, and others to extend workflows
 
-Whether you're a solo developer or part of a large enterprise team, these integrations mean you can plug AI directly into existing systems without disruption.
+Whether you're a solo developer or part of a large enterprise team, these integrations mean you can plug AI directly into existing systems without disruption. [Read the docs](https://help.mindstudio.ai/developers/npm-package)
+
+<figure><img src="../.gitbook/assets/6751e7941134ee1a25fd443f_image (4).svg" alt=""><figcaption></figcaption></figure>
 
 ### 🔐 **Enterprise-Grade Security and Compliance**
 
@@ -58,7 +62,9 @@ Security is baked into every layer of the platform. Features include:
 
 * **SOC II certification**
 * **Enterprise license agreements with model vendors**
-* **Support for on-premise or private cloud deploymen**
+* **Support for on-premise or private cloud deployment**
+
+<figure><img src="../.gitbook/assets/6751e83548390c35479fa11f_image (5).svg" alt=""><figcaption></figcaption></figure>
 
 ### 🔍 **Advanced Observability and Debugging**
 

@@ -18,4 +18,4 @@ MindStudio Partners are a global network of consultants, agencies, and professio
 
 You can hire a partner to build and manage AI Agents for your team. Find the right partner for your budget and needs on the [MindStudio Partner Directory](https://partners.mindstudio.ai/).
 
-![1600x900-horizontal-X (2).png](<../.gitbook/assets/1600x900-horizontal-X (2).png>)
+![Find an Expert](<../.gitbook/assets/1600x900-horizontal-X (2).png>)
