@@ -16,9 +16,9 @@ If would like be alerted of extension releases for other browsers, [click here](
 
 ## AI Superpowers at Your Fingertips
 
-In a world where professionals are expected to do more with less time, **MindStudio AI Agents** bring powerful automation and intelligence directly into your browser—helping you get things done faster, smarter, and more efficiently.
+In a world where professionals are expected to do more with less time, **MindStudio's Chrome Extension** bring powerful automation and intelligence directly into your browser—helping you get things done faster, smarter, and more efficiently.
 
-With over 100 ready-to-use AI Agents and the ability to build your own with zero coding, MindStudio is the ultimate productivity tool for anyone looking to automate repetitive tasks, generate insights, and supercharge their workflow.
+With over 100 ready-to-use AI Agents and the ability to build your own with zero coding, MindStudio is the ultimate productivity tool for anyone looking to automate repetitive tasks, generate insights, and supercharge their workflows.
 
 <div data-full-width="false"><figure><img src="../.gitbook/assets/slide 0.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 18.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 19.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/slide 21.png" alt=""><figcaption></figcaption></figure></div>
 
