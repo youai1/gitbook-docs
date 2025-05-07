@@ -6,6 +6,8 @@ description: Integrate MindStudio AI Agents with n8n
 
 MindStudio Agents can be triggered directly from [n8n](https://n8n.io/) using an HTTP Request node to run custom workflows. This guide walks you through the full setup.
 
+{% embed url="https://www.youtube.com/embed/-rI6e--hf4Q" %}
+
 ## Prerequisites
 
 Before you start:
@@ -13,6 +15,7 @@ Before you start:
 * You must have a **MindStudio account** with a published AI Agent.
 * You'll need your **Agent ID** and an **API key** from the MindStudio Developer Portal.
 * Your agent must have **Launch Variables** setup in the Start Block.
+* (optional) Set your Terminator Block to the End behavior to output JSON&#x20;
 
 ### How to find your Agent ID
 
