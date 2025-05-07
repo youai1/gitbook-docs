@@ -35,34 +35,6 @@ Choose how user inputs are processed before being sent to the AI. Options includ
 #### **Other Settings**:
 
 * **Model Mixer**: Allow users to use multiple LLM models during the chat. For example, a user can send a message and use model mixer to get a response from both Claude 3 Opus and GPT-4o.
-* **Response Editing**: Enable users to edit LLM responses in the chat after a response has been returned.
-
-***
-
-### **Revise Document**
-
-Leverages an AI-assisted Rich Text Editor to revise and enhance documents.
-
-#### **Revision Template**:
-
-Define the instructions for document revision.
-
-* <mark style="color:red;">`{{selectedText}}`</mark>: refers to the highlighted text in the document editor.
-* <mark style="color:red;">`{{instructions}}`</mark>: refers to the prompt entered when using AI-assisted revisions.
-
-#### **System Introduction (Optional)**:
-
-An introductory message displayed at the start of the chat session. This is for display purposes only and is not included in the AI prompt.
-
-***
-
-### **Data Source Explorer**
-
-Enables users to chat with documents from a Data Source. Only works for PDF files.
-
-#### **System Introduction (Optional)**:
-
-An introductory message displayed at the start of the chat session. This is for display purposes only and is not included in the AI prompt.
 
 ***
 
