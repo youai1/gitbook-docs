@@ -20,6 +20,13 @@ Define how the workflow is activated. Triggers can be configured to run:
 
 Variables that are initialized at the start of the workflow and passed through the entire process. Launch variables can be referenced throughout the workflow using `{{variable_name}}`.
 
+Launch variables can be defined in different ways, depending on the how the workflow is being started. They can be:
+
+* Set in the body of an API request
+* Defined in the settings of a [Run Workflow](run-workflow-block.md) block, if the workflow is being started by another workflow
+* Defined in the schedule rules (see below) for scheduled runs
+* Passed via query string parameters to the URL of the agent (e.g., `https://app.mindstudio.ai/agents/agent_id/run?variableName=variable_value&anotherVariable=different_value`). Note that this pattern also works for Signed URLs and Guest Access embeds.
+
 ***
 
 ## Scheduling Workflow Runs
