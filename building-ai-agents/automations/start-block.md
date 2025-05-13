@@ -14,7 +14,7 @@ Define how the workflow is activated. Triggers can be configured to run:
 
 * **On-Demand**: The default trigger. Requires manual execution.
 * **Scheduled**: At specific times or intervals, such as daily at 8:00 AM.
-* **Event-Driven**: Based on external inputs like API requests.
+* **Event-Driven**: Based on external inputs like API requests, webhooks, email.
 
 ### **Launch Variables**
 
@@ -29,11 +29,19 @@ Launch variables can be defined in different ways, depending on the how the work
 
 ***
 
-## Scheduling Workflow Runs
+## Run Modes
+
+### On-Demand
+
+The default mode for new Agents. These workflows only run when manually triggered by a user or system.
+
+***
+
+### Schedule
 
 The **Scheduler** is a feature within the Start Block that allows you to set up automated, time-based triggers for your workflow. To enable the Scheduler, change the **Triggers > Run Mode** configuration from “On-Demand” to “Scheduled”. You may create multiple schedules for a workflow.
 
-### Creating Schedules
+#### Creating Schedules
 
 1. **Define the Schedule** using natural language to describe how often and when the workflow should run.
    * Examples:
@@ -44,3 +52,37 @@ The **Scheduler** is a feature within the Start Block that allows you to set up 
 3. **(Optional) Add Launch Variable arguments** using `key:value` \*\*\*\*pairs.
 4. Generate the Schedule by clicking on the **Generate Schedule Button**
 5. **Save** the schedule.
+
+***
+
+### Browser Extension
+
+Triggered directly via [Chrome Extension](../../get-started/mindstudio-chrome-extension.md) while browsing the web. Enabling users to run Agents on the current page or selected content. Data from the page you are browsing are extracted as Launch Variables through the workflow.
+
+**Launch Variables:**
+
+* **`url`** - the URL of the page you are browsing
+* **`metadata`** - A dictionary of metadata including page title, description, and other OpenGraph data when available.&#x20;
+* **`pageContent`** - All main content extracted from the visible portion of the page. ON sites like youtube, pageContent is also used to extract the video transcript.
+* **`fullText`** - A complete text dump of the page, including hidden and non-visible content.
+* **`userSelection`** - The text manually highlighted by the user (if any) at the time the Agent is triggered.
+* **`rawHtml`** - The full HTML source of the page
+
+***
+
+### Email Run
+
+Triggered by sending an email to a unique, agent-specific email address. This mode is useful for processing inbound email data or automating responses. Content from the email are passed as Launch Variables through the workflow.
+
+**Launch Variables:**
+
+* **`from`** - the URL of the page you are browsing
+* **`subject`** - A dictionary of metadata including page title, description, and other OpenGraph data when available.&#x20;
+* **`message`** - All main content extracted from the visible portion of the page. ON sites like youtube, pageContent is also used to extract the video transcript.
+* **`attachments`** - A complete&#x20;
+
+***
+
+### Webhook Run
+
+Use this mode to start workflows automatically in response to external webhooks. The webhook endpoint is generated for each workflow and can be connected to other tools or services. Data sent in the webhook payload (e.g., JSON body) is mapped to Launch Variables, enabling full dynamic control over workflow behavior.&#x20;
