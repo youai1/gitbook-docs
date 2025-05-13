@@ -8,6 +8,8 @@ The **Debugger** is a critical tool in MindStudio for testing, troubleshooting, 
 
 Open the desired workflow in MindStudio. Switch to the **Debugger** tab from the workflow interface.
 
+You can also open the debugger from an already run workflow by opening the **3 dot menu** and selecting **Show Debugger**.
+
 ### 2. Run the Workflow
 
 Use test inputs or variables to trigger the workflow. The workflow execution will be logged in real time. You can run the workflow in many different ways outlined below.
