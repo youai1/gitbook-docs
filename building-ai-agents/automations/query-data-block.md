@@ -31,7 +31,7 @@ Define the number of results the block will retrieve from the Data Source. Each 
 
 Enter the query prompt that instructs the AI on what information to retrieve. You can include <mark style="color:red;">`{{variables}}`</mark> to make the query dynamic and context-aware.
 
-[Learn about variables →](../variables.md)
+[Learn about variables →](../variables/)
 
 ***
 

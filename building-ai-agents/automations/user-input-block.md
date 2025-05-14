@@ -84,7 +84,7 @@ The <mark style="color:red;">`variable_name`</mark> is a unique identifier for t
 
 The User Input block allows for multiple file upload. Multiple files are stored in one JSON variable via index. **Example**: <mark style="color:red;">`[0: file 1 extracted text, 1: file 2 extracted text]`</mark>
 
-You can extract the contents of each file by using the proper [JSON structure variable syntax.](../variables.md#extracting-a-value-from-a-json-structure)
+You can extract the contents of each file by using the proper [JSON structure variable syntax.](../variables/#extracting-a-value-from-a-json-structure)
 
 ### Configurations
 

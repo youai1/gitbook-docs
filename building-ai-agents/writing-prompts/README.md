@@ -193,7 +193,7 @@ For more information on Markdown, see the [Markdown Cheatsheet](https://github.c
 
 The Auto-Enhance feature helps polish and refine your prompts after you've made modifications. It analyzes your prompt for clarity, formatting, and potential ambiguities, then suggests improvements while maintaining your original intent.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-12-03 at 3.28.44 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-03 at 3.28.44 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### How Auto-Enhance Works
 

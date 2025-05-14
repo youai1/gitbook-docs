@@ -12,7 +12,7 @@ The Generate Text Block sends a text prompt to an AI model and returns the AI Mo
 
 Define the instructions sent to the AI model. Use `{{variables}}` to make the prompt dynamic and context-aware.
 
-[Learn about variables →](../variables.md)
+[Learn about variables →](../variables/)
 
 ### **Response Behavior**
 
