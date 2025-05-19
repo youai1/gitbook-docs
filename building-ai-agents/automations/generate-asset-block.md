@@ -74,3 +74,57 @@ Select the orientation type for your document:
 * Business Presentations&#x20;
 * Resumes&#x20;
 
+## Inserting Variables to your HTML Document&#x20;
+
+Once you've added in your HTML template to the source document environment, you can add variables using Handlebars notation.
+
+### Single Value Variables&#x20;
+
+Single-value variables hold one piece of data (**such as a title, URL, or short text**) in your HTML template. You add them by writing your <mark style="color:red;">`{{variableName}}`</mark>, and when the template runs, it will be replaced with its actual value.
+
+#### Example:
+
+```html
+<!-- Page title -->
+<h1>{{page.title}}</h1>
+
+<!-- Subtitle -->
+<h2>{{page.subtitle}}</h2>
+
+<!-- Image source -->
+<img src="{{page.imageURL}}" alt="{{page.imageAltText}}" />
+```
+
+### Looping Arrays
+
+When your JSON contains arrays you can use the <mark style="color:red;">`each`</mark> helper to loop through a list of sections in your array.&#x20;
+
+#### Example:
+
+```html
+{{#each page.sections}}
+  <section>
+    <h3>{{this.header}}</h3>
+    <p>{{this.body}}</p>
+  </section>
+{{/each}}
+```
+
+### Conditional Rendering
+
+You can use <mark style="color:red;">`if-else`</mark> to render a block of HTML when a value meets a certain condition.&#x20;
+
+#### Example:&#x20;
+
+```html
+{{#if page.featured}}
+  <div class="featured-banner">
+    Featured article: {{page.title}}
+  </div>
+{{/if}}
+```
+
+For more information on Handelbars notation, please review our article on [Using Handlebars Templating.](../variables/using-handlebars-templating.md)
+
+
+
