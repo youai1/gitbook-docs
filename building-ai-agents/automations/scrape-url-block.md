@@ -21,6 +21,10 @@ Provide the webpage URL you want to scrape. You can input a static URL directly 
 
 Creates a new variable and saves the extracted text to it. Enter a `variable_name` to store the response for later use in the workflow.
 
+### Auto-enhance
+
+Automatically adjust settings for certain URLs to prevent scraping errors.&#x20;
+
 ### **Provider**
 
 Select the scraping provider to process the webpage. Different providers will have different configuration settings and outputs. Choose the one that works best for your needs.
