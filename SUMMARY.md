@@ -95,6 +95,7 @@
   * [Add Note](building-ai-agents/integrations/add-note.md)
   * [Send Email](building-ai-agents/integrations/send-email.md)
   * [Send SMS](building-ai-agents/integrations/send-sms.md)
+* [Packaged Workflows](building-ai-agents/packaged-workflows.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
 ***

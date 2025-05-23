@@ -95,6 +95,14 @@ Define a spending cap for individual users interacting with the AI Agent. If a u
 
 The **Sharing** tab allows you to configure how your AI Agent can be accessed and shared with others.
 
+#### Public Use
+
+Enabling this setting allows anyone to run the agent without making their own copy.&#x20;
+
+#### Cost Responsibility
+
+Choose who is responsible for the compute costs of the agent running. The owner of the agent is selected by default.
+
 #### **Remixing**
 
 When enabled, others can create a copy of your AI Agent and modify it to build their own version. **Remixing is enabled by default.**
