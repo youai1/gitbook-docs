@@ -23,7 +23,7 @@ Creates a new variable and saves the extracted text to it. Enter a `variable_nam
 
 ### Auto-enhance
 
-Automatically adjust settings for certain URLs to prevent scraping errors.&#x20;
+Automatically adjust settings for certain URLs to prevent scraping errors. In most cases, it is best to leave this enabled in order to ensure consistent scrape results.
 
 ### **Provider**
 
@@ -37,11 +37,11 @@ The **Scrape URL Block** supports multiple providers to extract webpage content,
 
 ### **Default**
 
-The default provider extracts basic text content from the provided URL without additional configuration options. It is suitable for quick, straightforward scraping tasks that do not require advanced customization.
+The default provider is the best option for most web scraping tasks.
 
 ### **Firecrawl**
 
-Unlike traditional web scrapers, [Firecrawl](https://www.firecrawl.dev/) is equipped to handle dynamic content rendered with JavaScript. It offers advanced configuration options for greater control over how webpages are scraped.
+[Firecrawl](https://www.firecrawl.dev/) offers advanced configuration options for greater control over how webpages are scraped. You likely do not need to use Firecrawl, especially when auto-enhance is enabled. If you do choose to use Firecrawl, you have access to some additional options.
 
 #### **Only Main Content**
 
@@ -66,10 +66,6 @@ Lets you include custom HTTP headers with your scraping request. This is useful 
 #### **Remove Tags**
 
 Allows you to define HTML tags to exclude from the scraped content. For instance, adding **`<footer>`** removes footer elements from the output.
-
-#### **Use Extractor**
-
-When enabled, this option uses an LLM (Large Language Model) to extract structured data from the page. When disabled, the block returns raw textual content without further processing.
 
 ***
 
