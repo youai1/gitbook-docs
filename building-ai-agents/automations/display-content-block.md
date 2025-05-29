@@ -39,3 +39,9 @@ Learn more about markdown → \[PAGE: Writing Prompts with Markdown].
 ```markdown
 <audio src="{{myAudioVariable}}" controls /></audio>
 ```
+
+### Display Video Player
+
+```markdown
+<video src="{{myVideoVariable}}"></video>
+```
