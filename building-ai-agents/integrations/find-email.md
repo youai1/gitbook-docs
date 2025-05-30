@@ -16,7 +16,7 @@ Enter the **first name** and **last name** of the person whose email you are sea
 
 ### Output&#x20;
 
-Save the returned email address as a variable. Example: `Name_Email_1`
+Save the returned data as a variable. Example: `Name_Email_1`
 
 ## Sample Output
 
