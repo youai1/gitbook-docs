@@ -31,137 +31,74 @@ Properly configuring these settings is crucial for ensuring your AI Agent functi
 1. Navigate to the **Explorer Tab** on the left.
 2. Click on the Root File at the top of the Explorer Tab to open the AI Agent Settings
 
-### **Details**
+### **General Settings**
 
-The **Details** tab under the **General** section allows you to define key metadata and identifiers for your AI Agent. Make sure AI Agent is properly named, described, and configured for external integration.
+Under the **General** section, you will define key metadata and identifiers for your AI Agent. Make sure AI Agent is properly named, described, and configured for external integration.
 
-#### **Name**
+#### **Metadata**
 
-Enter a clear and concise name for your AI Agent. This name is displayed throughout the MindStudio platform and in shared links.
+1. **Name:** Enter a clear and concise name for your AI Agent. This name is displayed throughout the MindStudio platform and in shared links.
+2. **Short Description:** Provide a brief description of your AI Agent’s purpose and functionality. This helps collaborators and end-users understand its role at a glance.
+3. **API Function Name (Optional)**: Specify a custom API function name if you plan to invoke the AI Agent programmatically via the MindStudio NPM package. This is particularly useful for integrating the AI Agent into larger systems.
+4. **Agent Icon:** Upload an image to serve as the primary icon for your AI Agent. This icon is displayed in the MindStudio interface and associated with the AI Agent in all contexts.
+   * **Recommended Size**: 500x500 pixels.
+   * **File Types Supported**: PNG, JPEG
+5. **Agent ID:** A unique identifier automatically assigned to your AI Agent. This ID is used for backend and API integration purposes. Click the copy icon to copy the Agent ID for use in development or debugging.
 
-#### **Short Description**
-
-Provide a brief description of your AI Agent’s purpose and functionality. This helps collaborators and end-users understand its role at a glance.
-
-#### **API Function Name (Optional)**
-
-Specify a custom API function name if you plan to invoke the AI Agent programmatically via the MindStudio NPM package. This is particularly useful for integrating the AI Agent into larger systems.
-
-#### **Agent ID**
-
-A unique identifier automatically assigned to your AI Agent. This ID is used for backend and API integration purposes. Click the copy icon to copy the Agent ID for use in development or debugging.
-
-***
-
-### **Icons and Media**
-
-The **Icons and Media** tab lets you customize the visual representation of your AI Agent, both within the platform and when shared externally. This section ensures your AI Agentis visually distinct and branded appropriately.
-
-#### **Agent Icon**
-
-Upload an image to serve as the primary icon for your AI Agent. This icon is displayed in the MindStudio interface and associated with the AI Agent in all contexts.
-
-* **Recommended Size**: 500x500 pixels.
-* **File Types Supported**: PNG, JPEG.
-
-#### **Social Sharing Image**
-
-Add an image to represent your AI Agent when it’s shared on social media platforms or messaging apps.
-
-* **Recommended Size**: 1200x630 pixels.
-* **File Types Supported**: PNG, JPEG.
-
-***
-
-### **Usage Limits Tab (General Section)**
-
-The **Usage Limits** tab allows you to set financial and operational boundaries for your AI Agent and its users. This ensures that your AI Agent operates within defined budgets, avoiding unexpected costs or overuse.
-
-#### **Monthly Agent Budget**
-
-Set a maximum spending limit for the AI Agent in a calendar month. If the Agent exceeds this budget, it will be suspended until the next month.
-
-* **Example:** Set this value to $100 to restrict the AI Agent’s operational costs to $100 per month.
-
-#### **Monthly User Budget**
-
-Define a spending cap for individual users interacting with the AI Agent. If a user exceeds this limit within a calendar month, their access will be suspended for that period.
-
-* **Example:** Set this value to $10 to limit each user’s spending to $10 per month.
-
-***
-
-### **Sharing**
-
-The **Sharing** tab allows you to configure how your AI Agent can be accessed and shared with others.
-
-#### Public Use
-
-Enabling this setting allows anyone to run the agent without making their own copy.&#x20;
-
-#### Cost Responsibility
-
-Choose who is responsible for the compute costs of the agent running. The owner of the agent is selected by default.
-
-#### **Remixing**
-
-When enabled, others can create a copy of your AI Agent and modify it to build their own version. **Remixing is enabled by default.**
-
-**Note**: Enabling this setting makes your AI Agent publicly remixable by anyone.
-
-#### **Password Protect**:
-
-When enabled, restricts access to your AI Agent with a password. Only users with the correct password can interact with the Agent. Ideal for limiting access to specific teams or individuals.
-
-***
-
-### **Publishing**
+#### **Landing Page**
 
 This section allows you to create a detailed landing page for your AI agent.
 
-#### **Display Name**&#x20;
-
-This will be the name displayed on the landing page for the AI agent. By default, it will use the name created in **General Details.**&#x20;
-
-#### Subtitle&#x20;
-
-Create short subtitle to be featured underneath the display name.&#x20;
-
-#### Functional Description&#x20;
-
-Create a simple description that explains what the agent does and how it works.
-
-#### Full Description&#x20;
-
-Created a full detailed description of your AI agent. Use **markdown formatting** to add numbers, bullet points, headers and more.&#x20;
-
-#### Tags
-
-Add **tags** to your landing page to optimize SEO. _This section is optional._&#x20;
-
-#### Video Tutorial
-
-Upload a **video tutorial** that will displayed at the top of your landing page. _This section is optional._&#x20;
-
-#### Sample Assets
-
-Link any **sample assets** to show others what the output of your agent might look like. _This section is optional._&#x20;
-
-#### Social Sharing Image
-
-Upload an image that will be displayed the link to your AI agent is shared. Recommended size is **1200x630.**
+1. **Display Name :** This will be the name displayed on the landing page for the AI agent. By default, it will use the name created in **Metadata.**
+2. **Subtitle**: Create short subtitle to be featured underneath the display name.&#x20;
+3. **Functional Description:** Create a simple description that explains what the agent does and how it works.
+4. **Full Description:** Created a full detailed description of your AI agent. Use **markdown formatting** to add numbers, bullet points, headers and more.&#x20;
+5. **Tags:** Add **tags** to your landing page to optimize SEO. _This section is optional._&#x20;
+6. **Video Tutorial:** Upload a **video tutorial** that will displayed at the top of your landing page. _This section is optional._&#x20;
+7. **Sample Assets**: Link any **sample assets** to show others what the output of your agent might look like. _This section is optional._&#x20;
+8. **Social Sharing Image:** Upload an image that will be displayed the link to your AI agent is shared. Recommended size is **1200x630.**
 
 ***
 
-### **Transfer**
+### **Sharing Settings**
 
-The **Transfer** tab allows you to reassign ownership of an AI Agent to a different workspace. This is particularly useful when moving AI Agents between personal and organizational workspaces or consolidating assets under a specific team.
+The Sharing settings allow you to configure how your AI Agent can be accessed and shared with others.
 
-#### **Transfer Workspace**
+#### Access
 
-Select the destination workspace to which the AI Agent will be transferred. Once an AI Agent has been transferred, this action cannot be undone.
+1. **Public Use:** Enabling this setting allows anyone to run the agent without making their own copy.&#x20;
+2. **Remixing:** When enabled, others can create a copy of your AI Agent and modify it to build their own version. **Remixing is enabled by default.** Enabling this setting makes your AI Agent publicly remixable by anyone.
+3. **Cost Responsibility:** Choose who is responsible for the compute costs of the agent running. The owner of the agent is selected by default. This feature can only be viewed if **public use** is enabled.&#x20;
 
-**Note on Ownership**: Each AI Agent is tied to a workspace, and the selected workspace will assume ownership and be billed for its usage.
+#### Usage Limits
+
+1. **Monthly User Budget:** Define a spending cap for individual users interacting with the AI Agent. If a user exceeds this limit within a calendar month, their access will be suspended for that period.
+   * **Example:** Set this value to $10 to limit each user’s spending to $10 per month.
+
+#### Signed URLs
+
+1. **Managed Users:** Allows you to create and manage a unique ID for certain users so they do not need to sign up for a MindStudio account to use an embedded agent.&#x20;
+2. **Create with API (Recommended):** Provides the embed code to use MindStudio's API to managed and create signed URLs. Make a request to your backend using the users unique ID.
+3. **Guest Access (Not recommended):** Provides the embed code to allow direct access to the AI agent. Guest users will have limited access to their run history, and their runs may be erased without notice depending on their browser settings. You will not be able to manage users and are responsible for all usage costs.&#x20;
+4. **API:** Gives access to the [API Request builder.](../developers/api-reference.md)
+
+***
+
+### Runtime Settings
+
+#### Start Up
+
+1. **Entry Workflow:** Select the workflow from which the agent should start. By default, <mark style="color:red;">`Main.flow`</mark> will always be selected.&#x20;
+2. **Onboarding:** Add and configure onboarding user inuputs. These inputs will be displayed the first time a user runs the agent. These variables are set globally and will be available in all threads.&#x20;
+
+#### Global Variables&#x20;
+
+Create global variables for any AI agent that can be set or accessed within any run.&#x20;
+
+#### Advanced
+
+1. **Maximum Operations per Invocation:** This setting controls the number of steps that can be executed in a single invocation. An invocation is an API request, new run, or a manual continuation of a run by a user (e.g., clicking “Next” in a workflow). This setting exists to protect you from runaway processes and infinite loops. Be careful adjusting it.
+2. **Transfer Ownership:** Allows you to reassign ownership of an AI Agent to a different workspace. This is particularly useful when moving AI Agents between personal and organizational workspaces or consolidating assets under a specific team.
 
 ***
 
