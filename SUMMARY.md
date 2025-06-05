@@ -133,7 +133,7 @@
 
 ## Additional Resources
 
-* [Self-Hosted AI Models](additional-resources/self-hosted-ai-models.md)
+* [Self-Hosted AI Models (Quickstart Tutorial)](additional-resources/self-hosted-ai-models-quickstart-tutorial.md)
 * [Glossary](additional-resources/glossary.md)
 * [Allowing Access to Mindstudio From Your Network](additional-resources/allowing-access-to-mindstudio-from-your-network.md)
 * [MindStudio Certification](additional-resources/mindstudio-certification.md)

@@ -1,10 +1,12 @@
 ---
-description: Learn how to connect self-hosted models to MindStudio
+description: >-
+  Learn how to quickly connect self-hosted models to MindStudio for testing &
+  hobbyists
 ---
 
-# Self-Hosted AI Models
+# Self-Hosted AI Models (Quickstart Tutorial)
 
-## 🚧 Prerequisites
+## Prerequisites
 
 Before getting started, ensure you have the following installed on your machine:
 
@@ -13,7 +15,7 @@ Before getting started, ensure you have the following installed on your machine:
 
 ***
 
-## ⚙️ Step-by-Step Instructions
+## Step-by-Step Instructions
 
 #### **1. Start an Ngrok Tunnel**
 
@@ -61,15 +63,7 @@ OLLAMA_HOST=0.0.0.0:11434 OLLAMA_ORIGINS="https://xxxx.ngrok.io/" ollama serve
 
 ***
 
-## ✅ Verification & Tips
-
-* You can test API connectivity via tools like `curl` or Postman before integrating it into an agent.
-* Ensure you do **not close** the Ngrok or Ollama terminal sessions while using the model.
-* To avoid reconnecting frequently, consider Ngrok Authtokens for persistent tunnels.
-
-***
-
-## 🧪 Using the Model in an Agent
+## Using the Model in an Agent
 
 Once added, you can:
 
