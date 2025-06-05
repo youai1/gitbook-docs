@@ -43,8 +43,25 @@ ollama pull llama3.2
 
 Replace the Ngrok URL below with your actual forwarding address from Step 1:
 
+**On Mac / Linux:**
+
 ```bash
 OLLAMA_HOST=0.0.0.0:11434 OLLAMA_ORIGINS="https://xxxx.ngrok.io/" ollama serve
+```
+
+**On Windows:**
+
+First
+
+```bash
+$Env:OLLAMA_HOST   = "0.0.0.0:11434"
+$Env:OLLAMA_ORIGINS = "https://xxxx.ngrok.io/" 
+```
+
+then
+
+```
+ollama serve
 ```
 
 > This command makes your local Ollama instance accessible through the Ngrok tunnel.
