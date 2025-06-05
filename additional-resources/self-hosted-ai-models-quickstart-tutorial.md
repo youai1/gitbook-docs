@@ -25,7 +25,7 @@ Open a terminal window and run the following command to expose port `11434` to t
 ngrok http http://localhost:11434
 ```
 
-> Copy the forwarding HTTPS URL Ngrok provides (e.g. `https://xxxx.ngrok.io`). You'll need it in Step 4.
+> Copy the forwarding HTTPS URL Ngrok provides (e.g. `https://xxxx.ngrok.io`). You'll need this later.
 
 ***
 
