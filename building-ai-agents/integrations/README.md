@@ -4,6 +4,8 @@ description: Leverage third-party services in your MindStudio workflows
 
 # Integrations
 
+{% embed url="https://youtu.be/KNtIG6NdPMw" %}
+
 Integrations in MindStudio connect various apps and services to your workflows. You can find all kinds of integrations by adding new blocks in the [automations](../automations/) tab.
 
 ## Integration Blocks Reference

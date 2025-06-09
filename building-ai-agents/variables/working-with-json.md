@@ -4,6 +4,8 @@ description: Learn about structured data with JSON.
 
 # Working with JSON
 
+{% embed url="https://youtu.be/RKsgA5LLnuI" %}
+
 ## What Is JSON in MindStudio?
 
 * **JSON** (JavaScript Object Notation) is a lightweight data-interchange format

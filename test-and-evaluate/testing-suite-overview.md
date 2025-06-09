@@ -4,6 +4,8 @@ description: Tools to identify issues and optimize workflows
 
 # Testing Suite Overview
 
+{% embed url="https://youtu.be/UEv1B9w7Z3k" %}
+
 MindStudio's **Testing Suite** provides a comprehensive set of tools designed to enhance the quality and performance of your AI Agents. By using these tools, you can identify issues, optimize workflows, and ensure that your AI Agents meet the highest standards of reliability and efficiency. The suite includes:
 
 ## **Evaluations**

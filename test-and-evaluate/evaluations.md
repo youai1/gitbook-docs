@@ -1,5 +1,7 @@
 # Evaluations
 
+{% embed url="https://youtu.be/Htoi0PBYHek" %}
+
 MindStudio's **Evaluations** feature enables you to rigorously test the accuracy and consistency of your workflows. By creating structured tests, you can validate expected outcomes, identify areas for improvement, and ensure your workflows are functioning as intended.
 
 ***

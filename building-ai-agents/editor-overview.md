@@ -4,6 +4,8 @@ description: Get a high-level overview of the MindStudio AI Editor
 
 # Editor Overview
 
+{% embed url="https://youtu.be/fBT6djVTmaA" %}
+
 After creating a new AI Agent, you’ll land in the MindStudio Editor. The editor is made of two key areas: the **Explorer** and the **Navigator** (commonly referred to as the **Workspace Area**).
 
 ### **Explorer Tab**

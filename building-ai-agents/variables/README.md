@@ -4,6 +4,8 @@ description: Learn how to properly leverage variables in your AI Workflows
 
 # Variables
 
+{% embed url="https://youtu.be/Q5XEPAk8ziI" %}
+
 Variables in MindStudio are dynamic placeholders that store data during workflow execution. They allow you to pass information between blocks and workflows seamlessly.
 
 **Example:**

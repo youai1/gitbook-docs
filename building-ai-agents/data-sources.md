@@ -4,6 +4,8 @@ description: Leverage Retrieval Augmented Generation (RAG) in your AI Agents
 
 # Data Sources
 
+{% embed url="https://youtu.be/flwFevdkruI" %}
+
 A **Data Source** in MindStudio is a repository of files that can be queried by AI workflows to supplement the AI’s responses with domain-specific knowledge. By integrating custom data into your workflows, Data Sources enable **Retrieval Augmented Generation (RAG)**—a method where the AI retrieves relevant information from external data sources to generate more accurate and contextually aware outputs.
 
 When you upload files to a Data Source, they are converted into a vector database. This database allows the AI to query your custom data, retrieve relevant context, and incorporate it into its responses.

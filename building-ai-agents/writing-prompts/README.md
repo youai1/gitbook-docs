@@ -4,6 +4,8 @@ description: Learn about prompt engineering for AI tasks.
 
 # Writing Prompts
 
+{% embed url="https://youtu.be/YXK7YpQamiw" %}
+
 Prompts are the foundation of how your AI Agent understands and executes tasks. A well-written prompt ensures your AI Agent delivers precise and meaningful results.
 
 ***

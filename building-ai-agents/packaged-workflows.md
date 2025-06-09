@@ -4,6 +4,8 @@ description: Turn an entire AI agent into a re-useable automation block.
 
 # Packaged Workflows
 
+{% embed url="https://youtu.be/t_96VZP0U2Y" %}
+
 ## Overview
 
 Packaged Workflows turn an entire, multi-step agent into **one reusable drag-and-drop block**. Each block only exposes the inputs a builder needs (via a small form) and surfaces well-structured outputs, hiding all the looping, data-massaging, and citation logic inside the package.&#x20;

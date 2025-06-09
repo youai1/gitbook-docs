@@ -4,6 +4,8 @@ description: Learn about choosing the right AI models for the right task.
 
 # AI Models
 
+{% embed url="https://youtu.be/fTq0GFGL-vk" %}
+
 MindStudio provides access to over 50 AI models from leading providers, allowing you to tailor your workflows for a variety of tasks and use cases.
 
 ## **Select an Underlying AI Model**

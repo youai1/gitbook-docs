@@ -4,6 +4,8 @@ description: Allow for user review of a specific step in the workflow.
 
 # Checkpoint Block
 
+{% embed url="https://youtu.be/XV3eopnYINM" %}
+
 ## Overview
 
 The Checkpoint Block displays a prompt to the user, allows them to revise variables, accept or reject certain steps in the workflow and route them accordingly.&#x20;
