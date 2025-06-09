@@ -96,6 +96,7 @@
   * [Send Email](building-ai-agents/integrations/send-email.md)
   * [Send SMS](building-ai-agents/integrations/send-sms.md)
 * [Packaged Workflows](building-ai-agents/packaged-workflows.md)
+* [MCP Servers](building-ai-agents/mcp-servers.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
 ***
