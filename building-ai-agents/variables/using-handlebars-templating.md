@@ -669,7 +669,7 @@ If `amount` is:
 
 #### <mark style="color:red;">`{{date varName format}}`</mark>
 
-Formats a date string according to the specified format. Supports both custom formats (e.g., "YYYY-MM-DD") and relative keywords like "fromNow" or "toNow".
+Formats a date string according to the specified format. Supports both custom formats (e.g., "YYYY-MM-DD") and relative keywords like "fromNow" or "toNow". Any [Moment.js-compatible](https://momentjs.com/docs/#/displaying/format/) date format can be used.
 
 **Example:**
 
@@ -689,4 +689,18 @@ If `dateString` contains:
 
 ```handlebars
 2020-01-01
+```
+
+You can also format the current date by using `currentDate` as the variable:
+
+**Usage:**
+
+```handlebars
+{{date currentDate "dddd, MMMM Do YYYY, h:mm:ss a"}}
+```
+
+**Output:**
+
+```handlebars
+Monday, June 9th 2025, 3:25:50 pm
 ```
