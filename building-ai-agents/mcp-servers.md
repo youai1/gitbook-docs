@@ -15,9 +15,14 @@ An **MCP (Model Context Protocol) server** lets you expose one or more of your M
 
 ### How to Build an MCP Server with MindStudio
 
-1. **Configure Your Agent as a** [**Packaged Workflow**](packaged-workflows.md)
-   * Open the editor of agent you want to expose and select the **Start** block.
-   * Change the trigger type to **Packaged Workflow**.
+
+
+1.  **Configure Your Agent as a** [**Packaged Workflow**](packaged-workflows.md)
+
+    * Open the editor of agent you want to expose and select the **Start** block.
+    * Change the trigger type to **Packaged Workflow**.
+
+
 2.  **Fill in Workflow Metadata**
 
     | Field                | Example Value                                    |
@@ -26,18 +31,29 @@ An **MCP (Model Context Protocol) server** lets you expose one or more of your M
     | **Description**      | `Get a bullet point summary of today’s AI news.` |
     | **Inputs**           | _(None—this workflow runs standalone)_           |
     | **Outputs**          | _One output: the summary string_                 |
-3. **Save and Publish**
-   * Click **Save** to persist your changes.
-   * Click **Publish** so the workflow is available in the workspace.
-4. **Copy Your Agent’s ID**
-   * After publishing, the agent’s general settings will show its **Agent ID**.
-   * Click the copy icon next to that ID.
+
+
+
+3.  **Save and Publish**
+
+    * Click **Save** to persist your changes.
+    * Click **Publish** so the workflow is available in the workspace.
+
+
+4.  **Copy Your Agent’s ID**
+
+    * After publishing, the agent’s general settings will show its **Agent ID**.
+    * Click the copy icon next to that ID
+
+
 5. **Create the MCP Server**
    * Navigate back to your main MindStudio workspace.
    * Select **MCP Server** from the Workspace settings dropdown.
    * Paste in your copied Agent ID in the space provided.
    * Tap **Add** to register this agent on the server.
    * Copy the connection details snippet to be used with your external integration.&#x20;
+
+***
 
 ### Integrating Your MCP Server with External Tools
 
