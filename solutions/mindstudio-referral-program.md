@@ -1,5 +1,5 @@
 ---
-description: Earn money when you refer a new user to MindStduio
+description: Earn money when you refer a new user to MindStudio
 ---
 
 # MindStudio Referral Program
@@ -8,13 +8,13 @@ Join the movement to revolutionize AI — and earn along the way. With the MindS
 
 ***
 
-## 🌟 **Why Refer MindStudio?**
+## **Why Refer MindStudio?**
 
 MindStudio empowers creators and businesses to build powerful, secure AI agents — all without code. When you refer someone to MindStudio, you’re helping them discover a flexible and secure no-code AI platform _and_ unlocking revenue for yourself.
 
 ***
 
-## 🚀 **How the Program Works**
+## **How the Program Works**
 
 #### **Step 1: Join the Program**
 
@@ -30,11 +30,7 @@ Earn **20% of every workspace subscription** for the **first 12 months** of each
 
 ***
 
-## 🔗 Types of Referral Links
-
-
-
-## 💰 **Commission & Payment Details**
+## **Commission & Payment Details**
 
 * **Commission Rate**: 20% of revenue from each workspace subscription.
 * **Duration**: Default is 12 months, unless otherwise specified.
@@ -44,41 +40,40 @@ Earn **20% of every workspace subscription** for the **first 12 months** of each
 
 ***
 
-## 📋 **FAQ**
+## **FAQ**
 
-#### ❓ How long do commissions last?
+#### How long do commissions last?
 
-By default, commissions are earned for **12 months** from the start of a subscription. However, some promotions may extend this window.
+By default, commissions are earned for **12 months** from the start of a subscription.&#x20;
 
-#### ❓ How are commissions tracked?
+#### How are commissions tracked?
 
 We use cookies that last for **90 days** from the last click on your referral link. If someone clicks again, the 90-day timer resets.
 
-#### ❓ When will I get paid?
+#### When will I get paid?
 
 You’ll receive your payout the **month after** commissions are earned, starting on the **16th** (e.g., February’s commissions are available on March 16).
 
-#### ❓ How will I get paid?
+#### How will I get paid?
 
 Via **PayPal or Stripe**. We support alternative methods if you’re in a country without PayPal access.
 
-#### ❓ What is PartnerStack?
+#### What is PartnerStack?
 
 PartnerStack is the platform we use to manage referrals. It provides you with a dashboard, marketing tools, and up-to-date performance analytics to help you grow.
 
 ***
 
-### 🎯 **Best Practices for Promoting MindStudio**
+### **Best Practices for Promoting MindStudio**
 
 * Highlight how MindStudio simplifies AI development — no coding required
-* Showcase your own AI agents or use cases
+* Showcase your own AI agents or use cases with video demos
 * Use testimonials and success stories from your audience
-* Target tech-savvy entrepreneurs, product teams, or no-code builders
 
 ***
 
-### 📎 **Get Started Today**
+### **Get Started Today**
 
 It only takes a minute to sign up. Start earning by promoting the future of AI with MindStudio.
 
-👉 **Join the Referral Program**
+[**Join the Referral Program**](https://mindstudio.partnerstack.com)
