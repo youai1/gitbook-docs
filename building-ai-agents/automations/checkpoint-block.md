@@ -4,7 +4,7 @@ description: Allow for user review of a specific step in the workflow.
 
 # Checkpoint Block
 
-{% embed url="https://youtu.be/XV3eopnYINM" %}
+{% embed url="https://www.youtube.com/embed/XV3eopnYINM" %}
 
 ## Overview
 

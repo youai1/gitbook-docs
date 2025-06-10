@@ -4,7 +4,7 @@ description: Route block paths based on AI decision making
 
 # Logic Block
 
-{% embed url="https://youtu.be/XV3eopnYINM" %}
+{% embed url="https://www.youtube.com/embed/XV3eopnYINM" %}
 
 The **Logic Block** uses AI to dynamically decide which route to take based on the most likely condition. Unlike the **Menu Block**, where users make the choice, the **Logic Block** evaluates predefined conditions and autonomously selects the appropriate path. This is ideal for automating decisions without direct user input.
 

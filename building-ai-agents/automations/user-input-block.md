@@ -4,7 +4,7 @@ description: Collect data directly from end users
 
 # User Input Block
 
-{% embed url="https://youtu.be/p28WmgLd8ZU" %}
+{% embed url="https://www.youtube.com/embed/p28WmgLd8ZU" %}
 
 The **User Input Block** lets your workflows to collect data directly from end users. Unlike AI-focused blocks, this block presents the forms or interfaces where users can provide input. When New User Inputs are automatically added to the **User Inputs** folder in the left-side **Explorer** tab.
 

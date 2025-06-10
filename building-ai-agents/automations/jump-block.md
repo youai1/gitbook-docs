@@ -4,7 +4,7 @@ description: Route the current workflow to a completely different workflow
 
 # Jump Block
 
-{% embed url="https://youtu.be/XV3eopnYINM" %}
+{% embed url="https://www.youtube.com/embed/XV3eopnYINM" %}
 
 The **Jump Block** enables you to route the current workflow to a completely different workflow. This block is ideal for modularizing workflows or reusing common processes across multiple workflows.
 

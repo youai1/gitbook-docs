@@ -4,6 +4,8 @@ description: Integrate custom data into your AI workflows using RAG
 
 # Query Data Block
 
+{% embed url="https://www.youtube.com/embed/flwFevdkruI" %}
+
 The **Query Data Source Block** allows you to retrieve relevant information from a [Data Source](../data-sources.md) within your workflow. This block is essential for integrating custom data into your AI workflows through Retrieval Augmented Generation (RAG).
 
 ***

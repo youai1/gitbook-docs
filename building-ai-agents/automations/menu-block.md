@@ -4,7 +4,7 @@ description: Route block paths based on human interaction
 
 # Menu Block
 
-{% embed url="https://youtu.be/XV3eopnYINM" %}
+{% embed url="https://www.youtube.com/embed/XV3eopnYINM" %}
 
 The **Menu Block** allows you to present users with a question or statement and multiple options to choose from. Based on the selection, the workflow will route to a corresponding block path. It is ideal for guiding user interactions, creating decision points, and defining different workflow paths.
 
