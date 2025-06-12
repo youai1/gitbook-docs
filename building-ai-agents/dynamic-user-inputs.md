@@ -2,9 +2,11 @@
 description: Learn how to properly use dynamic variables in your AI Workflows
 ---
 
-# Dynamic Variables
+# Dynamic User Inputs
 
-Dynamic Variables in MindStudio enable workflows to generate and modify user inputs in real time, allowing for more adaptive and interactive experiences. This feature is particularly useful for scenarios where follow-up questions depend on previous responses, such as product recommendations, lead generation, and troubleshooting agents.
+{% embed url="https://youtu.be/k80ewAADazw?si=NvQxfA5fBZ3G9rDg" %}
+
+Dynamic inputs in MindStudio enable workflows to generate and modify user inputs in real time, allowing for more adaptive and interactive experiences. This feature is particularly useful for scenarios where follow-up questions depend on previous responses, such as product recommendations, lead generation, and troubleshooting agents.
 
 By leveraging **variables, arrays, and Handlebars helpers**, Dynamic Inputs allow workflows to progressively collect information and adjust questions based on user input.
 

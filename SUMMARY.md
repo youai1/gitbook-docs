@@ -22,7 +22,7 @@
 * [Variables](building-ai-agents/variables/README.md)
   * [Working with JSON](building-ai-agents/variables/working-with-json.md)
   * [Using Handlebars Templating](building-ai-agents/variables/using-handlebars-templating.md)
-* [Dynamic Variables](building-ai-agents/dynamic-variables.md)
+* [Dynamic User Inputs](building-ai-agents/dynamic-user-inputs.md)
 * [Data Sources](building-ai-agents/data-sources.md)
 * [Automations](building-ai-agents/automations/README.md)
   * [Start Block](building-ai-agents/automations/start-block.md)
