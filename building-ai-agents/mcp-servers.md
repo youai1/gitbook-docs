@@ -46,18 +46,43 @@ An **MCP (Model Context Protocol) server** lets you expose one or more of your M
     * Click the copy icon next to that ID
 
 
-5. **Create the MCP Server**
-   * Navigate back to your main MindStudio workspace.
-   * Select **MCP Server** from the Workspace settings dropdown.
-   * Paste in your copied Agent ID in the space provided.
-   * Tap **Add** to register this agent on the server.
-   * Copy the connection details snippet to be used with your external integration.&#x20;
+5.  **Create the MCP Server**
+
+    * Navigate back to your main MindStudio workspace.
+    * Select **MCP Server** from the Workspace settings dropdown.
+    * Paste in your copied Agent ID in the space provided.
+    * Tap **Add** to register this agent on the server.
+    * Copy the connection details snippet to be used with your external integration.&#x20;
+
+
+
+**Connection Details Example Snippet**
+
+```json
+{
+  "mcpServers": {
+    "mindstudio": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://v1.mindstudio-api.com/developer/mcp/v1/d21d0794-c547-421e-8c6b-4ed44b9d8c78",
+        "--header",
+        "Authorization: ${AUTH_TOKEN}",
+        "--transport http-only"
+      ],
+      "env": {
+        "AUTH_TOKEN": "Bearer sked835eff2eeb0609fce74096e6467c736365b59514ccc428d672dbed833562614e648d3c5051c25465d43289413a77e17177cbca890f8ea6652b234df130c6dc"
+      }
+    }
+  }
+}
+```
 
 ***
 
 ### Integrating Your MCP Server with External Tools
 
-* Copy the details snippet into the desired external application. This will vary depending on the service you are using.
+* Copy the connection details snippet into the desired external application. This will vary depending on the service you are using.
   * [Claude](https://support.anthropic.com/en/articles/11175166-about-custom-integrations-using-remote-mcp)
   * [Open AI](https://platform.openai.com/docs/guides/tools-remote-mcp)
   * [Cursor](https://docs.cursor.com/context/model-context-protocol)
