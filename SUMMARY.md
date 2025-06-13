@@ -130,6 +130,7 @@
 
 * [API Reference](developers/api-reference.md)
 * [NPM Package](developers/npm-package.md)
+* [Self Hosted Models](developers/self-hosted-models.md)
 * [Custom Workflow Functions](developers/custom-workflow-functions.md)
 
 ## Additional Resources
