@@ -10,9 +10,9 @@ MindStudio leverages the [**Handlebars templating language**](https://handlebars
 
 ***
 
-### **Conditional Logic**
+## **Conditional Logic**
 
-Handlebars supports `if-else` logic for dynamic outputs:
+Handlebars supports `if-else` logic for dynamic outputs, as well as other control expressions. **For a full list of expressions, visit the** [**Handlebars Documentation**](https://handlebarsjs.com/guide/expressions.html#basic-usage) **site.**
 
 ```markdown
 {{#if userName}}
@@ -22,71 +22,9 @@ Hello! Please log in to get started.
 {{/if}}
 ```
 
-For a full list of expressions, see [Handlebars Documentation](https://handlebarsjs.com/guide/expressions.html#basic-usage).
-
 ***
 
-### **Special Handlebars Methods in MindStudio**
-
-In addition to standard Handlebars features, MindStudio introduces special methods for advanced functionality:
-
-#### <mark style="color:red;">**`{{json varName}}`**</mark>
-
-Converts a JSON object into a string format.
-
-**Example**:
-
-If `userProfile` contains:
-
-```json
-{
-    "name": "John",
-    "age": 30
-}
-```
-
-**Usage:**
-
-```
-{{json userProfile}}
-```
-
-**Output:**
-
-```json
-{"name":"John","age":30}
-```
-
-***
-
-#### <mark style="color:red;">**`{{sample varName number token}}`**</mark>
-
-Extracts a portion of the variable's content based on specified parameters.
-
-* **Parameters**:
-  * **varName**: The variable to sample.
-  * **number**: The number of items (e.g., lines, words, or letters). If negative, starts from the end.
-  * **token**: The type of unit to extract (`line`, `word`, or `letter`).
-* **Examples**:
-  *   Extract the first 5 words:
-
-      ```handlebars
-      {{sample textVar 5 "word"}}
-      ```
-  *   Extract the last 3 lines:
-
-      ```handlebars
-      {{sample textVar -3 "line"}}
-      ```
-  *   Extract the first 10 letters:
-
-      ```handlebars
-      {{sample textVar 10 "letter"}}
-      ```
-
-***
-
-#### <mark style="color:red;">`{{#if condition}}`</mark>
+### <mark style="color:red;">`{{#if condition}}`</mark>
 
 Converts a conditional block that renders content only when the condition is true.
 
@@ -110,7 +48,7 @@ Welcome back!
 
 ***
 
-#### <mark style="color:red;">`{{#unless condition}}`</mark>
+### <mark style="color:red;">`{{#unless condition}}`</mark>
 
 Converts a conditional block that renders content only when the condition is false.
 
@@ -134,7 +72,7 @@ Please sign in.
 
 ***
 
-#### <mark style="color:red;">`{{#each array}}`</mark>
+### <mark style="color:red;">`{{#each array}}`</mark>
 
 Iterates over an array or object and renders the block for every item.
 
@@ -164,7 +102,7 @@ Cherry
 
 ***
 
-#### <mark style="color:red;">`{{#with object}}`</mark>
+### <mark style="color:red;">`{{#with object}}`</mark>
 
 Changes the evaluation context to the provided object for the enclosed block.
 
@@ -192,7 +130,67 @@ Alice is 25 years old.
 
 ***
 
-#### <mark style="color:red;">`{{lookup object key}}`</mark>
+## **Special Handlebars Methods in MindStudio**
+
+In addition to standard Handlebars features, MindStudio introduces special methods for advanced functionality:
+
+### <mark style="color:red;">**`{{json varName}}`**</mark>
+
+Converts a JSON object into a string format.
+
+**Example**:
+
+If `userProfile` contains:
+
+```json
+{
+    "name": "John",
+    "age": 30
+}
+```
+
+**Usage:**
+
+```
+{{json userProfile}}
+```
+
+**Output:**
+
+```json
+{"name":"John","age":30}
+```
+
+***
+
+### <mark style="color:red;">**`{{sample varName number token}}`**</mark>
+
+Extracts a portion of the variable's content based on specified parameters.
+
+* **Parameters**:
+  * **varName**: The variable to sample.
+  * **number**: The number of items (e.g., lines, words, or letters). If negative, starts from the end.
+  * **token**: The type of unit to extract (`line`, `word`, or `letter`).
+* **Examples**:
+  *   Extract the first 5 words:
+
+      ```handlebars
+      {{sample textVar 5 "word"}}
+      ```
+  *   Extract the last 3 lines:
+
+      ```handlebars
+      {{sample textVar -3 "line"}}
+      ```
+  *   Extract the first 10 letters:
+
+      ```handlebars
+      {{sample textVar 10 "letter"}}
+      ```
+
+***
+
+### <mark style="color:red;">`{{lookup object key}}`</mark>
 
 Dynamically looks up a property from an object using a key.
 
@@ -218,31 +216,7 @@ admin
 
 ***
 
-#### <mark style="color:red;">`{{log value}}`</mark>
-
-Logs a value to the console for debugging purposes.
-
-**Example:**
-
-If `debugData` contains:
-
-```handlebars
-{"error": "Not Found"}
-```
-
-**Usage:**
-
-```handlebars
-{{log debugData}}
-```
-
-**Output:**
-
-_<mark style="color:red;">`(Check the browser console for the logged value)`</mark>_
-
-***
-
-#### <mark style="color:red;">`{{get varName "property"}}`</mark>
+### <mark style="color:red;">`{{get varName "property"}}`</mark>
 
 Retrieves a nested property using a JSONPath expression from a JSON object.
 
@@ -271,7 +245,7 @@ alice@example.com
 
 ***
 
-#### <mark style="color:red;">`{{add num increment}}`</mark>
+### <mark style="color:red;">`{{add num increment}}`</mark>
 
 Adds a numeric increment to a given number.
 
@@ -297,7 +271,7 @@ If `num` is:
 
 ***
 
-#### <mark style="color:red;">`{{subtract num decrement}}`</mark>
+### <mark style="color:red;">`{{subtract num decrement}}`</mark>
 
 Subtracts a numeric value from a given number.
 
@@ -323,7 +297,7 @@ If `num` is:
 
 ***
 
-#### <mark style="color:red;">`{{multiply value multiplier}}`</mark>
+### <mark style="color:red;">`{{multiply value multiplier}}`</mark>
 
 Multiplies two numbers.
 
@@ -349,7 +323,7 @@ If `value` is:
 
 ***
 
-#### <mark style="color:red;">`{{divide dividend divisor}}`</mark>
+### <mark style="color:red;">`{{divide dividend divisor}}`</mark>
 
 Divides one number by another.
 
@@ -375,7 +349,7 @@ If `dividend` is:
 
 ***
 
-#### <mark style="color:red;">`{{eq var1 var2}}`</mark>
+### <mark style="color:red;">`{{eq var1 var2}}`</mark>
 
 Checks if two values are equal using the double-equals operator.
 
@@ -407,7 +381,7 @@ true
 
 ***
 
-#### <mark style="color:red;">`{{gt value1 value2}}`</mark>
+### <mark style="color:red;">`{{gt value1 value2}}`</mark>
 
 Checks if the first value is greater than the second value.
 
@@ -439,7 +413,7 @@ true
 
 ***
 
-#### <mark style="color:red;">`{{gte value1 value2}}`</mark>
+### <mark style="color:red;">`{{gte value1 value2}}`</mark>
 
 Checks if the first value is greater than or equal to the second value.
 
@@ -471,7 +445,7 @@ true
 
 ***
 
-#### <mark style="color:red;">`{{lt value1 value2}}`</mark>
+### <mark style="color:red;">`{{lt value1 value2}}`</mark>
 
 Checks if the first value is less than the second value.
 
@@ -503,7 +477,7 @@ true
 
 ***
 
-#### <mark style="color:red;">`{{lte value1 value2}}`</mark>
+### <mark style="color:red;">`{{lte value1 value2}}`</mark>
 
 Checks if the first value is less than or equal to the second value.
 
@@ -535,7 +509,7 @@ true
 
 ***
 
-#### <mark style="color:red;">`{{isEmpty varName}}`</mark>
+### <mark style="color:red;">`{{isEmpty varName}}`</mark>
 
 Evaluates whether a variable is empty (null, undefined, an empty string, an empty array, or an empty object).
 
@@ -561,7 +535,7 @@ true
 
 ***
 
-#### <mark style="color:red;">`{{length varName}}`</mark>
+### <mark style="color:red;">`{{length varName}}`</mark>
 
 Returns the length of an array or a string. Returns "NaN" if the variable is not an array or string.
 
@@ -587,7 +561,87 @@ If `list` contains:
 
 ***
 
-#### <mark style="color:red;">`{{markdown varName}}`</mark>
+### <mark style="color:red;">`{{itemAt varName index}}`</mark>
+
+Return an item from an array.
+
+**Example:**
+
+If `list` contains:
+
+```
+["a", "b", "c"]
+```
+
+**Usage:**
+
+```
+{{itemAt list 1}}
+```
+
+**Output:**
+
+```
+b
+```
+
+_Note that the first item in an array is always index `0`._
+
+***
+
+### <mark style="color:red;">`{{firstItem varName}}`</mark>
+
+Return the first item from an array.
+
+**Example:**
+
+If `list` contains:
+
+```
+["a", "b", "c"]
+```
+
+**Usage:**
+
+```
+{{firstItem list}}
+```
+
+**Output:**
+
+```
+a
+```
+
+***
+
+### <mark style="color:red;">`{{lastItem varName}}`</mark>
+
+Return the last item from an array.
+
+**Example:**
+
+If `list` contains:
+
+```
+["a", "b", "c"]
+```
+
+**Usage:**
+
+```
+{{lastItem list}}
+```
+
+**Output:**
+
+```
+c
+```
+
+***
+
+### <mark style="color:red;">`{{markdown varName}}`</mark>
 
 Converts a Markdown-formatted string into HTML.
 
@@ -615,7 +669,7 @@ This is **bold** text.
 
 ***
 
-#### <mark style="color:red;">`{{formattedNumber number fractionDigits}}`</mark>
+### <mark style="color:red;">`{{formattedNumber number fractionDigits}}`</mark>
 
 Formats a number using locale‑specific formatting with a fixed number of fractional digits.
 
@@ -641,7 +695,7 @@ If `amount` is:
 
 ***
 
-#### <mark style="color:red;">`{{abbreviatedNumber number fractionDigits}}`</mark>
+### <mark style="color:red;">`{{abbreviatedNumber number fractionDigits}}`</mark>
 
 Formats a number into a compact, abbreviated notation (e.g., 1K, 1M) with a specified number of fractional digits.
 
@@ -667,7 +721,7 @@ If `amount` is:
 
 ***
 
-#### <mark style="color:red;">`{{date varName format}}`</mark>
+### <mark style="color:red;">`{{date varName format}}`</mark>
 
 Formats a date string according to the specified format. Supports both custom formats (e.g., "YYYY-MM-DD") and relative keywords like "fromNow" or "toNow". Any [Moment.js-compatible](https://momentjs.com/docs/#/displaying/format/) date format can be used.
 
