@@ -29,7 +29,7 @@ In just a few minutes, you’ll learn how to launch, customize, and deploy your 
 
 If you are new to MindStudio, start here to learn the essentials and make your first AI Agent.
 
-<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Explore Video Courses</strong></td><td>Learn to create AI agents via video guides and masterclass sessions.</td><td><a href="developers/api-reference.md">api-reference.md</a></td></tr><tr><td><strong>Newsroom</strong></td><td>Discover the latest updates and news about MindStudio.</td><td><a href="developers/npm-package.md">npm-package.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-column-title-hidden data-view="cards" data-full-width="false"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Explore Video Courses</strong></td><td>Learn to create AI agents via video guides and masterclass sessions.</td><td><a href="https://help.mindstudio.ai/video-courses">https://help.mindstudio.ai/video-courses</a></td></tr><tr><td><strong>Newsroom</strong></td><td>Discover the latest updates and news about MindStudio.</td><td><a href="https://help.mindstudio.ai/newsroom">https://help.mindstudio.ai/newsroom</a></td></tr></tbody></table>
 
 
 
