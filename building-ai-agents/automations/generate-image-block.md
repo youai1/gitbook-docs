@@ -63,3 +63,67 @@ Crafting effective prompts for image generation ensures that the AI model produc
 #### Example Output (DALL-E 3):
 
 ![DALL·E Output: A hyper-realistic futuristic cityscape at sunset, featuring towering skyscrapers with glass facades reflecting orange and pink hues. Floating vehicles](<../../.gitbook/assets/DALL·E 2024-11-22 14.28.14 - A hyper-realistic futuristic cityscape at sunset, featuring towering skyscrapers with glass facades reflecting orange and pink hues. Floating vehicles.webp>)
+
+## Image CDN Transformation Parameters
+
+MindStudio’s Image CDN lets you dynamically resize and optimize images using URL query parameters. Just add these parameters to your image URL to customize how it's delivered.
+
+#### Base URL
+
+All images are served from:
+
+```
+https://images.mindstudio-cdn.com/
+```
+
+To transform an image, append query parameters to the URL like this:
+
+```
+https://images.mindstudio-cdn.com/path/to/image.jpg?w=400&h=300&fm=webp&fit=crop
+```
+
+***
+
+### Supported Parameters
+
+#### `w` – Width
+
+* **What it does:** Sets the width of the image in pixels.
+* **Example:** `?w=400` (image will be resized to 400px wide)
+
+***
+
+#### `h` – Height
+
+* **What it does:** Sets the height of the image in pixels.
+* **Example:** `?h=300` (image will be resized to 300px tall)
+
+***
+
+#### `fm` – Format
+
+* **What it does:** Changes the file format of the image.
+* **Supported values:**
+  * `webp`
+  * `avif`
+  * `jpeg`
+  * `auto` (lets the CDN choose the best format based on the user's device)
+* **Example:** `?fm=webp`
+
+***
+
+#### `fit` – Fit Mode
+
+* **What it does:** Controls how the image fills the width and height you provide.
+* **Supported values:**
+  * `crop` – Crops the image to fit exactly
+  * `cover` – (default) Resizes while maintaining aspect ratio to cover the full area
+* **Example:** `?fit=crop`
+
+***
+
+### Tips
+
+* You can combine parameters, like `?w=400&h=300&fm=webp`.
+* If no parameters are added, the original image is served as-is.
+* These transformations are handled automatically and served via a fast global CDN.
