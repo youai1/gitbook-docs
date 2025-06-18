@@ -15,12 +15,6 @@ layout:
 
 # Overview
 
-MindStudio's intelligence infrastructure gives everyone—from developers to non-technical teams—the power to build and deploy specialized AI Agents.
-
-## New to MindStudio? Watch this video...
-
-Anyone can build AI Agents—no experience required. Whether it's your first time or you're just looking for a quick refresher, this video will walk you through the basics of building your first AI Agent with MindStudio.
-
 In just a few minutes, you’ll learn how to launch, customize, and deploy your own intelligent tools—no coding needed.
 
 {% embed url="https://www.youtube.com/embed/JlDqei_-THY" %}

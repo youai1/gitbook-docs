@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [AI Agent Use Cases](ai-agent-use-cases.md)
+* [AI Agent Use Cases](get-started/ai-agent-use-cases.md)
 
 ## Get Started
 
