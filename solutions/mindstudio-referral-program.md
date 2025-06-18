@@ -1,16 +1,21 @@
 ---
-description: Earn money when you refer a new user to MindStudio
+description: Earn money when you refer people / organizations to MindStudio
 ---
 
 # MindStudio Referral Program
 
-Join the movement to revolutionize AI — and earn along the way. With the MindStudio Referral Program, you can earn generous rewards simply by sharing a tool you already believe in.
-
-***
-
 ## **Why Refer MindStudio?**
 
-MindStudio empowers creators and businesses to build powerful, secure AI agents — all without code. When you refer someone to MindStudio, you’re helping them discover a flexible and secure no-code AI platform _and_ unlocking revenue for yourself.
+1. Every individual and organization can leverage MindStudio to transform their work — making themselves dramatically more efficient, productive, automated. **Tell people about MindStudio and they will thank you for it!**
+2. When you refer people / organizations to MindStudio and they become paying customers, you get a commission. **We don't have ANY sales people, zero!** Instead, we take the money we would have paid to sales people and **reward our passionate evangelists — you!**\
+   \
+   **Some examples of earnings:**\
+   \
+   Refer an individual that uses our Business Tier ($100 per month), and you get $20 per month for up to a year — <mark style="color:green;">**$240 per person that you referred**</mark>.\
+   \
+   Refer an organization that uses our Enterprise Tier (depends on the size of organization), and you can get <mark style="color:green;">**thousands of dollars per month**</mark>, for up to a year (<mark style="color:green;">**tens of thousands of dollars**</mark>).\
+   \
+
 
 ***
 
