@@ -1,5 +1,6 @@
 ---
 description: Automatically generate your workflows with AI
+hidden: true
 ---
 
 # Workflow Generator

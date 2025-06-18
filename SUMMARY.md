@@ -1,12 +1,13 @@
 # Table of contents
 
+* [Overview](README.md)
+* [AI Agent Use Cases](ai-agent-use-cases.md)
+
 ## Get Started
 
-* [Overview](README.md)
 * [MindStudio Chrome Extension](get-started/mindstudio-chrome-extension.md)
 * [Quickstart Guide](get-started/quickstart-guide.md)
 * [What is an AI Agent?](get-started/what-is-an-ai-agent.md)
-* [AI Agent Use Cases](get-started/ai-agent-use-cases.md)
 
 ***
 
