@@ -36,6 +36,21 @@ When you have an introduction to make, fill out the [**Introduction Registration
 
 Below are sample messages you can use to offer this to your network. These work well as a personal email, LinkedIn post, or DM.
 
+\[fir
+
+You might find this useful.
+
+Level up your team's AI skills with a free 1 hour Lunch & Learn.
+
+Team will learn:
+
+* Basic to advanced prompting (prompt engineering)
+* How to choose between different AI modes
+* High ROI use cases for AI within various job functions
+* How to build custom AI Agents  (no-coding required)
+
+
+
 ### **Sample Email #1**
 
 Subject: AI “Lunch & Learn” for your team
