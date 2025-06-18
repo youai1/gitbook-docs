@@ -34,13 +34,13 @@ When you have an introduction to make, fill out the [**Introduction Registration
 
 ## Sample Outreach
 
-Below are sample messages you can use to offer this to your network. These work well as a personal email, LinkedIn post, or DM.
+Here is some simple messaging around the offer. You can send this to your contacts via email, or share on social media.&#x20;
 
-\[fir
+\[First Name]
 
 You might find this useful.
 
-Level up your team's AI skills with a free 1 hour Lunch & Learn.
+"Level up your team's AI skills" -- a free 1 hour Lunch & Learn (can be any time of day, not just lunch).
 
 Team will learn:
 
@@ -49,58 +49,6 @@ Team will learn:
 * High ROI use cases for AI within various job functions
 * How to build custom AI Agents  (no-coding required)
 
+This is live training via Zoom, typically led by [Dmitry Shapiro, CEO of MindStudio](https://www.linkedin.com/in/dmitry-shapiro-a2b1/).
 
-
-### **Sample Email #1**
-
-Subject: AI “Lunch & Learn” for your team
-
-\[First Name],
-
-MindStudio (platform behind 200k+ deployed AI Agents — used by ServiceNow, Stanford, and the UK government) is offering something simple but high impact:
-
-A **free 1-hour AI “Lunch & Learn”** for teams — no AI experience required — plus **1 month of free access** so your team can start building real AI Agents (no code).
-
-If that would be valuable for your org, happy to connect you directly to the founders. Low lift, and teams get a lot out of it.
-
-\[Your Name]
-
-### **Sample Email #2**
-
-**Subject:** An idea to upskill your team on AI
-
-Hey \[First Name],
-
-Wanted to pass this along. I can connect you with the team at **MindStudio**. They’re the platform behind 200k+ AI Agents — used by ServiceNow, Stanford, and the UK government.
-
-They’re offering a **free 1-hour AI “Lunch & Learn”** for teams, plus **1 month of free access** to build AI Agents (no code or experience needed).
-
-It’s been a great way for teams I know to start getting hands-on with AI.
-
-If you want an intro, I can ask their CEO directly.
-
-\[Your Name]
-
-### **Sample Social Post #1**
-
-If your team (20+ employees) wants a free AI “Lunch & Learn” — I can make that happen.
-
-MindStudio (platform behind 200k+ AI Agents — used by ServiceNow, Stanford, and the UK government) is running a program right now:
-
-* 1-hour AI Lunch & Learn (free, no experience needed)
-* 1 month of free access to build your own AI Agents (no code)
-
-Great way to uplevel your team fast on AI.
-
-If you want in — DM me and I’ll connect you to the founders.
-
-### **Sample Social Post #2**
-
-If your team would benefit from a **free AI “Lunch & Learn”** — DM me.
-
-MindStudio (platform behind 200k+ deployed AI Agents — used by ServiceNow, HMRC, Stanford, Advance Local) is offering:
-
-* A 1-hour AI “Lunch & Learn” (free, no experience needed)
-* 1 month of access to build AI Agents (no code)
-
-Several teams I know have done this — great way to upskill fast.
+Feel free to write your own of course!
