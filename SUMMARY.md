@@ -147,3 +147,4 @@
 * [MindStudio for Enterprises](solutions/mindstudio-for-enterprises.md)
 * [MindStudio Referral Program](solutions/mindstudio-referral-program.md)
 * [MindStudio Ambassador Program](solutions/mindstudio-ambassador-program.md)
+* [MindStudio Introductions Program](solutions/mindstudio-introductions-program.md)
