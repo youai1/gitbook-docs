@@ -107,7 +107,7 @@
 * [Scheduled AI Agents](deployment-of-ai-agents/scheduled-ai-agents.md)
 * [AI Agents for Chrome Extension](deployment-of-ai-agents/ai-agents-for-chrome-extension.md)
 * [Email-Triggered Agents](deployment-of-ai-agents/email-triggered-agents.md)
-* [Running via API](deployment-of-ai-agents/running-via-api.md)
+* [Running Agents via API](deployment-of-ai-agents/running-agents-via-api.md)
 * [Embedding AI Agents](deployment-of-ai-agents/embedding-ai-agents.md)
 * [Webhook-Triggered](deployment-of-ai-agents/webhook-triggered.md)
 * [Custom Agent Modules (Using Packaged Workflows)](deployment-of-ai-agents/custom-agent-modules-using-packaged-workflows.md)
@@ -132,7 +132,7 @@
 
 * [API Reference](developers/api-reference.md)
 * [NPM Package](developers/npm-package.md)
-* [Self Hosted Models](developers/self-hosted-models.md)
+* [Self-Hosted Models](developers/self-hosted-models.md)
 * [Custom Workflow Functions](developers/custom-workflow-functions.md)
 
 ## Additional Resources
