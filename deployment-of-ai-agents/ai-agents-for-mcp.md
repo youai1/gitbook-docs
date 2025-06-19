@@ -2,9 +2,11 @@
 description: Learn about creating an MCP server with MindStudio.
 ---
 
-# MCP Servers
+# AI Agents for MCP
 
-### What is an MCP Server?
+{% embed url="https://www.youtube.com/watch?v=9-To0KuQDeQ" %}
+
+## What is an MCP Server?
 
 An **MCP (Model Context Protocol) server** lets you expose one or more of your MindStudio agents as tools that external applications or LLMs can invoke. In practice, an MCP server:
 
@@ -17,7 +19,7 @@ An **MCP (Model Context Protocol) server** lets you expose one or more of your M
 
 
 
-1.  **Configure Your Agent as a** [**Packaged Workflow**](packaged-workflows.md)
+1.  **Configure Your Agent as a** [**Packaged Workflow**](custom-agent-modules-using-packaged-workflows.md)
 
     * Open the editor of agent you want to expose and select the **Start** block.
     * Change the trigger type to **Packaged Workflow**.
@@ -65,13 +67,13 @@ An **MCP (Model Context Protocol) server** lets you expose one or more of your M
       "command": "npx",
       "args": [
         "mcp-remote",
-        "https://v1.mindstudio-api.com/developer/mcp/v1/d21d0794-c547-421e-8c6b-4ed44b9d8c78",
+        "https://v1.mindstudio-api.com/developer/mcp/v1/YOUR-AGENT-ID",
         "--header",
         "Authorization: ${AUTH_TOKEN}",
         "--transport http-only"
       ],
       "env": {
-        "AUTH_TOKEN": "Bearer sked835eff2eeb0609fce74096e6467c736365b59514ccc428d672dbed833562614e648d3c5051c25465d43289413a77e17177cbca890f8ea6652b234df130c6dc"
+        "AUTH_TOKEN": "Bearer YOUR_API_KEY"
       }
     }
   }

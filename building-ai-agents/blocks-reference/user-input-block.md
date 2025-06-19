@@ -14,7 +14,7 @@ A **User Input** in MindStudio is a form-based interface that collects data dire
 
 When New User Inputs are created, they are automatically added to the **User Inputs** folder in the left-side **Explorer** tab.
 
-## Add Existing User Inputs
+## Add Existing User Inputs to the Block
 
 1. Click on the + button at the bottom of the User Inputs Configuration Panel.
 2. In the modal, choose from created User Inputs to add to the block.
@@ -35,13 +35,13 @@ When New User Inputs are created, they are automatically added to the **User Inp
 2. Configure your User Input.
 3. After configuring the User Input, you will need to add the User Input to the User Input Block.
 
-## Edit A User Input
+### Edit A User Input
 
 1. Open the **User Inputs** folder from the **Explorer** tab.
 2. Click on the User Input that you’d like to modify
 3. Changes to configurations are automatically saved.
 
-## **Duplicate a User Input**
+### **Duplicate a User Input**
 
 1. Open the **User Inputs** folder in the **Explorer** tab.
 2. Right-click on the User Input to duplicate.
@@ -86,7 +86,7 @@ The <mark style="color:red;">`variable_name`</mark> is a unique identifier for t
 
 The User Input block allows for multiple file upload. Multiple files are stored in one JSON variable via index. **Example**: <mark style="color:red;">`[0: file 1 extracted text, 1: file 2 extracted text]`</mark>
 
-You can extract the contents of each file by using the proper [JSON structure variable syntax.](../variables/#extracting-a-value-from-a-json-structure)
+You can extract the contents of each file by using the proper [JSON structure variable syntax.](../variables.md#extracting-a-value-from-a-json-structure)
 
 ### Configurations
 
@@ -99,3 +99,48 @@ An optional image displayed above the input field when presented to the end user
 ### Test Value
 
 Pre-fills the input field with a sample response when previewing workflows. This simplifies front-end testing when viewing a draft preview of an AI Agent.
+
+***
+
+## Dynamic Multiple Choice Inputs
+
+{% embed url="https://youtu.be/k80ewAADazw?si=NvQxfA5fBZ3G9rDg" %}
+
+You can create **Multiple Choice User Inputs** that dynamically display options generated during a previous step in your workflow. This is useful when you want users to select from data collected or processed earlier—such as a list of entities extracted from an article or scraped from a webpage.
+
+### Example Use Case
+
+Let’s say your AI Agent scrapes a URL, extracts named entities, and then asks the user to choose one for further research. Instead of hardcoding the options, you can populate them dynamically using a JSON variable.
+
+### Step-by-Step Instructions
+
+1. **Create a JSON Array in a Previous Block**
+   *   In the automation step where you extract or define options (e.g., from text analysis or scraping), generate an array of objects with the following structure:
+
+       ```json
+       [
+         {
+           "label": "OpenAI",
+           "subtitle": "AI research organization"
+         },
+         {
+           "label": "Google",
+           "subtitle": "Technology company"
+         }
+       ]
+       ```
+   * Ensure the output is formatted as JSON and save it as a variable, e.g., `entities`.
+2. **Configure the User Input Block**
+   * Add a **Multiple Choice** input block.
+   * Set the question prompt, such as:\
+     `Which entity would you like to research further?`
+   * Scroll down to the “Dynamic Source” section and set the source to the variable you created (`entities`).
+3. **How It Works**
+   * When the workflow reaches this input step, the Agent will present the dynamically generated list of entities to the user.
+   * The `label` is shown as the choice text.
+   * The selected `label` is what gets stored in the variable tied to the user input.
+
+### Notes
+
+* Make sure the variable used for dynamic choices is structured exactly as shown, with both `label` and `subtitle` fields in each object.
+* You can further process the selected input in subsequent blocks—for example, by conducting more research or generating reports.

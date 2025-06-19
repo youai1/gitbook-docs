@@ -2,7 +2,7 @@
 description: Turn an entire AI agent into a re-useable automation block.
 ---
 
-# Packaged Workflows
+# Custom Agent Modules (Using Packaged Workflows)
 
 {% embed url="https://youtu.be/t_96VZP0U2Y" %}
 
@@ -58,7 +58,7 @@ Map internal variables to output names. These are the variables the block will e
 3. Paste the ID and click **Add**.
 4. The new block appears instantly in the block picker for every builder in that workspace.&#x20;
 
-In order to add the packaged workflow to the repository in your workspace, the packaged workflow must have [public use](publishing-and-versioning.md#public-use) turned on.
+In order to add the packaged workflow to the repository in your workspace, the packaged workflow must have [public use](../building-ai-agents/publishing-and-versioning.md#public-use) turned on.
 
 <figure><img src="../.gitbook/assets/Add repo.png" alt=""><figcaption></figcaption></figure>
 

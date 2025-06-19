@@ -12,7 +12,7 @@ The **Generate Image Block** sends a text prompt to an AI model and returns an i
 
 Define the text description of the image you want the AI model to generate. Use `{{variables}}` to make the prompt dynamic based on a previous step in the workflow.
 
-[Learn about variables →](../variables/)
+[Learn about variables →](../variables.md)
 
 ### **Output Variable**
 

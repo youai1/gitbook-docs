@@ -44,7 +44,7 @@ Finalizes the workflow and returns output values to the calling function or user
 
 #### **Return Data**:
 
-* **JSON Output**: Define the final data to return using JSON format. Create key value pairs and use <mark style="color:red;">`{{variables}}`</mark> for [dynamic content](../variables/).
+* **JSON Output**: Define the final data to return using JSON format. Create key value pairs and use <mark style="color:red;">`{{variables}}`</mark> for [dynamic content](../variables.md).
 
 #### **Notifications**:
 

@@ -12,9 +12,9 @@ The **Display Content Block** allows you to present messages or outputs directly
 
 Define the message you want to display to the user. The **Display Content Block** supports markdown formatting, allowing you to structure text, add emphasis, or include links for a polished presentation. Use <mark style="color:red;">`{{variables}}`</mark> to make the message dynamic.
 
-[Learn about variables →](../variables/)
+[Learn about variables →](../variables.md)
 
-[Learn more about Markdown formatting →](../writing-prompts/#using-markdown-to-write-prompts)
+[Learn more about Markdown formatting →](../writing-prompts.md#using-markdown-to-write-prompts)
 
 #### **Example Message**:
 
