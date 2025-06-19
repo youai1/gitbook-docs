@@ -2,7 +2,6 @@
 description: >-
   Trigger AI workflows by sending an HTTP request to a unique webhook URL —
   ideal for automation tools, third-party integrations, or event-based systems.
-hidden: true
 ---
 
 # Webhook-Triggered
