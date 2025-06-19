@@ -12,6 +12,8 @@ After creating a new AI Agent, you’ll land in the MindStudio Editor. The edito
 
 On the left you’ll find the **Explorer Tab.** This is where you'll find all of the resources used to build your AI Agents.
 
+<figure><img src="../.gitbook/assets/Screenshot 2025-06-19 at 1.57.24 PM.png" alt=""><figcaption></figcaption></figure>
+
 ### Types of Resources
 
 #### **Data Sources**
@@ -49,6 +51,8 @@ Learn more about Workflows →
 ### Navigator
 
 The large area covering the rest of the Editor if the Main Workspace, also refer to as the **Navigator**. This area will change depending on what you have selected. By default, the Editor will open on the `Main.flow` workflow and have the **Prompt Tab** open.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-06-19 at 1.58.28 PM.png" alt=""><figcaption></figcaption></figure>
 
 ### Additional Global Controls
 
