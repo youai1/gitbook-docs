@@ -4,6 +4,17 @@ description: Execute a sub-workflow within a parent workflow
 
 # Run Workflow Block
 
+{% hint style="danger" %}
+**REQUIRED:** Before a sub-workflow can be used in the Run Workflow Block, the **sub-workflow** must be configured with:&#x20;
+
+* **Launch Variables** in the **Start Block**&#x20;
+* **Structured JSON Outputs** in the **End Block.**
+
+***
+
+If these are not configured, then the workflow will not run properly.
+{% endhint %}
+
 The **Run Workflow Block** allows you to execute a separate workflow within your main workflow. This block is ideal for running sub-processes and reusing common processes across multiple workflows.
 
 ***
@@ -50,17 +61,6 @@ Map the outputs of the sub-workflow back to variables in the parent workflow.
 ***
 
 ## **Preparing the Sub-Workflow**
-
-{% hint style="danger" %}
-**REQUIRED:** Before a sub-workflow can be used in the Run Workflow Block, the **sub-workflow** must be configured with:&#x20;
-
-* **Launch Variables** in the **Start Block**&#x20;
-* **Structured JSON Outputs** in the **End Block.**
-
-***
-
-If these are not configured, then the workflow will not run properly.
-{% endhint %}
 
 ### **Launch Variables**:
 

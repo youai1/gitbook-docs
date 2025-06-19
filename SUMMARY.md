@@ -107,7 +107,7 @@
 * [Scheduled AI Agents](deployment-of-ai-agents/scheduled-ai-agents.md)
 * [AI Agents for Chrome Extension](deployment-of-ai-agents/ai-agents-for-chrome-extension.md)
 * [Email-Triggered Agents](deployment-of-ai-agents/email-triggered-agents.md)
-* [Running Agents via API](deployment-of-ai-agents/running-agents-via-api.md)
+* [Running Agents via API](deployment-of-ai-agents/running-via-api.md)
 * [Embedding AI Agents](deployment-of-ai-agents/embedding-ai-agents.md)
 * [Webhook-Triggered](deployment-of-ai-agents/webhook-triggered.md)
 * [Custom Agent Modules (Using Packaged Workflows)](deployment-of-ai-agents/custom-agent-modules-using-packaged-workflows.md)
