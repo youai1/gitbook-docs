@@ -150,3 +150,4 @@
 * [MindStudio Referral Program](solutions/mindstudio-referral-program.md)
 * [MindStudio Ambassador Program](solutions/mindstudio-ambassador-program.md)
 * [MindStudio Introductions Program](solutions/mindstudio-introductions-program.md)
+* [MindStudio AI Enablement Program](solutions/mindstudio-ai-enablement-program.md)
