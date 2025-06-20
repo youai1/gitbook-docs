@@ -14,11 +14,11 @@ Your team will learn how to:
 * Build custom AI Agents for their specific business needs
 * Identify high-ROI use cases for AI across job functions
 
-After the workshop, you’ll also receive **1 month of free access to MindStudio’s Business plan**, so your team can experiment and deploy AI Agents in real workflows.
+After the workshop, you’ll also receive **1 month of free access to MindStudio’s Business plan**, so your team can experiment and deploy AI Agents.
 
-### Why Are We Offering This?
+### Why Are We Doing This?
 
-AI skills are now expected of every leader and their team, but most organizations don’t know where to start. This free program makes it simple for managers and executives to equip their teams with the AI skills and tools needed to drive impact, with no budget approval required.
+AI skills are now expected of every leader and their teams, but most organizations don’t know where to start. This free program makes it simple for managers and executives to equip their teams with AI skills and tools, with no budget approval required.
 
 ### What Your Team Will Learn
 
@@ -37,7 +37,7 @@ Teams at:
 * All industries: tech, media, healthcare, education, finance, professional services, manufacturing, logistics, public sector, and more
 * Functional groups: marketing, sales, HR, recruiting, customer success, product, ops, legal, etc.
 
-### **Requirements:**
+**Requirements:**
 
 * Organizations with **20 or more employees**
 * Able to have **at least 5 team members attend** the Lunch & Learn session
@@ -54,8 +54,8 @@ Over 200,000 AI Agents are currently live across business, government, and educa
 ### What Happens After the Lunch & Learn?
 
 * **1 month free access** to MindStudio’s Business Tier — build as many AI Agents as you like
-* Teams can immediately start experimenting with AI agent development
+* Teams can immediately start develping with AI agents
 
 ### Getting Started
 
-If you’d like to schedule a free Lunch & Lunch session for your team: [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfbKYpeBXzek4Tnv1pEper7QoYPQwobHvCM6cA_tsxpxZ_vrQ/viewform?usp=header).
+If you’d like to schedule a free Lunch & Learn session for your team: [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfbKYpeBXzek4Tnv1pEper7QoYPQwobHvCM6cA_tsxpxZ_vrQ/viewform?usp=header).
