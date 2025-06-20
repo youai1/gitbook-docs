@@ -6,7 +6,7 @@ description: Free Lunch & Learn Workshop + 1 Month of Business Tier
 
 ### TL;DR
 
-We're offering \*\*\*\*teams **a free 1-hour “Lunch & Learn” style AI training session** — live via Zoom.
+We're offering teams **a free 1-hour “Lunch & Learn” style AI training session** — live via Zoom.
 
 Your team will learn how to:
 
