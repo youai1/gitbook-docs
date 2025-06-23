@@ -6,10 +6,10 @@ description: Earn recurring revenue by introducing MindStudio to organizations.
 
 **TL;DR**
 
-* Introduce us to your friends that work in companies / orgs of all types (over 20 employees)
-* We will schedule a free 1 hour “Lunch and Learn” training session, where we will uplevel their team’s knowledge of applied AI, and teach them to build custom AI Agents for their business. No technical skills are required on their part. Anyone can build AI Agents with MindStudio.
-* We will also give them free access to MindStudio’s Business Tier for a month, so they can build as many Agents as they need, and experience the impact of AI Agents in their own business.
-* If they end up wanting to become a customer and switch to a paid plan, we will compensate you for making the introduction – 20% of what they spend for an entire year. See below for some back of napkin math (this could be in the thousands of dollars).
+* **Introduce** us to your friends that work in companies / orgs of all types (over 20 employees)
+* **Schedule** a free 1 hour “Lunch and Learn” training session, where we will uplevel their team’s knowledge of applied AI, and teach them to build custom AI Agents for their business. No technical skills are required on their part. Anyone can build AI Agents with MindStudio.
+* We will also give them **free access to MindStudio’s Business Tier for a month**, so they can build as many Agents as they need, and experience the impact of AI Agents in their own business.
+* If they end up wanting to become a customer and switch to a paid plan, we will compensate you for making the introduction **– 20% of what they spend for an entire year. See below for some back of napkin math (this could be in the thousands of dollars).**
 
 ## Overview
 
