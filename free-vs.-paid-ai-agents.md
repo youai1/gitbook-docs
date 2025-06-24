@@ -3,6 +3,7 @@ description: >-
   A Comprehensive Guide to Understanding the Costs of AI Agents and How to
   Manage Your Balance
 hidden: true
+noIndex: true
 ---
 
 # Free vs. Paid AI Agents

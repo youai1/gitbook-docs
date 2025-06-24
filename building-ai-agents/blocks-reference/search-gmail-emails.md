@@ -1,6 +1,7 @@
 ---
 description: Retrieve Gmail search results in a MindStudio workflow
 hidden: true
+noIndex: true
 ---
 
 # Search Gmail Emails

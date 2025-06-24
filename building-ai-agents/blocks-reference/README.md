@@ -77,14 +77,14 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Other Automations
 
-| Block Name                          | Purpose                                     |
-| ----------------------------------- | ------------------------------------------- |
-| [Apify](apify.md)                   | Run an Apify actor                          |
-| [Run Scenario](run-scenario.md)     | Run a specified scenario on Make.com        |
-| [Post to Slack](post-to-slack.md)   | Send a message to a specified Slack channel |
-| [HTTP Request](http-request.md)     | Send an HTTP request                        |
-| [Run Node](run-node.md)             | Trigger an n8n workflow                     |
-| [Create Contact](create-contact.md) | Create a contact in ActiveCampaign          |
-| [Add Note](add-note.md)             | Add a note to a contact in ActiveCampaign   |
-| [Send Email](send-email.md)         | Send an email to a registered email address |
-| [Send SMS](send-sms.md)             | Send an SMS to a valid phone number         |
+| Block Name                                         | Purpose                                     |
+| -------------------------------------------------- | ------------------------------------------- |
+| [Apify](apify-block.md)                            | Run an Apify actor                          |
+| [Run Scenario](run-scenario-make.md)               | Run a specified scenario on Make.com        |
+| [Post to Slack](post-to-slack.md)                  | Send a message to a specified Slack channel |
+| [HTTP Request](http-request.md)                    | Send an HTTP request                        |
+| [Run Node](run-node-n8n.md)                        | Trigger an n8n workflow                     |
+| [Create Contact](create-contact-activecampaign.md) | Create a contact in ActiveCampaign          |
+| [Add Note](add-note-activecampaign.md)             | Add a note to a contact in ActiveCampaign   |
+| [Send Email](send-email.md)                        | Send an email to a registered email address |
+| [Send SMS](send-sms.md)                            | Send an SMS to a valid phone number         |

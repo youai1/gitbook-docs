@@ -1,6 +1,7 @@
 ---
 description: Learn about an AI Agent's core capabilities and functions.
 hidden: true
+noIndex: true
 ---
 
 # What is an AI Agent?

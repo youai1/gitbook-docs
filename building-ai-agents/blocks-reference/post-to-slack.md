@@ -1,5 +1,7 @@
 ---
 description: Send a message to a specified Slack channel in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
 # Post to Slack

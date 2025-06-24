@@ -1,6 +1,7 @@
 ---
 description: Everything you need to know to get started creating AI Agents.
 hidden: true
+noIndex: true
 ---
 
 # Quickstart Guide

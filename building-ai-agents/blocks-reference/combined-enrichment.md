@@ -1,6 +1,8 @@
 ---
 description: Use Hunter.io to get company & person data via email in a MindStudio workflow
 hidden: true
+noIndex: true
+noRobotsIndex: true
 ---
 
 # Combined Enrichment

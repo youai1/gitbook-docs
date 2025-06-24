@@ -1,6 +1,7 @@
 ---
 description: AI Superpowers right in your browser.
 hidden: true
+noIndex: true
 ---
 
 # MindStudio Chrome Extension
