@@ -1,6 +1,10 @@
+---
+description: Join hundreds of experts who are monetizing AI services
+---
+
 # MindStudio Solutions Partners
 
-Building custom AI Agents is not only a business — it’s a revolution transforming how people work. MindStudio Solutions Partners are at the forefront.
+Building AI Agents is not just a business — it’s transforming how people work. MindStudio Solutions Partners are at the forefront.
 
 ## Become a partner
 

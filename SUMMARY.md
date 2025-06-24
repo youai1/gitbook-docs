@@ -151,3 +151,7 @@
 * [MindStudio Ambassador Program](solutions/mindstudio-ambassador-program.md)
 * [MindStudio Introductions Program](solutions/mindstudio-introductions-program.md)
 * [MindStudio AI Enablement Program](solutions/mindstudio-ai-enablement-program.md)
+
+***
+
+* [College Grad AI Training Program](college-grad-ai-training-program.md)
