@@ -140,18 +140,3 @@
 * [Self-Hosted AI Models (Quickstart Tutorial)](additional-resources/self-hosted-ai-models-quickstart-tutorial.md)
 * [Glossary](additional-resources/glossary.md)
 * [Allowing Access to Mindstudio From Your Network](additional-resources/allowing-access-to-mindstudio-from-your-network.md)
-* [MindStudio Certification](additional-resources/mindstudio-certification.md)
-
-## Solutions
-
-* [MindStudio Solutions Partners](solutions/mindstudio-solutions-partners.md)
-* [MindStudio For Developers](solutions/mindstudio-for-developers.md)
-* [MindStudio for Enterprises](solutions/mindstudio-for-enterprises.md)
-* [MindStudio Referral Program](solutions/mindstudio-referral-program.md)
-* [MindStudio Ambassador Program](solutions/mindstudio-ambassador-program.md)
-* [MindStudio Introductions Program](solutions/mindstudio-introductions-program.md)
-* [MindStudio AI Enablement Program](solutions/mindstudio-ai-enablement-program.md)
-
-***
-
-* [College Grad AI Training Program](college-grad-ai-training-program.md)
