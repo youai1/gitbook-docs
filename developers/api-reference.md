@@ -12,24 +12,21 @@ With the MindStudio API you can enable the programmatically invocation of workfl
 
 Executes a specified app with given variables and optional workflow.
 
-### Endpoint
+#### Endpoint
 
 ```bash
 POST /developer/v2/apps/run
 ```
 
-### Authentication
+#### Authentication
 
-This endpoint requires Bearer token authentication.Request body
+This endpoint requires Bearer token authentication.Request body.
 
-| Field       | Type   | Description                                   | Text |
-| ----------- | ------ | --------------------------------------------- | ---- |
-| workflow    | string | The workflow to run (without .flow extension) | No   |
-| variables   | object | The variables to pass to the app              | No   |
-| callbackUrl | string | The URL to receive the execution result       | No   |
-| appId       | string | The ID of the app to run                      | Yes  |
+#### Parameters
 
-### Response
+<table><thead><tr><th width="199.1727294921875">Field</th><th width="91.40966796875">Type</th><th width="243.3472900390625">Description</th><th>Example</th></tr></thead><tbody><tr><td><code>workflow</code></td><td>string</td><td>The workflow to run (without .flow extension)</td><td><code>myWorkflowName</code></td></tr><tr><td><code>variables</code></td><td>object</td><td>The variables to pass to the app</td><td><p><code>{</code></p><p>  <code>"firstName":"John",</code></p><p>  <code>"lastName":"Smith"</code></p><p><code>}</code></p></td></tr><tr><td><code>callbackUrl</code></td><td>string</td><td>The URL to receive the execution result</td><td><code>https://myUrl.com/</code></td></tr><tr><td><kbd><code>appId</code></kbd></td><td>string</td><td>The ID of the app to run</td><td><code>46f2e54b-f2fv-4055-bbf4-h55555a7c3b6</code></td></tr><tr><td><code>includeBillingCost</code></td><td>boolean</td><td>Indicates whether or not you'd like the final cost returned in the response body.</td><td><code>true</code></td></tr></tbody></table>
+
+#### Response
 
 #### Success response (200 OK)
 
@@ -63,7 +60,7 @@ The response will be one of two possible formats:
 
 <mark style="color:red;">`500 Internal Server Error`</mark>: The server encountered an unexpected condition that prevented it from fulfilling the request.
 
-### Example usage
+#### Example usage
 
 ```javascript
 const response = await fetch("https://api.mindstudio.ai/developer/v2/apps/run", {
@@ -79,7 +76,8 @@ const response = await fetch("https://api.mindstudio.ai/developer/v2/apps/run", 
       "key2": "value2"
     },
     "workflow": "optional-workflow-name",
-    "callbackUrl": "https://your-callback-url.com/endpoint"
+    "callbackUrl": "https://your-callback-url.com/endpoint",
+    "includeBillingCost": true
   })
 });
 const data = await response.json();
@@ -88,21 +86,61 @@ console.log(data);
 
 Note: Replace <mark style="color:blue;">`YOUR_ACCESS_TOKEN`</mark> and <mark style="color:blue;">`YOUR_APP_ID`</mark> with your actual Bearer token and Agent ID, and adjust the request body according to your specific app requirements.
 
+#### Example Output
+
+<pre class="language-javascript" data-overflow="wrap"><code class="lang-javascript">{
+    success: true
+    threadId: "9ca06a28-871b-407e-8f5d-f6d7b0b2e389"
+    thread: {
+        id: "00530fa6-33ef-4284-a4c4-41302d5fe379"
+        appId: "46f2e54b-f2fv-4055-bbf4-h55555a7c3b6"
+        organizationId: "79249296-1f88-47c5-9737-ab3679b9f872"
+        userId: "83abb8d1-bd26-4148-ab41-759916dc7188"
+        entryWorkflowId: "46bf354d-c2ab-4e5c-8230-504b0f58683b"
+        sourceThreadId: null
+        source: "api"
+        parentThreadId: null
+        name: "Title of the run"
+        variables: {
+            "key1":"value1",
+            "key2":"value2"
+        }
+        currentContinuationAction: {...}
+        isRunning: false
+        hasContent: true
+        isFinished: true
+        isUnread: true
+        notifyOnComplete: false
+        dateCreated: "2025-06-25T23:54:19.287Z"
+        dateLastMessage: "2025-06-25T23:54:36.398Z"
+        error: null
+        posts: [...]
+        assets: [...]
+    }
+    result: {
+<strong>        "myOutputVar1":"This is the final result of the run."
+</strong>    }
+    billingCost: "$0.011255850000000001"
+}
+</code></pre>
+
+***
+
 ## Load an app
 
 Loads an app by ID. If the app is not found, it returns a 404 error.
 
-### Endpoint
+#### Endpoint
 
 ```bash
 GET /developer/v2/apps/load
 ```
 
-### Authentication
+#### Authentication
 
 This endpoint requires Bearer token authentication.
 
-### Response
+#### Response
 
 #### Success response (200 OK)
 
@@ -119,7 +157,7 @@ The response will be a JSON object containing the organization information.
 
 The organization for the specified token was not found.
 
-### Example usage
+#### Example usage
 
 ```javascript
 const response = await fetch("https://api.mindstudio.ai/developer/v2/apps/load", {
