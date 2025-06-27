@@ -75,6 +75,8 @@ This snippet can be used the same as a variable with double curly braces. Exampl
 3. Configure the Data Source with a name and description
 4. Upload your files.
 
+<figure><img src="../.gitbook/assets/Data Source Details (1).png" alt=""><figcaption></figcaption></figure>
+
 #### Supported File Types
 
 * **PDF** (.pdf)
@@ -159,12 +161,16 @@ This section displays essential information about your Data Source, helping you 
 * **Words**: The total number of words across all documents in the Data Source.
 * **Vectors**: The total number of vectorized entries in the Data Source. Vectors are created during the conversion of documents into a searchable format.
 
+<figure><img src="../.gitbook/assets/Data Source Details.png" alt=""><figcaption></figcaption></figure>
+
 ### **Query Tester**
 
 The **Query Tester** is a built-in tool to test queries and validate that your Data Source is working correctly.
 
 * **Query Input**: A text box where you can type your query. This is how you simulate an AI prompt or user question to test the Data Source’s retrieval capabilities.
 * **Run Query Button**: Clicking the play button sends the query to the Data Source and returns results, allowing you to verify the response.
+
+<figure><img src="../.gitbook/assets/Query Tester.png" alt=""><figcaption></figcaption></figure>
 
 #### **Example Use Case**:
 

@@ -16,6 +16,8 @@ Publishing creates a versioned release of your AI Agent, locking in its current 
 2. Click the **Publish** button in the top-right corner.
 3. Open the current version of your AI Agent.
 
+<figure><img src="../.gitbook/assets/Publish button.png" alt=""><figcaption></figcaption></figure>
+
 **Note:** Before publishing, ensure you've opened up the AI Agent Settings and verified all metadata fields are correctly configured. This includes checking the name, description, API function name, icons, usage limits, and sharing settings.
 
 ***
@@ -45,6 +47,8 @@ Under the **General** section, you will define key metadata and identifiers for 
    * **File Types Supported**: PNG, JPEG
 5. **Agent ID:** A unique identifier automatically assigned to your AI Agent. This ID is used for backend and API integration purposes. Click the copy icon to copy the Agent ID for use in development or debugging.
 
+<figure><img src="../.gitbook/assets/General Settings.png" alt=""><figcaption></figcaption></figure>
+
 #### **Landing Page**
 
 This section allows you to create a detailed landing page for your AI agent.
@@ -58,6 +62,8 @@ This section allows you to create a detailed landing page for your AI agent.
 7. **Sample Assets**: Link any **sample assets** to show others what the output of your agent might look like. _This section is optional._&#x20;
 8. **Social Sharing Image:** Upload an image that will be displayed the link to your AI agent is shared. Recommended size is **1200x630.**
 
+<figure><img src="../.gitbook/assets/Landing Page.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### **Sharing Settings**
@@ -70,10 +76,14 @@ The Sharing settings allow you to configure how your AI Agent can be accessed an
 2. **Remixing:** When enabled, others can create a copy of your AI Agent and modify it to build their own version. **Remixing is enabled by default.** Enabling this setting makes your AI Agent publicly remixable by anyone.
 3. **Cost Responsibility:** Choose who is responsible for the compute costs of the agent running. The owner of the agent is selected by default. This feature can only be viewed if **public use** is enabled.&#x20;
 
+<figure><img src="../.gitbook/assets/Sharing Access.png" alt=""><figcaption></figcaption></figure>
+
 #### Usage Limits
 
 1. **Monthly User Budget:** Define a spending cap for individual users interacting with the AI Agent. If a user exceeds this limit within a calendar month, their access will be suspended for that period.
    * **Example:** Set this value to $10 to limit each user’s spending to $10 per month.
+
+<figure><img src="../.gitbook/assets/Usage.png" alt=""><figcaption></figcaption></figure>
 
 #### Signed URLs
 
@@ -81,6 +91,8 @@ The Sharing settings allow you to configure how your AI Agent can be accessed an
 2. **Create with API (Recommended):** Provides the embed code to use MindStudio's API to managed and create signed URLs. Make a request to your backend using the users unique ID.
 3. **Guest Access (Not recommended):** Provides the embed code to allow direct access to the AI agent. Guest users will have limited access to their run history, and their runs may be erased without notice depending on their browser settings. You will not be able to manage users and are responsible for all usage costs.&#x20;
 4. **API:** Gives access to the [API Request builder.](../developers/api-reference.md)
+
+<figure><img src="../.gitbook/assets/Signed URLS (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -105,6 +117,8 @@ Create global variables for any AI agent that can be set or accessed within any 
 ### **Versions**
 
 The **Versions** tab provides a comprehensive history of your AI Agent’s lifecycle, allowing you to manage and track both drafts and published versions effectively.
+
+<figure><img src="../.gitbook/assets/Versions.png" alt=""><figcaption></figcaption></figure>
 
 #### **Published Versions**
 
