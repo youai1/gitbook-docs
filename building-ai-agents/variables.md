@@ -21,13 +21,19 @@ Variables in MindStudio are dynamic placeholders that store data during workflow
 
 Most blocks, such as **Generate Text Blocks** or **User Input Blocks**, assign values for the variable while the workflow is running. For Example, after performing a Google Search, the block can store the results in a variable called `google_result`.
 
+<figure><img src="../.gitbook/assets/variables.png" alt=""><figcaption></figcaption></figure>
+
 #### **Launch Variables**
 
 These are defined in the **Start Block** of your workflow. Values for these variables are passed in as arguments when a workflow is run via API or via the Run Workflow block.
 
+<figure><img src="../.gitbook/assets/Launch Variables.png" alt=""><figcaption></figcaption></figure>
+
 #### **Global Variables**
 
 These variables values are stored in between Agent Runs. They are assigned in the onboarding flow or can be defined in blocks using `global.myVariable` syntax.
+
+<figure><img src="../.gitbook/assets/Global Variables.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

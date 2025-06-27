@@ -20,6 +20,8 @@ The underlying model is the AI model that is inherited by the rest of the workfl
 3. Click the **Use Button** to confirm your selection
 4. (Optional) Click the heart icon to add preferred AI Models to your Favorites section
 
+<figure><img src="../.gitbook/assets/Model Selector.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ## **Configuring Model Settings**
@@ -34,6 +36,8 @@ There are two configuration options for AI models:
    * Defines the maximum size of the model’s response in tokens.
    * Example: 400 tokens ≈ 300 words.
 
+<figure><img src="../.gitbook/assets/Model Settings.png" alt=""><figcaption></figcaption></figure>
+
 ### **Best Practices for AI Model Configuration**
 
 * Start the slider in the center for temperature and adjust based on your needs.
@@ -44,6 +48,8 @@ There are two configuration options for AI models:
 ## **Using Multiple AI Models Within a Workflow**
 
 Every block that uses AI has the ability to override the underlying models settings and use its own unique AI model and configuration. This allows you to use different models in the workflow based on the task required at each specific step of the workflow.
+
+<figure><img src="../.gitbook/assets/Multiple Models.png" alt=""><figcaption></figcaption></figure>
 
 ***
 

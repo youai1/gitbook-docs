@@ -20,6 +20,8 @@ A prompt is a set of instructions that tells the AI Agent what to do. It provide
 
 The System Prompt appears in the **Prompt Tab** of a workflow file. It serves as the AI Agent's core instructions, defining its role, capabilities, and constraints and acts as the foundation, guiding how the AI behaves throughout the workflow.
 
+<figure><img src="../.gitbook/assets/System Prompt (1).png" alt=""><figcaption></figcaption></figure>
+
 When you write a system prompt, you’re establishing the AI's "role" and general approach to tasks. Every action in the workflow will follow this overarching guidance unless overridden by specific block prompts.
 
 You can write a system prompt manually by typing into the blank space of the **Prompt Tab**, or you can click on the **Generate Prompt** button at the bottom left to have the **Prompt Generator** to write the prompt for you.
@@ -38,11 +40,15 @@ You can write a system prompt manually by typing into the blank space of the **P
 3. After entering your description, click the **Generate** button. The system will automatically create a structured prompt based on your input.
 4. Carefully review the generated prompt to make sure it aligns with your requirements. You can edit the prompt directly in the editor if adjustments are needed.
 
+<figure><img src="../.gitbook/assets/Generate Prompt.png" alt=""><figcaption></figcaption></figure>
+
 ***
 
 ### Block Prompt
 
 A **block prompt** is used for specific tasks within the workflow. While the system prompt provides overall guidance, a block prompt gives detailed instructions for a particular step.
+
+<figure><img src="../.gitbook/assets/Block Prompt.png" alt=""><figcaption></figcaption></figure>
 
 **Example of a Block Prompt (within a Generate Text block):**
 
