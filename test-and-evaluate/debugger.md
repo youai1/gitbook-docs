@@ -2,6 +2,8 @@
 
 The **Debugger** is a critical tool in MindStudio for testing, troubleshooting, and optimizing workflows. It allows users to examine the execution of their workflows step-by-step, identify issues, and ensure that the expected results are achieved. This tool is especially valuable for understanding the flow of variables, analyzing billing events, and testing how various blocks interact within the workflow.
 
+<figure><img src="../.gitbook/assets/Debugger main (1).png" alt=""><figcaption></figcaption></figure>
+
 ## How to Use the Debugger
 
 ### 1. Access the Debugger
@@ -10,17 +12,25 @@ Open the desired workflow in MindStudio. Switch to the **Debugger** tab from the
 
 You can also open the debugger from an already run workflow by opening the **3 dot menu** and selecting **Show Debugger**.
 
+<figure><img src="../.gitbook/assets/Debugger locate.png" alt=""><figcaption></figcaption></figure>
+
 ### 2. Run the Workflow
 
 Use test inputs or variables to trigger the workflow. The workflow execution will be logged in real time. You can run the workflow in many different ways outlined below.
+
+<div><figure><img src="../.gitbook/assets/Run in debugger.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Debugger run agent.png" alt=""><figcaption></figcaption></figure></div>
 
 ### 3. Analyze Logs
 
 Review the action logs to verify the workflow behaves as expected. Check the **Billing Events** section to ensure cost efficiency. Observe the **Runtime Variables** panel to confirm variable values are correctly updated at each step.
 
+<figure><img src="../.gitbook/assets/runtime Var.png" alt=""><figcaption></figcaption></figure>
+
 ### 4. Troubleshoot Errors
 
 Identify blocks with errors or unexpected behavior. Adjust inputs, fix errors, and re-run the workflow to validate changes.
+
+<figure><img src="../.gitbook/assets/errors.png" alt=""><figcaption></figcaption></figure>
 
 ### (Optional) Export Logs
 
