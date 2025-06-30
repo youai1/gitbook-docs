@@ -21,6 +21,8 @@ To use the Evaluations tool effectively, your workflow must meet the following r
 
 Evaluations are structured test cases you can create to validate your workflow's output. There are two main ways to create evaluations:
 
+<figure><img src="../.gitbook/assets/Evaluations png.png" alt=""><figcaption></figcaption></figure>
+
 #### **Manually**:
 
 Define each test case from scratch by specifying the input variables and expected results. This approach gives you complete control over each evaluation.
@@ -39,9 +41,13 @@ Once you've created your evaluations, you can run them all at once or individual
 
 Click **Run all** at the top left to run all of the test cases at the same time. Results may take more time to appear depending on the size of the workflow and how many test cases you created.
 
+<figure><img src="../.gitbook/assets/Evaluations run all.png" alt=""><figcaption></figcaption></figure>
+
 #### Run an individual test case
 
 Hover over the left side of the test case row and click on the **Play icon** to run an individual test case. Ideal if you don’t want to rerun previous tests.
+
+<figure><img src="../.gitbook/assets/Evaluations single.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
