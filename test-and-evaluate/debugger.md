@@ -18,7 +18,7 @@ You can also open the debugger from an already run workflow by opening the **3 d
 
 Use test inputs or variables to trigger the workflow. The workflow execution will be logged in real time. You can run the workflow in many different ways outlined below.
 
-<div><figure><img src="../.gitbook/assets/Run in debugger.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Debugger run agent.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../.gitbook/assets/Run in debugger.png" alt=""><figcaption></figcaption></figure>
 
 ### 3. Analyze Logs
 
@@ -47,14 +47,24 @@ There are several ways to run and test workflows in MindStudio's debugger, each 
 Click the **Preview** button at the top right corner of the screen to open the preview menu. There are 3 options depending on the block(s) you have selected:
 
 * **Run in debugger:** Executes the entire workflow from start to finish in the debugger.
+
+<figure><img src="../.gitbook/assets/Run in debugger 2.png" alt=""><figcaption></figcaption></figure>
+
 * **Start from selection:** Executes the workflow starting at the selected step (block), skipping all preceding steps.
+
+<figure><img src="../.gitbook/assets/Start from Selection.png" alt=""><figcaption></figcaption></figure>
+
 * **Run Selection:** Executes only the selected portion of the workflow, limited to one or more connected blocks.
+
+<figure><img src="../.gitbook/assets/run from step.png" alt=""><figcaption></figcaption></figure>
 
 **Note:** You can select one or multiple blocks by clicking and dragging to create a selection box around them, or by holding Shift while clicking individual blocks. This selection will define the scope of your test execution.
 
 ### **Input Variable Information**
 
 Enter the necessary variable data into the provided input fields within the modal. This information is required for the workflow's execution.
+
+<figure><img src="../.gitbook/assets/Debugger run agent.png" alt=""><figcaption></figcaption></figure>
 
 ### **Run the Selection**
 
@@ -63,6 +73,8 @@ After entering the variable data, click the **Run** button at the bottom of the 
 ### **View Run Logs**
 
 Once the test starts, the **Run Log** for the selected portion of the workflow will appear at the bottom of the **Automations** tab. Outputs generated during the test are automatically stored in the debugger, and these logs are accessible from the main **Debugger** panel, where all execution logs are stored for reference.
+
+<figure><img src="../.gitbook/assets/Run Logs.png" alt=""><figcaption></figcaption></figure>
 
 ## Anatomy of Debugger
 
