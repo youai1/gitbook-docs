@@ -26,7 +26,11 @@ The MindStudio Chrome Extension allows you to run AI Agents directly on web cont
 
 AI Agents configured for the Chrome Extension use the **Browser Extension** run mode.&#x20;
 
+<figure><img src="../.gitbook/assets/Scheduled 1.png" alt=""><figcaption></figcaption></figure>
+
 When you launch the Agent from your extension dock, it gains access to a set of launch variables pulled from the current page:
+
+<figure><img src="../.gitbook/assets/Scheduled 2.png" alt=""><figcaption></figcaption></figure>
 
 * `url` – The full URL of the current page
 * `metadata` – Metadata from the page (e.g., title, description tags)
