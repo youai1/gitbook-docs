@@ -26,7 +26,11 @@ Email-triggered AI Agents allow you to run workflows simply by forwarding or CC�
 
 When an AI Agent is set to use the **Email** run mode, MindStudio assigns it a unique, auto-generated email address. Any message sent to this address will automatically trigger the Agent.
 
+<figure><img src="../.gitbook/assets/email trigger 1.png" alt=""><figcaption></figcaption></figure>
+
 **The incoming email’s metadata and body are passed to the workflow via launch variables:**&#x20;
+
+<figure><img src="../.gitbook/assets/email trigger 2.png" alt=""><figcaption></figcaption></figure>
 
 * `from` – The sender’s email address
 * `subject` – The subject line of the incoming email
