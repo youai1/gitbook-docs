@@ -43,11 +43,19 @@ To configure an AI Agent to run on a schedule:
 
 1. **Open the Start Block** in your workflow.
 2. In the **Trigger** section, change the **Run Mode** from `On-Demand` to `Scheduled`.
-3. Click **Add** to create a new schedule.
-4. Use natural language (e.g., “every morning at 9 a.m.”) or select from preset options.
-5. Choose the appropriate **time zone**.
-6. (Optional) Configure **launch variables** if your Agent supports dynamic input.
-7. Click **Generate Schedule**, then **Save**.
+
+<figure><img src="../.gitbook/assets/Schedule trigger mode.png" alt=""><figcaption></figcaption></figure>
+
+1. Click **Add** to create a new schedule.
+2. Use natural language (e.g., “every morning at 9 a.m.”) or select from preset options.
+
+<figure><img src="../.gitbook/assets/Create schedule.png" alt=""><figcaption></figcaption></figure>
+
+1. Choose the appropriate **time zone**.
+2. (Optional) Configure **launch variables** if your Agent supports dynamic input.
+3. Click **Generate Schedule**, then **Save**.
+
+<figure><img src="../.gitbook/assets/Save schedule.png" alt=""><figcaption></figcaption></figure>
 
 Once saved, your Agent will automatically run based on the schedule you’ve defined.
 
