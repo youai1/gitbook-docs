@@ -149,7 +149,11 @@ The **Runtime Variables** panel on the right-hand side shows. The current state 
 
 ### **API Logs View**
 
+<figure><img src="../.gitbook/assets/API LOGs 2.png" alt=""><figcaption></figcaption></figure>
+
 The **API Logs** tab captures and displays all API interactions related to workflow executions. in addition to the Run Logs each API log also includes:
+
+<figure><img src="../.gitbook/assets/API LOGs 3 (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **HTTP Method**
 
@@ -171,15 +175,133 @@ Displays a sequential breakdown of actions performed during the run, including v
 
 Contains the raw payload sent during the API call, detailing the workflow ID and input variables used for the execution.
 
+**Example:**
+
+```json
+{
+workerId: "aaaaaaaa-b253-42b0-a8b6-bbbbbbbb"
+variables: {
+url: ""
+metadata: ""
+pageContent: ""
+fullText: ""
+userSelection: ""
+rawHtml: ""
+}
+workflow: "Main.flow"
+callbackUrl: ""
+progressUrl: ""
+includeBillingCost: false
+version: "draft"
+}
+```
+
 #### **Response Body**
 
 Shows the output returned from the workflow, highlighting success status, results, and any errors.
 
+**Example:**
+
+```json
+{
+success: true
+threadId: "aaaaaaaa111111222222233333333"
+thread: {
+id: "34234dksa-9g8g-2345-967b-b5hgfhd7df"
+appId: "4747g737-b253-42b0-a8b6-5858ghf838"
+organizationId: "57574hghd-c547-421e-8c6b-668ghjdj248j"
+userId: "01314cd1-609b-497a-a2eb-1fff70b19a45"
+entryWorkflowId: "pp00gh45-7233-471e-9719-00gg95fjdj"
+sourceThreadId: null
+source: "api"
+parentThreadId: null
+name: "Initialized with API variables"
+variables: {}
+currentContinuationAction: {}
+isRunning: false
+hasContent: true
+isFinished: false
+isUnread: true
+notifyOnComplete: false
+dateCreated: "2025-07-01T14:21:49.995Z"
+dateLastMessage: "2025-07-01T14:22:11.902Z"
+error: null
+posts: []
+assets: []
+}
+result: {
+question: "Can you tell us a bit about what you were hoping to achieve or learn with your request?"
+options: null
+}
+}
+```
+
 #### **NPM Snippet, Raw Fetch Code, and cURL:**
 
 * **NPM Snippet**: Ready-to-use JavaScript code that initializes the MindStudio client, executes the workflow, and retrieves results.
+  * **Example:**
+
+```javascript
+import { MindStudio } from 'mindstudio';
+
+// Initialize the client
+const client = new MindStudio('ske111122222eff2eeaaaaaaaaaaaaaaa8d672dbe9876543248d3c5051caaaaaaaaaaaaa');
+await client.init();
+
+// Execute the workflow
+const { success, result } = await client.workers.untitledAgent_62b16c4e.main({
+  "url": "",
+  "metadata": "",
+  "pageContent": "",
+  "fullText": "",
+  "userSelection": "",
+  "rawHtml": ""
+});
+
+if (success) {
+  console.log(result); // {"question":"Can you tell us a bit about what you ...
+}
+```
+
 * **Raw Fetch Code**: Shows a plain JavaScript `fetch` example for invoking the API directly.
+  * **Example:**
+
+```javascript
+const response = await fetch(
+  'https://v1.mindstudio-api.com/developer/v2/agents/run',
+  {
+    method: 'POST',
+    headers: {
+      Authorization: 'Bearer ske111122222eff2eeaaaaaaaaaaaaaaa8d672dbe9876543248d3c5051caaaaaaaaaaaaa',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      workerId: 'aaaaaaaa-aaaa-aaaaaaa-aaaa-aaaaaaa',
+      variables: {
+        url: '',
+        metadata: '',
+        pageContent: '',
+        fullText: '',
+        userSelection: '',
+        rawHtml: '',
+      },
+      workflow: 'Main.flow',
+      version: 'draft',
+    }),
+  },
+);
+const data = await response.json();
+```
+
 * **cURL Command**: A command-line example for making API calls with all necessary headers and body.
+  * **Example:**
+
+```javascript
+curl 'https://v1.mindstudio-api.com/developer/v2/agents/run' \
+  -H 'Authorization: Bearer ske111122222eff2eeaaaaaaaaaaaaaaa8d672dbe9876543248d3c5051caaaaaaaaaaaaa' \
+  -H 'Content-Type: application/json' \
+  --data-raw '{"workerId":"aaaaaaaa-aaaa-aaaaaaa-aaaa-aaaaaaa","variables":{"url":"","metadata":"","pageContent":"","fullText":"","userSelection":"","rawHtml":""},"workflow":"Main.flow","callbackUrl":"","progressUrl":"","includeBillingCost":false,"version":"draft"}}'
+```
 
 ## **Exporting Logs**
 
