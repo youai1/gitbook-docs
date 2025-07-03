@@ -116,11 +116,12 @@
 ## Workspace Management
 
 * [Workspace Overview](workspace-management/workspace-overview.md)
-* [Workspace Settings](workspace-management/workspace-settings.md)
+* [General Workspace Settings](workspace-management/general-workspace-settings.md)
+* [Team Settings & Access Controls](workspace-management/team-settings-and-access-controls.md)
+* [Integrations](workspace-management/integrations.md)
 * [Usage Explorer](workspace-management/usage-explorer.md)
 * [Billing Settings](workspace-management/billing-settings.md)
 * [Account Settings](workspace-management/account-settings.md)
-* [Team Settings & Access Controls](workspace-management/team-settings-and-access-controls.md)
 
 ## Integration Guides
 
