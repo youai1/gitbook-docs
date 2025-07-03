@@ -81,6 +81,8 @@ Other agents available to run will be displayed in the categories below:
 
 This is where you will find all of your published AI Agents and drafts.
 
+<figure><img src="../.gitbook/assets/Build Workpace.png" alt=""><figcaption></figcaption></figure>
+
 **Header Controls**
 
 * **Search Bar**: Quickly locate specific AI Agents by name.
@@ -108,6 +110,8 @@ Displays all published AI Agents, including their run history and statuses. Each
 
 1. Click on your Workspace name at the bottom left of the side panel.
 2. Select Create New Workspace.&#x20;
+
+<figure><img src="../.gitbook/assets/Change workspace.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
