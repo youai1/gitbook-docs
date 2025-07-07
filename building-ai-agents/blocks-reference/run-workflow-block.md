@@ -17,6 +17,8 @@ If these are not configured, then the workflow will not run properly.
 
 The **Run Workflow Block** allows you to execute a separate workflow within your main workflow. This block is ideal for running sub-processes and reusing common processes across multiple workflows.
 
+{% embed url="https://youtu.be/6GubegBVSXA" %}
+
 ***
 
 ## **Configurations**
