@@ -15,7 +15,7 @@ description: Execute a sub-workflow within a parent workflow
 If these are not configured, then the workflow will not run properly.
 {% endhint %}
 
-The **Run Workflow Block** allows you to execute a separate workflow within your main workflow. This block is ideal for running sub-processes and reusing common processes across multiple workflows.
+The **Run Workflow Block** allows you to execute a separate **sub-workflow** within your main workflow. This block is ideal for running sub-processes and reusing common processes across multiple workflows.
 
 {% embed url="https://youtu.be/6GubegBVSXA" %}
 
