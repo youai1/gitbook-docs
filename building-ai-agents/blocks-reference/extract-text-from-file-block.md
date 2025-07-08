@@ -19,10 +19,12 @@ Provide the URL of the file to extract text from. You can enter the URL directly
 
 #### **Supported File Types**
 
-* Plain Text (.txt)
+* Plain Text (.txt, .md)
 * HTML (.html)
+* JSON (.json)
 * PDF Document (.pdf)
-* Spreadsheet (.csv)
+* Spreadsheet (.csv, .xlsx)
+* Word Document (.docx)
 
 #### **File Size Limits**
 
@@ -30,7 +32,7 @@ The maximum file size is **10MB**.
 
 ### **Output Variable**
 
-Creates a new variable and saves the extracted text to it. Enter a `variable_name` \*\*\*\*to store the response for later use in the workflow.
+Creates a new variable and saves the extracted text to it. Enter a `variable_name` to store the response for later use in the workflow.
 
 ***
 
