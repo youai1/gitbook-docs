@@ -843,6 +843,73 @@ You can also format the current date by using `currentDate` as the variable:
 
 **Output:**
 
+<pre class="language-handlebars"><code class="lang-handlebars"><strong>Monday, June 9th 2025, 3:25:50 pm
+</strong></code></pre>
+
+***
+
+#### <mark style="color:red;">`{{dateAdd date amount unit}}`</mark>
+
+Add a specified amount of time to a given date. Date can be currentDate or a any [Moment.js-compatible](https://momentjs.com/docs/#/displaying/format/) date string. Amount must be a number. Unit must be a [Moment.js-compatible](https://momentjs.com/docs/#/manipulating/add/) unit.
+
+**Example:**
+
+**Usage:**
+
 ```handlebars
-Monday, June 9th 2025, 3:25:50 pm
+{{dateAdd currentDate 3 "days"}}
+```
+
+**Output:**
+
+```handlebars
+2025-07-12T17:01:00.000Z
+```
+
+You can use `dateAdd` as a nested expression inside a date formtter:
+
+**Usage:**
+
+```handlebars
+{{date (dateAdd currentDate 3 "days") "dddd, MMMM Do YYYY, h:mm:ss a"}}
+```
+
+**Output:**
+
+```handlebars
+Saturday, July 12th 2025, 5:02:00 pm
+```
+
+***
+
+#### <mark style="color:red;">`{{dateSubtract date amount unit}}`</mark>
+
+Subtract a specified amount of time from a given date. Date can be currentDate or a any [Moment.js-compatible](https://momentjs.com/docs/#/displaying/format/) date string. Amount must be a number. Unit must be a [Moment.js-compatible](https://momentjs.com/docs/#/manipulating/add/) unit.
+
+**Example:**
+
+**Usage:**
+
+```handlebars
+{{dateSubtract currentDate 3 "days"}}
+```
+
+**Output:**
+
+```handlebars
+2025-07-06T17:01:00.000Z
+```
+
+You can use `dateSubtract` as a nested expression inside a date formtter:
+
+**Usage:**
+
+```handlebars
+{{date (dateSubtract currentDate 3 "days") "dddd, MMMM Do YYYY, h:mm:ss a"}}
+```
+
+**Output:**
+
+```handlebars
+Saturday, July 6th 2025, 5:02:00 pm
 ```
