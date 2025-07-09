@@ -94,6 +94,7 @@
   * [User Input Block](building-ai-agents/blocks-reference/user-input-block.md)
   * [Update Notion Page](building-ai-agents/blocks-reference/update-notion-page.md)
   * [Verify Email](building-ai-agents/blocks-reference/verify-email.md)
+  * [Zapier Webhook](building-ai-agents/blocks-reference/zapier-webhook.md)
 * [Writing Prompts](building-ai-agents/writing-prompts.md)
 * [AI Models](building-ai-agents/ai-models.md)
 * [Variables](building-ai-agents/variables.md)
