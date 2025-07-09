@@ -59,6 +59,7 @@
   * [Post to Slack Block](building-ai-agents/blocks-reference/post-to-slack-block.md)
   * [Post to Slack](building-ai-agents/blocks-reference/post-to-slack.md)
   * [Query Data Source Block](building-ai-agents/blocks-reference/query-data-source-block.md)
+  * [Query Database](building-ai-agents/blocks-reference/query-database.md)
   * [Run Function Block](building-ai-agents/blocks-reference/run-function-block.md)
   * [Run Node (n8n)](building-ai-agents/blocks-reference/run-node-n8n.md)
   * [Run Scenario (Make)](building-ai-agents/blocks-reference/run-scenario-make.md)
