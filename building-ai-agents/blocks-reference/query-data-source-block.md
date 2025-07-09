@@ -1,8 +1,8 @@
 ---
-description: Integrate custom data into your AI workflows using RAG
+description: Upload files and query them in your AI workflows using RAG
 ---
 
-# Query Data Block
+# Query Data Source Block
 
 {% embed url="https://www.youtube.com/embed/flwFevdkruI" %}
 

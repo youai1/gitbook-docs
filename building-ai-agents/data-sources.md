@@ -95,7 +95,7 @@ This snippet can be used the same as a variable with double curly braces. Exampl
 {% hint style="warning" %}
 **Note:** Uploading files does not automatically make the AI know everything in them.&#x20;
 
-You need to use the [<mark style="color:blue;">Query Data Block</mark>](blocks-reference/query-data-block.md) and in order to bring in the context from your Data Source into the workflow.
+You need to use the [<mark style="color:blue;">Query Data Block</mark>](blocks-reference/query-data-source-block.md) and in order to bring in the context from your Data Source into the workflow.
 {% endhint %}
 
 ***
