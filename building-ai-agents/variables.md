@@ -31,9 +31,13 @@ These are defined in the **Start Block** of your workflow. Values for these vari
 
 #### **Global Variables**
 
-These variables values are stored in between Agent Runs. They are assigned in the onboarding flow or can be defined in blocks using `global.myVariable` syntax.
+These variables values are scoped to the agent and stored in between Agent Runs. They are assigned in the onboarding flow or can be defined in blocks using `global.myVariable` syntax.
 
 <figure><img src="../.gitbook/assets/Global Variables.png" alt=""><figcaption></figcaption></figure>
+
+#### User Variables
+
+These variable values are scoped specifically to the user as the agent runs and are stor
 
 ***
 
