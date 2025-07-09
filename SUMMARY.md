@@ -82,6 +82,7 @@
   * [Search YouTube Trends](building-ai-agents/blocks-reference/search-youtube-trends.md)
   * [Send Email](building-ai-agents/blocks-reference/send-email.md)
   * [Send SMS](building-ai-agents/blocks-reference/send-sms.md)
+  * [Set Run Title](building-ai-agents/blocks-reference/set-run-title.md)
   * [Send Gmail](building-ai-agents/blocks-reference/send-gmail.md)
   * [Start Block](building-ai-agents/blocks-reference/start-block.md)
   * [Terminator Block](building-ai-agents/blocks-reference/terminator-block.md)
