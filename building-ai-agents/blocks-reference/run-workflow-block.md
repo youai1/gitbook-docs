@@ -23,42 +23,125 @@ The **Run Workflow Block** allows you to execute a separate **sub-workflow** wit
 
 ## **Configurations**
 
-### **Agent**
+The Run Workflow block allows you to execute a separate sub-workflow from within the current workflow. It’s ideal for reusing logic, modularizing large flows, or performing iterative processing with dynamic inputs.
 
-Select the AI Agent containing the workflow you want to run.
+To function properly, the selected sub-workflow must be configured with:
 
-* Use the dropdown to choose the appropriate AI Agent.
-* Ensure the selected AI Agent contains the workflow you want to execute.
+* **Launch Variables** in the Start Block
+* **Structured JSON Outputs** in the Terminator Block
 
-### **Workflow**
+If these are not present, the workflow will fail to execute.
 
-Choose the specific workflow within the selected AI Agent to execute.
+***
 
-* Select from available workflows in the chosen AI Agent.
-* For modular workflows, ensure the selected workflow is designed for integration.
+### Agent
 
-### **Launch Variables**
+Select the AI Agent that contains the workflow you want to run. Use the dropdown to choose from your available agents.
 
-Define the values to pass to the required variables in the selected workflow.
+### Workflow
 
-* Assign static values or use variables from the current workflow.
+Choose the specific sub-workflow from the selected agent. Only workflows that include Launch Variables and JSON Outputs will appear here.
 
-#### Example:
+***
 
-* Variable: <mark style="color:red;">`customer_name`</mark>
-* Value: <mark style="color:red;">`{{userName}}`</mark>
+### Parameters
 
-### **Output Variables**
+#### Launch Variables
 
-Map the outputs of the sub-workflow back to variables in the parent workflow.
+Assign values to the sub-workflow’s input variables. These can be static or dynamic using
 
-* Assign the <mark style="color:red;">`variable_name`</mark> you want to store the sub-workflow's output in.
-* Enter the <mark style="color:red;">`variable_name`</mark> without curly braces.
+`{{variables}}`.
 
-#### Example:
+**Example:**
 
-* Variable: <mark style="color:red;">`customer_profile`</mark>
-* Mapped to: <mark style="color:red;">`customer_info`</mark> in the parent workflow
+* `customer_name` → `{{userName}}`
+* `order_id` → `12345`
+
+#### Output Variables
+
+Map the structured outputs returned from the sub-workflow into variables in the parent workflow.
+
+**Example:**
+
+* `customer_profile` → `customer_info`
+
+***
+
+### Iteration Settings
+
+Use this section to run the selected workflow multiple times — once for each item in an input list.
+
+#### Iterator
+
+Choose how items are extracted for iteration:
+
+* **Auto-Extract (Default):** Uses the Extraction Prompt to pull items from unstructured input.
+* **String Array:** Treats the input as a delimited string (e.g., comma-separated list).
+* **JSON Array Input (Advanced):** Expects a valid JSON array; each item becomes a separate run.
+
+***
+
+#### Input Data / Input Array
+
+Specify the input variable that contains the array or string to iterate through.\
+For example: `{{user_email_list}}`
+
+***
+
+#### Extraction Prompt _(only for Auto-Extract)_
+
+Provide an instruction for the thing you'd like to pull from the input variable. Each extracted item is stored as a variable called `{{item}}`.
+
+**Ex:** `Extract all emails`
+
+**Output:** The variable `{{item}}` is the email that is extracted
+
+***
+
+#### Item Separator _(only for String Array)_
+
+Choose how to split the input string:
+
+* Comma
+* Semicolon
+* Pipe
+* Custom
+
+**Ex:** If the input string is  `Dog, Cat, Fish` , then select the `Comma` option
+
+***
+
+#### Output Variable
+
+The result of each sub-workflow run is stored in a JSON array at this variable name.
+
+**Example:**
+
+`batch_results`
+
+***
+
+#### Execution Mode
+
+Choose how runs are processed:
+
+* **Parallel:** Runs all iterations in batches (faster)
+* **Sequential:** Runs one at a time (slower)
+
+***
+
+#### Error Behavior
+
+Set how the workflow should respond to errors:
+
+* **Fail:** Stop all runs on first error
+* **Ignore Failed Runs:** Skip failed items and continue
+
+***
+
+#### Retry Attempts
+
+Define how many times to retry failed runs. Use cautiously to avoid unintended costs.
 
 ***
 
