@@ -77,14 +77,14 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 
 ### Other Automations
 
-| Block Name                                         | Purpose                                     |
-| -------------------------------------------------- | ------------------------------------------- |
-| [Add Note](add-note-activecampaign.md)             | Add a note to a contact in ActiveCampaign   |
-| [Create Contact](create-contact-activecampaign.md) | Create a contact in ActiveCampaign          |
-| [HTTP Request](http-request.md)                    | Send an HTTP request                        |
-| [Post to Slack](post-to-slack.md)                  | Send a message to a specified Slack channel |
-| [Run Node](run-node-n8n.md)                        | Trigger an n8n workflow                     |
-| [Run Scenario](run-scenario-make.md)               | Run a specified scenario on Make.com        |
-| [Send Email](send-email.md)                        | Send an email to a registered email address |
-| [Send SMS](send-sms.md)                            | Send an SMS to a valid phone number         |
-| [Zapier Webhook](zapier-webhook.md)                | Trigger and send data to a Zap in Zapier    |
+| Block Name                                                          | Purpose                                     |
+| ------------------------------------------------------------------- | ------------------------------------------- |
+| [Add Note (ActiveCampaign)](add-note-activecampaign.md)             | Add a note to a contact in ActiveCampaign   |
+| [Create Contact (ActiveCampaign)](create-contact-activecampaign.md) | Create a contact in ActiveCampaign          |
+| [HTTP Request](http-request.md)                                     | Send an HTTP request                        |
+| [Post to Slack](post-to-slack.md)                                   | Send a message to a specified Slack channel |
+| [Run Node (n8n)](run-node-n8n.md)                                   | Trigger an n8n workflow                     |
+| [Run Scenario (Make)](run-scenario-make.md)                         | Run a specified scenario on Make.com        |
+| [Send Email](send-email.md)                                         | Send an email to a registered email address |
+| [Send SMS](send-sms.md)                                             | Send an SMS to a valid phone number         |
+| [Zapier Webhook](zapier-webhook.md)                                 | Trigger and send data to a Zap in Zapier    |
