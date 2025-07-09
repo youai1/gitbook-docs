@@ -1,8 +1,10 @@
 ---
 description: Run an Apify actor in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
-# Apify
+# Apify Block
 
 ## Configuration
 
