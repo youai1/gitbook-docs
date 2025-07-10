@@ -6,6 +6,8 @@ description: Generate HTML assets.
 
 The Generate Asset block allows users to generate designs and PDFs from a source HTML document.&#x20;
 
+{% embed url="https://www.youtube.com/embed/iA8XKMCrLM0" %}
+
 ## Configuration&#x20;
 
 ### Source Document&#x20;
