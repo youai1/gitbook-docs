@@ -36,6 +36,7 @@
   * [Extract Text from File Block](building-ai-agents/blocks-reference/extract-text-from-file-block.md)
   * [Fetch Google Doc](building-ai-agents/blocks-reference/fetch-google-doc.md)
   * [Fetch Google Sheet](building-ai-agents/blocks-reference/fetch-google-sheet.md)
+  * [Fetch Slack History Block](building-ai-agents/blocks-reference/fetch-slack-history-block.md)
   * [Fetch YouTube Captions](building-ai-agents/blocks-reference/fetch-youtube-captions.md)
   * [Fetch YouTube Channel](building-ai-agents/blocks-reference/fetch-youtube-channel.md)
   * [Fetch YouTube Comments](building-ai-agents/blocks-reference/fetch-youtube-comments.md)
