@@ -187,7 +187,7 @@ If `items` contains:
 **Output:**
 
 ```handlebars
-opyApple
+Apple
 Banana
 Cherry
 ```
