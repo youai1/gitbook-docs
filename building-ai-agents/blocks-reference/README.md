@@ -87,6 +87,7 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 | [Add Note (ActiveCampaign)](add-note-activecampaign.md)             | Add a note to a contact in ActiveCampaign   |
 | [Create Contact (ActiveCampaign)](create-contact-activecampaign.md) | Create a contact in ActiveCampaign          |
 | [HTTP Request](http-request.md)                                     | Send an HTTP request                        |
+| [Fetch Slack History](fetch-slack-history-block.md)                 | Retrieve messages from a Slack channel      |
 | [Post to Slack](post-to-slack.md)                                   | Send a message to a specified Slack channel |
 | [Run Node (n8n)](run-node-n8n.md)                                   | Trigger an n8n workflow                     |
 | [Run Scenario (Make)](run-scenario-make.md)                         | Run a specified scenario on Make.com        |
