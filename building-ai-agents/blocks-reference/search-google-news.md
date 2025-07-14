@@ -10,7 +10,7 @@ description: Retrieve Google News search results in a MindStudio workflow
 
 ### Text&#x20;
 
-Define the search query that will be sent to Google News. The search query can include variables.&#x20;
+Define the search query that will be sent to Google News. The search query can include variables.
 
 ### Output Variable&#x20;
 
@@ -68,3 +68,23 @@ Key Details:
     }
 ]
 ```
+
+***
+
+## Search Operators Reference
+
+Your search query can include Google Search Operators, like `site:bbc.co.uk`  to only return news results from the BBC, or `when:24h`  to only return news results from the past 24 hours. See the below table for the full list of supported search operators.
+
+| Operator / Parameter         | Purpose                                        | Example                                                          |
+| ---------------------------- | ---------------------------------------------- | ---------------------------------------------------------------- |
+| `"exact phrase"`             | Search for an exact phrase                     | `"Apple Watch Series 10"`                                        |
+| words (space-separated)      | Search for any of several keywords             | `Nikon mirrorless`                                               |
+| `-word`                      | Exclude a keyword                              | `NBA Playoffs -Celtics`                                          |
+| `site:domain`                | Limit to a specific website                    | `Apple site:techradar.com`                                       |
+| `when:[timeframe]`           | Filter by publication time frame               | `when:1d` for past 24 hours (or `when:1h`, `when:1w`, `when:1y`) |
+| Combinations                 | Mix/search restrictively                       | `Apple site:pcmag.com when:1d -Meta -Microsoft -Google`          |
+| `topic_token`                | Filter by Google News topic                    | (token provided by API / UI; e.g. Technology)                    |
+| `publication_token`          | Filter by publisher                            | (token representing PCMag, Forbes, etc.)                         |
+| `section_token` (with above) | Filter by subsection within topic/publisher    | (e.g. Artificial intelligence under Technology)                  |
+| `story_token`                | Filter by a specific news story                | (e.g. “Samsung Galaxy Unpacked event”)                           |
+| `so`                         | Sort grouped story results (with story\_token) | `so` (sort by date descending)                                   |
