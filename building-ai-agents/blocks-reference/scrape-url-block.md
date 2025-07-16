@@ -19,6 +19,16 @@ Provide the webpage URL you want to scrape. You can input a static URL directly 
 * Static: **`https://example.com/article`**
 * Dynamic: **`{{inputURL}}`**
 
+#### Multiple URLs
+
+The Scrape URL block supports scraping **multiple URLs** in a single execution. It accepts input in any of the following formats:
+
+* A JSON array of URLs
+* A comma-separated string of URLs
+* A newline-separated list of URLs
+
+When multiple URLs are provided, the block returns a JSON array containing the scrape results for each URL, in the order they were received.
+
 ### **Output Variable**
 
 Creates a new variable and saves the extracted text to it. Enter a `variable_name` to store the response for later use in the workflow.
