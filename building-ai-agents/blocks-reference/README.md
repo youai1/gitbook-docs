@@ -23,14 +23,18 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 | [Create LinkedIn Post](create-linkedin-post.md)               | Make a new post on LinkedIn              |
 | [Create X Post](create-x-post.md)                             | Make a new post on X                     |
 | [Search Bluesky Posts](search-bluesky-posts.md)               | Search for posts on Bluesky              |
+| [Search X Posts](search-x-posts.md)                           | Search for posts on X by keyword         |
 | [Scrape Facebook Page](scrape-facebook-page.md)               | Get general details of a Facebook page   |
+| [Scrape LinkedIn Profile](scrape-linkedin-profile.md)         | Get LinkedIn Profile Data                |
+| [Scrape LinkedIn Company](scrape-linkedin-company.md)         | Get LinkedIn Company Data                |
 | [Scrape Instagram Comments](scrape-instagram-comments.md)     | Get Comments data from an Instagram post |
 | [Scrape Instagram Mentions](scrape-instagram-mentions.md)     | Get data from mentions on Instagram      |
 | [Scrape Instagram Posts](scrape-instagram-posts.md)           | Get posts from an Instagram profile      |
 | [Scrape Instagram Profile](scrape-instagram-profile.md)       | Get data from an Instagram profile       |
 | [Scrape Instagram Reels](scrape-instagram-reels.md)           | Get reels from an Instagram profile      |
 | [Scrape Meta Threads Profile](scrape-meta-threads-profile.md) | Get data from a Meta Threads profile     |
-| [Search X Posts](search-x-posts.md)                           | Search for posts on X by keyword         |
+| [Scrape X Post](scrape-x-post.md)                             | Get X Post Data                          |
+| [Scrape X Profile](scrape-x-profile.md)                       | Get X Post Profile                       |
 
 ### Google Blocks
 
