@@ -61,10 +61,6 @@ Object containing configuration variables defined in MindStudio
 
 Object containing runtime variables defined by other functions or blocks.
 
-#### **`ai.getConfig(variableName)`**
-
-Return the value of a configuration variable. If the configuration variable resolves to a runtime variable, resolve that value before returning
-
 #### **`ai.log(value)`**
 
 Update the progress text for the user. If your function takes a long time to run, this can be helpful in communicating what is happening to the user.
@@ -329,6 +325,8 @@ config = {
 					"type": "INPUT TYPE"
 					//Defines the input type.
 						//"text" = Form field
+						//"inputVariable" = A {{variable}} from the workflow
+						//"outputVariableName" = A variable name to assign some output to
 						//"secret" = Form field with hidden text. Does not transfer on remix.
 						//"select" = Dropdown menu
 						//"map" = Creates input for key:value pairs
