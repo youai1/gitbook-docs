@@ -135,5 +135,8 @@ Use models with large context windows for summarizing lengthy documents or analy
 
 ### Text-To-Speech Models
 
-<table data-full-width="true"><thead><tr><th>Provider</th><th>Model Name</th><th>Input Price</th><th>Output Price</th><th>Prompt Length</th></tr></thead><tbody><tr><td>ElevenLabs</td><td>ElevenLabs TTS</td><td>$240.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>Unlimited</td></tr><tr><td>OpenAI</td><td>GPT-4o-mini TTS</td><td>$0.60 / 1M chars</td><td>$2.40 / 1M chars</td><td>2,000 Characters</td></tr><tr><td>OpenAI</td><td>TTS</td><td>$15.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>4,100 Characters</td></tr><tr><td>OpenAI</td><td>TTS HD</td><td>$30.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>4,100 Characters</td></tr></tbody></table>
+<table data-full-width="true"><thead><tr><th width="178">Provider</th><th>Model Name</th><th>Input Price</th><th width="178">Output Price</th><th>Prompt Length</th></tr></thead><tbody><tr><td>ElevenLabs</td><td>ElevenLabs TTS</td><td>$240.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>Unlimited</td></tr><tr><td>OpenAI</td><td>GPT-4o-mini TTS</td><td>$0.60 / 1M chars</td><td>$2.40 / 1M chars</td><td>2,000 Characters</td></tr><tr><td>OpenAI</td><td>TTS</td><td>$15.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>4,100 Characters</td></tr><tr><td>OpenAI</td><td>TTS HD</td><td>$30.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>4,100 Characters</td></tr></tbody></table>
 
+### Speech-To-Text Models
+
+<table data-full-width="true"><thead><tr><th>Provider</th><th>Model Name</th><th>Est. Cost</th></tr></thead><tbody><tr><td>ElevenLabs</td><td> Scribe v1</td><td>$0.00667 / minute</td></tr><tr><td>OpenAI</td><td>GPT-4o-mini-transcribe</td><td>$0.003 / minute</td></tr><tr><td>OpenAI</td><td>GPT-4o-transcribe</td><td>$0.006 / minute</td></tr><tr><td>OpenAI</td><td>Whisper</td><td>$0.006 / minute</td></tr></tbody></table>
