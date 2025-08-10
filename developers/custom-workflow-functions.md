@@ -373,8 +373,6 @@ The **Test Data Tab** is a dedicated space for verifying the behavior of your fu
 
 Displays key information about your function. Here, you can set the function’s name and description, which will be used to identify it in the **Run Function Block**. You can also select the environment—either JavaScript (Node.js) or Python—for your function.
 
-Note: If you choose Python, you have the added flexibility of importing external libraries to extend functionality. The panel also displays the current configuration and runtime variables available for testing.
-
 ### Configuration Preview
 
 Live preview of the configuration interface, giving you immediate feedback on how your JSON structure set the Configuration Tab will appear to users when they edit the block.
@@ -382,3 +380,39 @@ Live preview of the configuration interface, giving you immediate feedback on ho
 ### Quick Help Tab
 
 Built-in reference guide. Displays the guide relevant to what you are editing.
+
+## Execution Environments
+
+### Sandbox
+
+Sandbox is the default execution environment for custom functions. MindStudio's Sandbox is optimized for speed and performance and should be preferred for most functions. For JavaScript, the Sandbox uses [Isolates](https://github.com/laverdet/isolated-vm) to run your code in secure environments. Python code is evaluated using [Pyodide](https://pyodide.org/en/stable/). In most cases, these details do not matter and the Sandbox will happily run any code you provide it.
+
+However, complex or advanced functionality, like installing NPM packages, is not supported in Sandbox Execution. For cases where you need the full power of NodeJS or Python, you can use the Virtual Machine execution environment.
+
+### Virtual Machine
+
+Virtual Machine (VM) execution gives you full access to NodeJS or Python, including third-party dependencies and anything else your function might need. However, this power comes at the cost of speed and latency. Where the Sandbox can return results in <50ms, starting a VM and installing packages will take, at minimum, around 5 seconds (and, depending on the workload and packages you add, could take even longer). This means you should be considerate about when and how you use VMs, especially in user-facing Agents where the added latency might lead to a degraded user experience.&#x20;
+
+When using VMs to execute your functions, you must provide a handler function to be invoked by the VM. In JavaScript, that handler must be a named export called `handler` . In Python, it must be a function called `handler` .
+
+#### Example JavaScript Virtual Machine Function
+
+```javascript
+import * as uuid from 'uuid';
+
+export const handler = async () => {
+  const id = uuid.v4();
+  console.log(id);
+  ai.vars.test = id;
+};
+```
+
+#### Example Python Virtual Machine Function
+
+```python
+import asyncio
+
+async def handler():
+    ai.vars["searchResults"] = await ai.searchGoogle("cats")
+    print("Hello World?")
+```
