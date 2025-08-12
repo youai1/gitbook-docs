@@ -81,9 +81,13 @@ Perform a query against a data source defined in a project. Returns a string res
 
 Upload a file and return a URL. File must be a valid Base 64 data URL.
 
-#### **`ai.crmLog(value)`**
+#### **`ai.concatenateAudio(urls)`**
 
-For apps with logging enabled, log a value to the app's user logs.
+Combine an array of URLs to audio files into one mp3.
+
+#### **`ai.concatenateVideo(urls)`**
+
+Combine an array of URLs to video files into one mp4.
 
 ### Extensions
 
