@@ -84,6 +84,34 @@ Integrations in MindStudio connect various apps and services to your workflows. 
 | [Create Page](https://help.mindstudio.ai/building-ai-agents/integrations/create-notion-page) | Create a page in Notion |
 | [Update Page](update-notion-page.md)                                                         | Update a page in Notion |
 
+### Coda Blocks
+
+| Block Name                                                 | Purpose                              |
+| ---------------------------------------------------------- | ------------------------------------ |
+| [Create/Update Page](create-update-coda-page.md)           | Create or update a page on Coda      |
+| [Create/Update Table Row](create-update-coda-table-row.md) | Create or update a table row on Coda |
+| [Get Table Rows](get-coda-table-rows.md)                   | Get Rows from a table on Coda        |
+| [Get Page](get-coda-page.md)                               | Read page from a Coda document       |
+| [Find Table Row](find-coda-table-row.md)                   | Find a table row on Coda             |
+
+### Airtable Blocks
+
+| Block name                                               | Purpose                                |
+| -------------------------------------------------------- | -------------------------------------- |
+| [Get Table Records](get-airtable-table-records.md)       | Get records from an Airtable table     |
+| [Create/Update Record](create-update-airtable-record.md) | Create or update a record on Airtable  |
+| [Get Record](get-airtable-record.md)                     | Get a record from an Airtable table    |
+| [Delete Record](delete-airtable-record.md)               | Delete a record from an Airtable table |
+
+### HubSpot Blocks
+
+| Block Name                                                | Purpose                               |
+| --------------------------------------------------------- | ------------------------------------- |
+| [Create/Update Contact](create-update-hubspot-contact.md) | Create or update a contact in HubSpot |
+| [Create/Update Company](create-update-hubspot-company.md) | Create or update a company in HubSpot |
+| [Get Contact](get-hubspot-contact.md)                     | Get a contact from HubSpot            |
+| [Get Company](get-hubspot-company.md)                     | Get a company from HubSpot            |
+
 ### Other Automations
 
 | Block Name                                                          | Purpose                                     |
