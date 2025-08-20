@@ -119,6 +119,7 @@
 * [AI Models](building-ai-agents/ai-models.md)
 * [Variables](building-ai-agents/variables.md)
 * [Working with JSON](building-ai-agents/working-with-json.md)
+* [Dynamic HTML & Workflow Loading Styles](building-ai-agents/dynamic-html-and-workflow-loading-styles.md)
 * [Data Sources](building-ai-agents/data-sources.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
@@ -140,7 +141,7 @@
 * [Webhook-Triggered](deployment-of-ai-agents/webhook-triggered.md)
 * [Custom Agent Modules (Using Packaged Workflows)](deployment-of-ai-agents/custom-agent-modules-using-packaged-workflows.md)
 * [AI Agents for MCP](deployment-of-ai-agents/ai-agents-for-mcp.md)
-* [Best Practices for Sharing AI Agents](deployment-of-ai-agents/best-practices-for-sharing-ai-agents.md)
+* [Sharing Agents in MindStudio](deployment-of-ai-agents/sharing-agents-in-mindstudio.md)
 
 ## Workspace Management
 
