@@ -106,6 +106,7 @@
   * [Start Block](building-ai-agents/blocks-reference/start-block.md)
   * [Terminator Block](building-ai-agents/blocks-reference/terminator-block.md)
   * [Text to Speech Block](building-ai-agents/blocks-reference/text-to-speech-block.md)
+  * [Transcribe Audio Block](building-ai-agents/blocks-reference/transcribe-audio-block.md)
   * [Update Gmail Labels](building-ai-agents/blocks-reference/update-gmail-labels.md)
   * [Update Calendar Event](building-ai-agents/blocks-reference/update-calendar-event.md)
   * [Update Google Doc](building-ai-agents/blocks-reference/update-google-doc.md)
