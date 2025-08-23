@@ -37,7 +37,7 @@ These variables values are scoped to the agent and stored in between Agent Runs.
 
 #### User Variables
 
-These variable values are scoped specifically to the user as the agent runs and are stor
+These variable values are scoped specifically to the user as the agent runs and are stored between runs for each specific user. User variables are defined using `user.myVariable` syntax.
 
 ***
 
