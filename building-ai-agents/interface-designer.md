@@ -2,11 +2,11 @@
 description: Design interactive user input interfaces that fit your use case.
 ---
 
-# User Interface Designer
+# Interface Designer
 
 ## Overview
 
-**Custom User Interfaces** allows you to **vibe-code and customize** the way users interact with your AI agents. Instead of relying only on default input forms, you can define branded, multi-step, or interactive interfaces that better fit your use case.
+The **Interface Designer** allows you to **vibe-code and customize** the way users interact with your AI agents. Instead of relying only on default input forms, you can define branded, multi-step, or interactive interfaces that better fit your use case.
 
 Examples include: onboarding flows, feedback forms, quiz-style apps, or creative tools like interactive drawing-to-AI experiences.
 
