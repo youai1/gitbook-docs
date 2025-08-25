@@ -119,7 +119,7 @@
 * [Writing Prompts](building-ai-agents/writing-prompts.md)
 * [AI Models](building-ai-agents/ai-models.md)
 * [Variables](building-ai-agents/variables.md)
-* [Custom User Interfaces](building-ai-agents/custom-user-interfaces.md)
+* [User Interface Designer](building-ai-agents/user-interface-designer.md)
 * [Working with JSON](building-ai-agents/working-with-json.md)
 * [Dynamic HTML & Workflow Loading Styles](building-ai-agents/dynamic-html-and-workflow-loading-styles.md)
 * [Data Sources](building-ai-agents/data-sources.md)

@@ -1,8 +1,8 @@
 ---
-description: Design interactive interfaces that fit your use case.
+description: Design interactive user input interfaces that fit your use case.
 ---
 
-# Custom User Interfaces
+# User Interface Designer
 
 ## Overview
 
@@ -54,9 +54,9 @@ The **Code tab** provides a complete, production-grade coding environment for yo
 * **Advanced customization**: Add API integrations, validation logic, dynamic data loading, or embed third-party libraries.
 * **Production readiness**: Once compiled, the code is packaged and deployed as part of your agent, ensuring it runs reliably in real use cases.
 
-### **Logs**
+### **Logs Tab**
 
-A real-time activity feed that shows what’s happening behind the scenes. Use Logs to debug issues, track package installs, or understand how the interface is being built.
+A real-time activity feed that shows what’s happening behind the scenes. Use Logs to debug issues, track package installs, or understand how the interface is running.
 
 ### **Live Preview**
 
@@ -73,6 +73,8 @@ Defines which model powers the interface generation process. This follows your *
 ### Dev Environment Controls
 
 Located at the bottom left of the Interface Designer, these controls let you manage the development lifecycle of your custom UI.
+
+<figure><img src="../.gitbook/assets/Screenshot 2025-08-25 at 2.05.30 PM.png" alt=""><figcaption></figcaption></figure>
 
 #### Start
 
