@@ -58,3 +58,53 @@ To configure an AI Agent to trigger via email:
 * Use blocks like [**Generate Text**](../building-ai-agents/blocks-reference/generate-text-block.md) to analyze the message.
 * Use [**Send Email**](../building-ai-agents/blocks-reference/send-email.md) to deliver a response.
 * Copy your Agent’s trigger email address and forward messages to it.
+
+***
+
+## How to Setup Automatic Forwarding to an AI Agent in Gmail
+
+{% embed url="https://www.loom.com/share/f529d1957837458c905bdb5dacf0cc15?sid=48f22fe6-c6ab-42fa-8bad-57a689d71526" %}
+
+#### Step 1: Get Your Agent’s Trigger Email Address
+
+1. Open your AI agent inside MindStudio.
+2. Make sure the agent’s **Run Mode** is set to **Email**.
+3. Copy the agent’s **trigger email address** — you’ll need this for Gmail.
+
+***
+
+#### Step 2: Add Forwarding Address in Gmail
+
+1. Open Gmail and go to **⚙ Settings → See all settings**.
+2. Navigate to the **Forwarding and POP/IMAP** tab.
+3. Click **Add a forwarding address**.
+4. Paste in the **trigger email address** from your agent.
+5. Gmail will send a **confirmation email** to that address.
+
+***
+
+#### Step 3: Verify the Forwarding Address
+
+1. In MindStudio, **publish your agent** so it can receive email.
+2. In Gmail, click to resend the verification email.
+3. The confirmation email will appear in the agent’s **debugger logs**.
+4. Open the logs, find the confirmation link, and click it to verify.
+5. Once confirmed, Gmail will accept that forwarding address.
+
+***
+
+#### Step 4: Create an Auto-Forwarding Filter
+
+1. In Gmail, find an example of the email you want to forward (e.g., a newsletter).
+2. Click the **three dots → Filter messages like this**.
+3. In the filter settings, choose **Create filter**.
+4. Select **Forward it to → \[your agent’s trigger email]**.
+5. Confirm the action (you may need to verify again via your phone).
+6. Save the filter.
+
+***
+
+#### Step 5: Test the Setup
+
+* Send yourself a test email that matches the filter criteria.
+* Check the agent’s debugger logs to confirm the email was forwarded and processed.
