@@ -76,10 +76,10 @@ Triggered by sending an email to a unique, agent-specific email address. This mo
 
 **Launch Variables:**
 
-* **`from`** - the URL of the page you are browsing
-* **`subject`** - A dictionary of metadata including page title, description, and other OpenGraph data when available.&#x20;
-* **`message`** - All main content extracted from the visible portion of the page. ON sites like youtube, pageContent is also used to extract the video transcript.
-* **`attachments`** - A complete&#x20;
+* **`from`** – The sender’s email address
+* **`subject`** – The subject line of the incoming email
+* **`message`** – The full text content of the email
+* **`attachments`** – Any files included in the email
 
 ***
 
