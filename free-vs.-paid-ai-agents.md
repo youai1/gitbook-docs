@@ -52,7 +52,7 @@ This indicator appears on both the **MindStudio Agents page** and the **Chrome E
 
 #### Example:
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

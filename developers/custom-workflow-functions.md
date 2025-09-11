@@ -31,7 +31,7 @@ There are two primary ways to create a new function in MindStudio. Both approach
 
 ## Function Setup
 
-Functions in MindStudio can be written in either JavaScript or Python, giving you flexibility to choose the language that best suits your needs. The function editor provides a modern development environment with syntax highlighting, auto-completion, and real-time error checking.
+Functions in MindStudio can be written in either **JavaScript** or **Python**, giving you flexibility to choose the language that best suits your needs. The function editor provides a modern development environment with syntax highlighting, auto-completion, and real-time error checking.
 
 ### 1. Configure Function Details
 
@@ -51,236 +51,7 @@ Use the **Configurations Tab** to define JSON for customizable settings that use
 
 The **Code Tab** is the central workspace for writing the logic of your function. Here, you can write code in either JavaScript or Python, depending on the selected environment. The editor features syntax highlighting, making the code more readable and easier to debug.
 
-### Available Methods
-
-#### **`ai.config`**
-
-Object containing configuration variables defined in MindStudio
-
-#### **`ai.vars`**
-
-Object containing runtime variables defined by other functions or blocks.
-
-#### **`ai.log(value)`**
-
-Update the progress text for the user. If your function takes a long time to run, this can be helpful in communicating what is happening to the user.
-
-#### **`ai.scrapeUrl(url)`**
-
-Scrape the contents of a URL and return an object containing the text extracted from the page, the raw HTML, and some structured metadata (page title, description, resolved URL, thumbnail image URL).
-
-#### **`ai.searchGoogle(query)`**
-
-Search Google for a query and return the first page of results. Returns an object containing all the results as a block of text, as well as individually as an array of objects containing the title, description, and URL for each result.
-
-#### **`ai.queryDataSource(dataSourceId, query, numResults)`**
-
-Perform a query against a data source defined in a project. Returns a string result. If `numResults` is not provided, only one chunk will be returned.
-
-#### **`ai.uploadFile(body)`**
-
-Upload a file and return a URL. File must be a valid Base 64 data URL.
-
-#### **`ai.concatenateAudio(urls)`**
-
-Combine an array of URLs to audio files into one mp3.
-
-#### **`ai.concatenateVideo(urls)`**
-
-Combine an array of URLs to video files into one mp4.
-
-### Extensions
-
-#### `scrapeUrl(url: string, scrapeSettings?: object): Promise<string>`
-
-Scrapes metadata or content from the specified URL using optional custom settings.
-
-**Parameters**
-
-| Name             | Type     | Description                                |
-| ---------------- | -------- | ------------------------------------------ |
-| `url`            | `string` | URL to scrape.                             |
-| `scrapeSettings` | `object` | _(optional)_ Custom settings for scraping. |
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified scrape result.
-
-***
-
-#### `searchGoogle(query: string): Promise<string>`
-
-Performs a Google web search and returns relevant results.
-
-**Parameters**
-
-* `query` (`string`): Search query string.
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified list of results.
-
-***
-
-#### `rehostImage(imageUrl: string): Promise<string>`
-
-Downloads and re‑hosts an image to a secure internal location.
-
-**Parameters**
-
-* `imageUrl` (`string`): Public URL of the image.
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified object containing the new hosted image URL.
-
-***
-
-#### `concatenateAudio(urls: string[], options: object): Promise<string>`
-
-Merges multiple audio files (e.g., MP3, WAV) into a single audio stream.
-
-**Parameters**
-
-| Name      | Type       | Description                              |
-| --------- | ---------- | ---------------------------------------- |
-| `urls`    | `string[]` | Array of audio file URLs.                |
-| `options` | `object`   | Settings (e.g., fade in, output format). |
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified result (e.g., output URL or metadata).
-
-***
-
-#### `unzipFile(zipUrl: string): Promise<string>`
-
-Unzips a `.zip` file from the given URL and returns its contents or links.
-
-**Parameters**
-
-* `zipUrl` (`string`): URL to a zip archive.
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified file tree or extracted file URLs.
-
-***
-
-#### `analyzeImage(imageUrl: string, prompt: string): Promise<string>`
-
-Performs visual analysis of an image using a textual prompt.
-
-**Parameters**
-
-| Name       | Type     | Description                              |
-| ---------- | -------- | ---------------------------------------- |
-| `imageUrl` | `string` | URL of the image to analyze.             |
-| `prompt`   | `string` | Instruction or question about the image. |
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified analysis result.
-
-***
-
-#### `searchGoogleImages(query: string): Promise<string>`
-
-Fetches relevant images based on a search query.
-
-**Parameters**
-
-* `query` (`string`): Image search keywords.
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified array of image URLs or metadata.
-
-***
-
-#### `generateChart(data: object, width?: number, height?: number, backgroundColor?: string): Promise<string>`
-
-Generates a chart image from structured data.
-
-**Parameters**
-
-| Name              | Type     | Description                                        |
-| ----------------- | -------- | -------------------------------------------------- |
-| `data`            | `object` | Chart data and configuration.                      |
-| `width`           | `number` | _(optional)_ Image width in pixels (default 500).  |
-| `height`          | `number` | _(optional)_ Image height in pixels (default 300). |
-| `backgroundColor` | `string` | _(optional)_ Background color (default white).     |
-
-**Returns**
-
-`Promise<string>` — Base64‑encoded chart image or URL.
-
-***
-
-#### `queryDataSource(dataSourceId: string, query: string, numResults?: number): Promise<string>`
-
-Executes a query against a configured data source (e.g., SQL, vector DB).
-
-**Parameters**
-
-| Name           | Type     | Description                                     |
-| -------------- | -------- | ----------------------------------------------- |
-| `dataSourceId` | `string` | Target data source identifier.                  |
-| `query`        | `string` | Query string to execute.                        |
-| `numResults`   | `number` | _(optional)_ Max number of results (default 1). |
-
-**Returns**
-
-`Promise<string>` — JSON‑stringified query results.
-
-***
-
-#### `uploadFile(body: string, contentType: string, encoding: BufferEncoding): Promise<{ url: string }>`
-
-Uploads a file and returns its hosted URL.
-
-**Parameters**
-
-| Name          | Type             | Description                             |
-| ------------- | ---------------- | --------------------------------------- |
-| `body`        | `string`         | File contents (base64‐encoded or text). |
-| `contentType` | `string`         | MIME type of the file.                  |
-| `encoding`    | `BufferEncoding` | Encoding format used.                   |
-
-**Returns**
-
-`Promise<{ url: string }>` — Object containing the hosted file URL.
-
-***
-
-#### `log(value: string): void`
-
-Sends a log message to the workflow execution log.
-
-**Parameters**
-
-* `value` (`string`): Message to log.
-
-**Returns**
-
-`void`
-
-***
-
-#### `generateImage(prompt: string, modelId: string): Promise<{ b64_json: string }>`
-
-Generates an image from a text prompt using a specified model.
-
-**Parameters**
-
-| Name      | Type     | Description                         |
-| --------- | -------- | ----------------------------------- |
-| `prompt`  | `string` | Text prompt for image generation.   |
-| `modelId` | `string` | Identifier of the generation model. |
-
-**Returns**
-
-`Promise<{ b64_json: string }>` — Base64‑encoded image payload.&#x20;
+[See available methods](custom-workflow-functions.md#available-methods)
 
 ## Configuration Tab
 
@@ -288,8 +59,8 @@ The **Configuration Tab** enables developers to define a configuration JSON file
 
 ### Configuration JSON Structure
 
-{% code fullWidth="false" %}
-```json
+{% code overflow="wrap" fullWidth="false" %}
+```javascript
 config = {
 	thumbnailUrl: "URL" 
 	//(Optional) Reference image used in the Community Functions menu.
@@ -336,7 +107,7 @@ config = {
 						//"map" = Creates input for key:value pairs
 						//"dataSource" = Dropdown menu to select a data source
 						//"transition" = Allows users to select a block for dynamic transitions, similar to menu or logic block
-
+	
 					
 					selectOptions: [
 					//Only use when using "select" input type.
@@ -369,7 +140,32 @@ config = {
 
 ## Test Data Tab
 
-The **Test Data Tab** is a dedicated space for verifying the behavior of your function with predefined inputs. You can simulate runtime variables such as `ai.vars` and `ai.config` by defining mock data to test different scenarios. This feature allows you to ensure that your function behaves as expected without needing to integrate it into a full workflow.
+The **Test Data Tab** is a dedicated space for verifying the behavior of your function with predefined inputs. You can simulate runtime variables such as `ai.vars` and `ai.config` by defining mock data to test different scenarios.&#x20;
+
+Data defined in the **Test Tab** will be used when executing the function with the **Test** button in the bottom right of your code editor.
+
+This feature allows you to ensure that your function behaves as expected without needing to integrate it into a full workflow.
+
+### Test Data JSON Structure
+
+```javascript
+environment = {
+  vars: {
+    // Variables in your workflow
+    myVariable: "This is a variable",
+  },
+  config: {
+    // Variables configured by block settings
+    myConfigProperty: "This is a config property",
+  },
+}
+```
+
+The above JSON structure will allow you to read the following variable and config values when testing:
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>console.log(ai.vars.myVariable); // "This is a variable"
+</strong>console.log(ai.config.myConfigProperty); // "This is a config property"
+</code></pre>
 
 ## Right Hand Panel Controls
 
@@ -384,6 +180,81 @@ Live preview of the configuration interface, giving you immediate feedback on ho
 ### Quick Help Tab
 
 Built-in reference guide. Displays the guide relevant to what you are editing.
+
+## Available Methods <a href="#available-methods" id="available-methods"></a>
+
+#### [More information about Custom Function Methods here](custom-function-methods.md)
+
+| Method                                                                                     | Description                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <h4><strong><code>ai.config</code></strong></h4>                                           | Object containing configuration variables defined in MindStudio                                                                                                                                                                             |
+| <h4><strong><code>ai.vars</code></strong></h4>                                             | Object containing runtime variables defined by other functions or blocks.                                                                                                                                                                   |
+| <h4><strong><code>ai.log(value)</code></strong></h4>                                       | Update the progress text for the user. If your function takes a long time to run, this can be helpful in communicating what is happening to the user.                                                                                       |
+| <h4><strong><code>ai.scrapeUrl(url)</code></strong></h4>                                   | Scrape the contents of a URL and return an object containing the text extracted from the page, the raw HTML, and some structured metadata (page title, description, resolved URL, thumbnail image URL).                                     |
+| <h4><strong><code>ai.searchGoogle(query)</code></strong></h4>                              | Search Google for a query and return the first page of results. Returns an object containing all the results as a block of text, as well as individually as an array of objects containing the title, description, and URL for each result. |
+| <h4><strong><code>ai.queryDataSource(dataSourceId, query, numResults)</code></strong></h4> | Perform a query against a data source defined in a project. Returns a string result. If `numResults` is not provided, only one chunk will be returned.                                                                                      |
+| <h4><strong><code>ai.uploadFile(body)</code></strong></h4>                                 | Upload a file and return a URL. File must be a valid Base 64 data URL.                                                                                                                                                                      |
+| <h4><strong><code>ai.concatenateAudio(urls)</code></strong></h4>                           | Combine an array of URLs to audio files into one mp3.                                                                                                                                                                                       |
+| <h4><strong><code>ai.concatenateVideo(urls)</code></strong></h4>                           | Combine an array of URLs to video files into one mp4.                                                                                                                                                                                       |
+
+## Quick Examples
+
+### Assigning value to a variable
+
+* Get data from a Search Google function
+* Assign that data to the variable `output`
+
+#### JavaScript
+
+```javascript
+const searchData = await ai.searchGoogle("cats");
+ai.vars.output = searchData;
+```
+
+#### Python
+
+```python
+ai["vars"]["searchResults"] = await ai["searchGoogle"]("cats")
+print("Hello World?")
+```
+
+### Simple Input Field in Custom Function Config
+
+<div align="left" data-full-width="false"><figure><img src="../.gitbook/assets/image.png" alt="" width="344"><figcaption></figcaption></figure></div>
+
+Configuration Tab:
+
+```javascript
+config = {
+  configurationSections: [
+    {
+      title: "Settings", // Title of the config section
+      items: [
+        {
+          type: "text",
+          label: "Name",
+          variable: "name",
+          placeholder: "Enter your name here"
+        }
+      ]
+    }
+  ],
+}
+```
+
+Access the value of this input field in the code like so:
+
+**JavaScript**
+
+```javascript
+const name = ai.config.name;
+```
+
+**Python**
+
+```python
+name = ai["config"]["name"]
+```
 
 ## Execution Environments
 
@@ -420,3 +291,5 @@ async def handler():
     ai.vars["searchResults"] = await ai.searchGoogle("cats")
     print("Hello World?")
 ```
+
+##
