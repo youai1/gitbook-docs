@@ -6,7 +6,7 @@ description: Manage third party integrations and create new connections.
 
 The i**ntegrations page** provides a centralized view of all third-party services connected to your account or workspace. It allows users to manage access, monitor connection status, and control permissions for each integration.
 
-<figure><img src="../.gitbook/assets/Integration Settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Integration Settings V2.png" alt=""><figcaption></figcaption></figure>
 
 ### Sections
 
