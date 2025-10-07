@@ -135,17 +135,7 @@ Use models with large context windows for summarizing lengthy documents or analy
 
 ### Video Models
 
-| Provider  | Model Name  | Price                   | Prompt Length |
-| --------- | ----------- | ----------------------- | ------------- |
-| Google    | Veo 2       | $0.50 / second          | 1,000 Tokens  |
-| Google    | Veo 3       | $0.20 / second          | 1,000 Tokens  |
-| Google    | Veo 3 Fast  | $0.10 / second          | 1,000 Tokens  |
-| Luma Labs | Ray 1.6     | $0.003 / million pixels | 1,000 Tokens  |
-| Luma Labs | Ray 2       | $0.001 / million pixels | 1,000 Tokens  |
-| Luma Labs | Ray Flash 2 | $0.002 / million pixels | 1,000 Tokens  |
-| OpenAI    | Sora 2      | $0.10 / second          | 1,000 Tokens  |
-| OpenAI    | Sora 2 Pro  | $0.50 / second          | 1,000 Tokens  |
-| Runway    | Gen-4 Turbo | $0.01 / second          | 1,000 Tokens  |
+<table data-full-width="true"><thead><tr><th>Provider</th><th>Model Name</th><th>Price</th><th>Prompt Length</th></tr></thead><tbody><tr><td>Google</td><td>Veo 2</td><td>$0.50 / second</td><td>1,000 Tokens</td></tr><tr><td>Google</td><td>Veo 3</td><td>$0.20 / second</td><td>1,000 Tokens</td></tr><tr><td>Google</td><td>Veo 3 Fast</td><td>$0.10 / second</td><td>1,000 Tokens</td></tr><tr><td>Luma Labs</td><td>Ray 1.6</td><td>$0.003 / million pixels</td><td>1,000 Tokens</td></tr><tr><td>Luma Labs</td><td>Ray 2</td><td>$0.001 / million pixels</td><td>1,000 Tokens</td></tr><tr><td>Luma Labs</td><td>Ray Flash 2</td><td>$0.002 / million pixels</td><td>1,000 Tokens</td></tr><tr><td>OpenAI</td><td>Sora 2</td><td>$0.10 / second</td><td>1,000 Tokens</td></tr><tr><td>OpenAI</td><td>Sora 2 Pro</td><td>$0.50 / second</td><td>1,000 Tokens</td></tr><tr><td>Runway</td><td>Gen-4 Turbo</td><td>$0.01 / second</td><td>1,000 Tokens</td></tr></tbody></table>
 
 ### Text-To-Speech Models
 
