@@ -133,6 +133,20 @@ Use models with large context windows for summarizing lengthy documents or analy
 
 <table data-full-width="true"><thead><tr><th>Provider</th><th>Model Name</th><th>Price</th><th>Prompt Length</th></tr></thead><tbody><tr><td>Amazon</td><td>Amazon Nova Canvas</td><td>$0.08 / image</td><td>1,000 Tokens</td></tr><tr><td>Black Forest Labs</td><td>FLUX 1.1 [pro]</td><td>$0.06 / image</td><td>10,000 Tokens</td></tr><tr><td>Black Forest Labs</td><td>FLUX 1.1 [pro] Ultra</td><td>$0.06 / image</td><td>10,000 Tokens</td></tr><tr><td>Ideogram</td><td>Ideogram Upscale</td><td>$0.06 / image</td><td>10,000 Tokens</td></tr><tr><td>Ideogram</td><td>Ideogram V1</td><td>$0.06 / image</td><td>10,000 Tokens</td></tr><tr><td>Ideogram</td><td>Ideogram V1 Remix</td><td>$0.06 / image</td><td>10,000 Tokens</td></tr><tr><td>Ideogram</td><td>Ideogram V2</td><td>$0.08 / image</td><td>10,000 Tokens</td></tr><tr><td>Ideogram</td><td>Ideogram V2 Remix</td><td>$0.08 / image</td><td>10,000 Tokens</td></tr><tr><td>Luma Labs</td><td>Photon 1</td><td>$0.02 / image</td><td>1,000 Tokens</td></tr><tr><td>Luma Labs</td><td>Photon 1 Flash</td><td>$0.00 / image</td><td>1,000 Tokens</td></tr><tr><td>OpenAI</td><td>DALL-E 2</td><td>$0.02 / image</td><td>1,000 Tokens</td></tr><tr><td>OpenAI</td><td>DALL-E 3</td><td>$0.08 / image</td><td>4,000 Tokens</td></tr><tr><td>OpenAI</td><td>GPT Image 1</td><td>$0.00 / image</td><td>4,000 Tokens</td></tr><tr><td>Stability</td><td>Stable Diffusion 3</td><td>$0.08 / image</td><td>10,000 Tokens</td></tr><tr><td>Stability</td><td>Stable Diffusion 3</td><td>$0.08 / image</td><td>10,000 Tokens</td></tr><tr><td>Stability</td><td>Stable Image Core</td><td>$0.04 / image</td><td>10,000 Tokens</td></tr><tr><td>Stability</td><td>Stable Image Core</td><td>$0.04 / image</td><td>10,000 Tokens</td></tr><tr><td>Stability</td><td>Stable Image Ultra</td><td>$0.08 / image</td><td>10,000 Tokens</td></tr><tr><td>Stability</td><td>Stable Image Ultra</td><td>$0.14 / image</td><td>10,000 Tokens</td></tr><tr><td>X.ai</td><td>Grok 2</td><td>$0.07 / image</td><td>131,000 Tokens</td></tr></tbody></table>
 
+### Video Models
+
+| Provider  | Model Name  | Price                   | Prompt Length |
+| --------- | ----------- | ----------------------- | ------------- |
+| Google    | Veo 2       | $0.50 / second          | 1,000 Tokens  |
+| Google    | Veo 3       | $0.20 / second          | 1,000 Tokens  |
+| Google    | Veo 3 Fast  | $0.10 / second          | 1,000 Tokens  |
+| Luma Labs | Ray 1.6     | $0.003 / million pixels | 1,000 Tokens  |
+| Luma Labs | Ray 2       | $0.001 / million pixels | 1,000 Tokens  |
+| Luma Labs | Ray Flash 2 | $0.002 / million pixels | 1,000 Tokens  |
+| OpenAI    | Sora 2      | $0.10 / second          | 1,000 Tokens  |
+| OpenAI    | Sora 2 Pro  | $0.50 / second          | 1,000 Tokens  |
+| Runway    | Gen-4 Turbo | $0.01 / second          | 1,000 Tokens  |
+
 ### Text-To-Speech Models
 
 <table data-full-width="true"><thead><tr><th width="178">Provider</th><th>Model Name</th><th>Input Price</th><th width="178">Output Price</th><th>Prompt Length</th></tr></thead><tbody><tr><td>ElevenLabs</td><td>ElevenLabs TTS</td><td>$240.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>Unlimited</td></tr><tr><td>OpenAI</td><td>GPT-4o-mini TTS</td><td>$0.60 / 1M chars</td><td>$2.40 / 1M chars</td><td>2,000 Characters</td></tr><tr><td>OpenAI</td><td>TTS</td><td>$15.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>4,100 Characters</td></tr><tr><td>OpenAI</td><td>TTS HD</td><td>$30.00 / 1M chars</td><td>$0.10 / 1M chars</td><td>4,100 Characters</td></tr></tbody></table>
