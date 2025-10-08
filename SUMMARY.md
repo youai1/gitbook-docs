@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [AI Agent Use Cases](get-started/ai-agent-use-cases.md)
+* [Usage Pricing Reference](usage-pricing-reference.md)
 
 ## Get Started
 
