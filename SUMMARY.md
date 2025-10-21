@@ -175,3 +175,4 @@
 * [Self-Hosted AI Models (Quickstart Tutorial)](additional-resources/self-hosted-ai-models-quickstart-tutorial.md)
 * [Glossary](additional-resources/glossary.md)
 * [Allowing Access to Mindstudio From Your Network](additional-resources/allowing-access-to-mindstudio-from-your-network.md)
+* [How to Use the ICP → HubSpot Prospecting Agent](additional-resources/how-to-use-the-icp-hubspot-prospecting-agent.md)
