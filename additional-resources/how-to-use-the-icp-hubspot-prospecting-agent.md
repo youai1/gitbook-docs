@@ -26,6 +26,8 @@ Below, you’ll find a step-by-step walkthrough for connecting both platforms, c
 
 ### Video Guide:
 
+{% embed url="https://youtu.be/sA_NCKSr9iM" %}
+
 [https://youtu.be/sA\_NCKSr9iM](https://youtu.be/sA_NCKSr9iM)
 
 ***
