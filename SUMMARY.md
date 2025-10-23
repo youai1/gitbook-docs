@@ -72,6 +72,7 @@
   * [Logic Block](building-ai-agents/blocks-reference/logic-block.md)
   * [Menu Block](building-ai-agents/blocks-reference/menu-block.md)
   * [Post to Slack Block](building-ai-agents/blocks-reference/post-to-slack-block.md)
+  * [Post Video to TikTok](building-ai-agents/blocks-reference/post-video-to-tiktok.md)
   * [Post to Slack](building-ai-agents/blocks-reference/post-to-slack.md)
   * [Query Data Source Block](building-ai-agents/blocks-reference/query-data-source-block.md)
   * [Query Database](building-ai-agents/blocks-reference/query-database.md)
