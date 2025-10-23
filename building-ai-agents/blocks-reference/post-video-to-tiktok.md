@@ -55,3 +55,5 @@ Select post settings for the TikTok video.
 * **Comments:** Select whether others can comment on your video post.
 * **Duets:** Select whether to allow Duets using your video post. **Allow Duets** is disabled if **Privacy Level** setting is set to **SELF ONLY**.
 * **Stitches:** Select whether to allow Stitches using your video post. **Allow Stitches** is disabled if **Privacy Level** setting is set to **SELF ONLY**.
+
+See [TikTok content sharing guidelines](https://developers.tiktok.com/doc/content-sharing-guidelines/) for more information.
