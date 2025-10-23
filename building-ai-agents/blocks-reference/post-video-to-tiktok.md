@@ -1,11 +1,11 @@
 ---
-description: Post a TikTok VIdeo
+description: Post a TikTok Video
 hidden: true
 ---
 
 # Post Video to TikTok
 
-The **Post Video to TikTok Block** allows you to post videos directly to your TikTok account. Control the level of privacy to your own account, your followers, or mutually following friends. This block is perfect for posting video content that you generate using MindStudio.
+The **Post Video to TikTok Block** allows you to post videos directly to your TikTok account. Control the level of privacy to your own account, your followers, or mutually following friends. This block is perfect for posting video content that you generate using MindStudio to TikTok.
 
 ## **Configurations**
 
