@@ -1,6 +1,5 @@
 ---
 description: Post a TikTok Video
-hidden: true
 ---
 
 # Post Video to TikTok
