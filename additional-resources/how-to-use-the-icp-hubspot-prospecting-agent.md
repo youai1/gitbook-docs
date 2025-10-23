@@ -32,7 +32,7 @@ Below, you’ll find a step-by-step walkthrough for connecting both platforms, c
 
 ### Step 1: Setup Your MindStudio & HubSpot Accounts
 
-1. Sign up for MindStudio: [https://get.mindstudio.ai/0wmv7t0y87gd](https://get.mindstudio.ai/0wmv7t0y87gd)
+1. Sign up for MindStudio: [https://get.mindstudio.ai/h3x5vhgz6mng-q8zug6i](https://get.mindstudio.ai/h3x5vhgz6mng-q8zug6i)
 2. Login to HubSpot: [https://app.hubspot.com/login](https://app.hubspot.com/login**)
 
 ***
