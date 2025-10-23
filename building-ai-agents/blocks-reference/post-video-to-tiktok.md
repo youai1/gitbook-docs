@@ -20,7 +20,7 @@ You can test posting TikTok videos to your account using a Sandbox environment, 
 3. Create a web app in a [Sandbox environment following these TikTok guidelines](https://developers.tiktok.com/doc/add-a-sandbox/). Ensure to do the following:
    1. Install the [Login Kit](https://developers.tiktok.com/doc/login-kit-overview?enter_method=left_navigation), which adds the "user.info.basic" scope to your web app.
    2. Install the [Content Posting API](https://developers.tiktok.com/doc/content-posting-api-get-started?enter_method=left_navigation), which adds the "video.publish" and "video.upload" scopes. Enable the **Direct Post** setting.
-   3. Add your TikTok user name in the **Target Users**.
+   3. Add your TikTok user name in the **Target Users**. This allows your TikTok account to connect to your web app and use the Sandbox environment.
 4. Create the connection from the Post Video to TikTok Block. Do the following:
    1. Add the Client ID and Client Secret from your TikTok web app.
    2. Copy the **Redirect URL** from the Post Video to TikTok Block and paste it into **Redirect URL** in the Login Kit settings, then save the web app settings.
