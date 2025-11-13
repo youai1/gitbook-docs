@@ -157,6 +157,10 @@
 * [Billing Settings](workspace-management/billing-settings.md)
 * [Account Settings](workspace-management/account-settings.md)
 
+## Connectors
+
+* [Calendly](connectors/calendly.md)
+
 ## Integration Guides
 
 * [Zapier + MindStudio](integration-guides/zapier-+-mindstudio.md)
