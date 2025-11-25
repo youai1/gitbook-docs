@@ -52,10 +52,8 @@ POST https://v1.mindstudio-api.com/dev/your-webhook-id
 Content-Type: application/json
 
 {
-  "webhookParams": {
     "customerName": "Jane Doe",
     "question": "What is your return policy?"
-  }
 }
 ```
 
