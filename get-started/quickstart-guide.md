@@ -163,9 +163,7 @@ Testing and evaluation are critical steps to ensure your AI Agent performs as ex
 * Open the **Evaluations Tab** to create test scenarios for your workflow.
 *   Click the **Autogenerate** button to generate test cases automatically. You can provide additional context for test case generation, such as specifying genres, topics, or scenarios.
 
-    {% hint style="info" %}
-    **Example:** Generate test cases for topics like technology, politics, or health.
-    {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p><strong>Example:</strong> Generate test cases for topics like technology, politics, or health.</p></div>
 * Specify how many test cases you want to generate.
 * Review the generated cases to ensure they cover a variety of inputs
 * Use the **Run** button in the top-left to execute the workflow multiple times with the test cases.

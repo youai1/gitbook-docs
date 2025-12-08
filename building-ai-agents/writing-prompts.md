@@ -32,11 +32,8 @@ You can write a system prompt manually by typing into the blank space of the **P
 2. Using natural language, enter a brief description of what your AI Agent is supposed to do.
    1.  **Example:**
 
-       {% code overflow="wrap" %}
-       ```markdown
-       Assistant finds daily technology news, summarize it, and send an email at 8:00 AM. It includes up-to-date, and accurate information based on the context it is provided.
-       ```
-       {% endcode %}
+       <pre class="language-markdown" data-overflow="wrap"><code class="lang-markdown">Assistant finds daily technology news, summarize it, and send an email at 8:00 AM. It includes up-to-date, and accurate information based on the context it is provided.
+       </code></pre>
 3. After entering your description, click the **Generate** button. The system will automatically create a structured prompt based on your input.
 4. Carefully review the generated prompt to make sure it aligns with your requirements. You can edit the prompt directly in the editor if adjustments are needed.
 

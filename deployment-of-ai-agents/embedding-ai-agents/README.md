@@ -70,11 +70,8 @@ Here’s how you can integrate it into your product:
 4. **Your backend returns** the URL to the frontend.
 5.  **Frontend embeds** the agent in an `<iframe>`:
 
-    {% code overflow="wrap" %}
-    ```html
-    <iframe src="https://app.mindstudio.ai/signed-access/abc123..." width="100%" height="800px"></iframe>
-    ```
-    {% endcode %}
+    <pre class="language-html" data-overflow="wrap"><code class="lang-html">&#x3C;iframe src="https://app.mindstudio.ai/signed-access/abc123..." width="100%" height="800px">&#x3C;/iframe>
+    </code></pre>
 
     Or, you can redirect the user to the URL directly.
 

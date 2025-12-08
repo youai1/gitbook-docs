@@ -126,7 +126,7 @@ You can use <mark style="color:red;">`if-else`</mark> to render a block of HTML 
 {{/if}}
 ```
 
-For more information on Handelbars notation, please review our article on [Using Handlebars Templating.](broken-reference)
+For more information on Handelbars notation, please review our article on [Using Handlebars Templating.](/broken/pages/0aaXqv40EzKg0rdNzrMI)
 
 
 

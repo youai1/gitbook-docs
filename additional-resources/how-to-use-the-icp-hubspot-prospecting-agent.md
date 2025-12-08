@@ -41,12 +41,10 @@ Below, you’ll find a step-by-step walkthrough for connecting both platforms, c
 2.  Click on the **Connect HubSpot** button. This will open a pop-up window prompting you sign into HubSpot.
 
     <figure><img src="../.gitbook/assets/SCR-20251020-ofyo.png" alt=""><figcaption></figcaption></figure>
-3.  Once you’ve signed into HubSpot, select the CRM you’d like to connect to the Agent.\
-
+3.  Once you’ve signed into HubSpot, select the CRM you’d like to connect to the Agent.<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-odbz.png" alt=""><figcaption></figcaption></figure>
-4.  After connecting MindStudio to HubSpot, You’ll see your connected account in the Actrive Accounts section.\
-
+4.  After connecting MindStudio to HubSpot, You’ll see your connected account in the Actrive Accounts section.<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-ofim.png" alt=""><figcaption></figcaption></figure>
 
@@ -56,8 +54,7 @@ Below, you’ll find a step-by-step walkthrough for connecting both platforms, c
 2. The agent will search for new contacts matching your ICP criteria.
 3. New found contacts are added automatically to your HubSpot CRM.
 4. The agent will take about 5 minutes to run. When finished, it will display a table
-5.  You can scroll down to the bottom of the table and click the next button to continue searching through the next page of leads.\
-
+5.  You can scroll down to the bottom of the table and click the next button to continue searching through the next page of leads.<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-ppzn.png" alt=""><figcaption></figcaption></figure>
 
@@ -73,8 +70,7 @@ Below, you’ll find a step-by-step walkthrough for connecting both platforms, c
 #### If you are currently using the agent:
 
 1. Click on the 3 dots at the top-right corner
-2.  Click on **New Run.**\
-
+2.  Click on **New Run.**<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-ptvk.png" alt=""><figcaption></figcaption></figure>
 
@@ -86,16 +82,13 @@ To access your previous searches you will need to **view the search history** of
 
 1. Open the Agent.
 2. Click on the 3 dots at the top right corner of the screen.
-3.  Click on **Show Run History**.\
-
+3.  Click on **Show Run History**.<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-poil.png" alt=""><figcaption></figcaption></figure>
-4.  Select the search you’d like to continue running.\
-
+4.  Select the search you’d like to continue running.<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-poyx.png" alt=""><figcaption></figcaption></figure>
-5.  Once you’ve selected a previous run, you can scroll down to the bottom of the table and click the next button to continue searching through the next page of leads.\
-
+5.  Once you’ve selected a previous run, you can scroll down to the bottom of the table and click the next button to continue searching through the next page of leads.<br>
 
     <figure><img src="../.gitbook/assets/SCR-20251020-ppzn.png" alt=""><figcaption></figcaption></figure>
 
