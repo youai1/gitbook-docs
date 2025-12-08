@@ -27,6 +27,6 @@ Add the embed code to your Wix website.
 4. Click **Enter Code** on the new grey box that appears.
 5. Paste the code you copied from MindStudio into the text box.
 6. Click **Update**.
-7. Resize the element box to ensure your AI agent fits comfortably (e.g., set width to 100% and height to 600px+).
+7. Resize the element box to ensure your AI agent fits comfortably (e.g., set width to 100% of the container and height to 600px+).
 8. Click **Preview** to preview your site, then resize as necessary.
 9. **Publish** your site. Your AI agent is live.

@@ -26,6 +26,6 @@ Add the embed code to your WordPress website.
    1. Click the **+ (Plus)** button to add a new block.
    2. Search for "HTML" and select the **Custom HTML** block.
 3. Paste the code you copied from MindStudio into the text box.
-4. Resize the element box to ensure your AI agent fits comfortably (e.g., set width to 100% and height to 600px+).
+4. Resize the element box to ensure your AI agent fits comfortably (e.g., set width to 100% of the container and height to 600px+).
 5. Click **Preview** to preview your site, then resize as necessary.
 6. Click **Update/Publish**. Your AI agent is live.
