@@ -12,11 +12,8 @@ MindStudio provides access to over 90 AI models from leading providers, allowing
 
 The underlying model is the AI model that is inherited by the rest of the workflow. It’s configuration will be used as the default model for all blocks that use AI.
 
-1. **Access Model Settings**
-   * Navigate to the **Model Settings Tab** in your workflow editor.
-2. **Choose an AI Model**
-   * Click on the Model Card to view information about the AI Model.
-   * **NOTE:** Some models may be locked and can be unlocked by adding a payment method in your Billing Settings.
+1. Navigate to the **Model Settings Tab** in your workflow editor.
+2. Click on the Model Card to view information about the AI Model.
 3. Click the **Use Button** to confirm your selection
 4. (Optional) Click the heart icon to add preferred AI Models to your Favorites section
 
