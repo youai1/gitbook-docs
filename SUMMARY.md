@@ -142,6 +142,7 @@
 * [Email-Triggered Agents](deployment-of-ai-agents/email-triggered-agents.md)
 * [Running Agents via API](deployment-of-ai-agents/running-via-api.md)
 * [Embedding AI Agents](deployment-of-ai-agents/embedding-ai-agents/README.md)
+  * [Guest Access Embed on Squarespace](deployment-of-ai-agents/embedding-ai-agents/guest-access-embed-on-squarespace.md)
   * [Guest Access Embed on Wix](deployment-of-ai-agents/embedding-ai-agents/guest-access-embed-on-wix.md)
   * [Guest Access Embed on WordPress](deployment-of-ai-agents/embedding-ai-agents/guest-access-embed-on-wordpress.md)
 * [Webhook-Triggered](deployment-of-ai-agents/webhook-triggered.md)
