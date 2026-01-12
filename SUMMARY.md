@@ -160,6 +160,7 @@
 * [Usage Explorer](workspace-management/usage-explorer.md)
 * [Billing Settings](workspace-management/billing-settings.md)
 * [Account Settings](workspace-management/account-settings.md)
+* [Configuring Manual Connections to AI Model Providers](workspace-management/configuring-manual-connections-to-ai-model-providers.md)
 
 ## Connectors
 
