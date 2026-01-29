@@ -101,7 +101,7 @@ The Sharing settings allow you to configure how your AI Agent can be accessed an
 #### Start Up
 
 1. **Entry Workflow:** Select the workflow from which the agent should start. By default, <mark style="color:red;">`Main.flow`</mark> will always be selected.&#x20;
-2. **Onboarding:** Add and configure onboarding user inuputs. These inputs will be displayed the first time a user runs the agent. These variables are set globally and will be available in all threads.&#x20;
+2. **Onboarding:** Add and configure onboarding user inputs. These inputs will be displayed the first time a user runs the agent. These variables are set globally and will be available in all agent runs.&#x20;
 
 #### Global Variables&#x20;
 
