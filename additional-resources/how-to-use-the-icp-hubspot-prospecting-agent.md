@@ -64,7 +64,7 @@ Below, you’ll find a step-by-step walkthrough for connecting both platforms, c
 
 #### If you are not using the agent:
 
-1. Click on the agent link: [\*\*](https://app.mindstudio.ai/agents/icp--hubspot-crm-82318f70/run/)[https://app.mindstudio.ai/agents/icp--hubspot-crm-82318f70/run/\*\*](https://app.mindstudio.ai/agents/icp--hubspot-crm-82318f70/run/**)
+1. Click on the agent link: [https://app.mindstudio.ai/agents/icp--hubspot-crm-82318f70/run/](https://app.mindstudio.ai/agents/icp--hubspot-crm-82318f70/run/)
 2. This will kickoff a new run for you to input new ICP Criteria
 
 #### If you are currently using the agent:
