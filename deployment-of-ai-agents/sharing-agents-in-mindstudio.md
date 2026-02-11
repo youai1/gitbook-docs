@@ -20,31 +20,50 @@ Agent sharing is ideal for:
 
 ***
 
-## Enable Remixing and Publish Your Agent
+## Publish Your Agent
 
 1. Open your agent.
-2. Go to the **Access tab** → Enable **Remixing**.
-3. Open the **Landing Page tab** → Fill out:
+2. Open the **Landing Page tab** → Fill out:
    * **Name** and **Subtitle**
    * **Functional Description** (short pitch)
    * **Full Description** (longer markdown tutorial, optional)
    * **Tags** for SEO
    * **Tutorials, Images, or Sample Assets**
    * **Preview Workflow** (pick the most visually compelling one)
-4. Upload a custom **Social Sharing Image** (recommended: screenshot of your workflow).
-5. Click **Publish**.
+3. Upload a custom **Social Sharing Image** (recommended: screenshot of your workflow).
+4. Click **Publish**.
 
 ***
 
-## Share Your Remix Link
+## Enable Remixing and Share Your Remix Link
 
 After publishing:
 
-1. Return to **Access tab**.
+1. Go to **Remixing tab** → Enable **Remixing**.
 2. Click **Copy Remix Link**.
 3. Share this link on LinkedIn, YouTube, TikTok, Instagram, or anywhere your audience is.
 
 When someone clicks **Make a Copy**, your PartnerStack link tracks their signup and credits you for the referral.
+
+***
+
+## Set Your Agent to Be Public
+
+1. Open your agent.
+2. Open the **Access tab** → Click **Public**.
+3. Set cost responsibility for use of your agent:
+   * **Requester:** The requester using your agent pays for usage cost.
+   * **Agent Owner (You):** You pay for others to use your agent. [See how to configure anonymous access of your agent](sharing-agents-in-mindstudio.md#anonymous-access-of-your-agent).
+
+***
+
+## Anonymous Access of Your Agent
+
+After setting that you pay for public usage of your agent:
+
+1. Enable **Anonymous Access**. Anyone with the link can use your agent, even without a MindStudio account. All usage costs will be charged to you.
+2. Optionally, set an unbranded custom subdomain. This subdomain is a public-access version of your agent.
+3. Click **Save**.
 
 ***
 
@@ -88,13 +107,16 @@ On LinkedIn and other platforms:
 
 ## Sharing Fundamentals Cheat-Sheet
 
-| Feature                  | Purpose                                                       |
-| ------------------------ | ------------------------------------------------------------- |
-| **PartnerStack Link**    | Tracks referrals and earns you commission (20% for 12 months) |
-| **Remixing**             | Allows others to duplicate and customize your agent           |
-| **Landing Page**         | Displays name, description, tags, images, and tutorials       |
-| **Preview Workflow**     | Shows an eye-catching workflow diagram as the background      |
-| **Social Sharing Image** | Controls how your agent appears in LinkedIn, YouTube, etc.    |
+| Feature                  | Purpose                                                                                                        |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| **PartnerStack Link**    | Tracks referrals and earns you commission (20% for 12 months)                                                  |
+| **Remixing**             | Allows others to duplicate and customize your agent                                                            |
+| **Landing Page**         | Displays name, description, tags, images, and tutorials                                                        |
+| **Preview Workflow**     | Shows an eye-catching workflow diagram as the background                                                       |
+| **Social Sharing Image** | Controls how your agent appears in LinkedIn, YouTube, etc.                                                     |
+| **Public Access**        | Grants public access to your agent, where either the requester or you pay for its usage cost                   |
+| **Anonymous Access**     | Grants anyone with the link to use your agent, even without a MindStudio account. You pay for all usage costs. |
+| **Custom Subdomain**     | Set a custom subdomain that becomes a public-access version of your agent                                      |
 
 ***
 
