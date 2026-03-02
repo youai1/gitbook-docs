@@ -2,11 +2,7 @@
 description: Connect and manage self hosted models to your AI agents.
 ---
 
-# Self Hosted Models
-
-{% hint style="info" %}
-This feature is only available with a custom Enterprise plan. Please [contact us](https://www.mindstudio.ai/contact-us) for more information.
-{% endhint %}
+# Self-Hosted Models
 
 ## What Are Self-Hosted Models?
 
