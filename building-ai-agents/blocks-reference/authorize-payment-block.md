@@ -6,6 +6,10 @@ description: Authorize a user to pay to use your AI agent.
 
 The Authorize Payment block allows a user to authorize to pay you to use your AI agent. The user is presented with this block each time they run your AI agent. The user must have a MindStudio account.
 
+Prior to using the Authorize Payment block, implement [Stripe Connect](https://docs.stripe.com/connect/charges) to accept users' payments.
+
+Use immediately following a [User Input](user-input-block.md) block, and before your workflow begins any tasks.
+
 ## Configuration
 
 ### Amount&#x20;
