@@ -21,6 +21,8 @@
 * [Blocks Reference](building-ai-agents/blocks-reference/README.md)
   * [Apify Block](building-ai-agents/blocks-reference/apify-block.md)
   * [Analyze Image Block](building-ai-agents/blocks-reference/analyze-image-block.md)
+  * [Authorize Payment Block](building-ai-agents/blocks-reference/authorize-payment-block.md)
+  * [Capture Payment Block](building-ai-agents/blocks-reference/capture-payment-block.md)
   * [Chat Block](building-ai-agents/blocks-reference/chat-block.md)
   * [Checkpoint Block](building-ai-agents/blocks-reference/checkpoint-block.md)
   * [Create Calendar Event](building-ai-agents/blocks-reference/create-calendar-event.md)
