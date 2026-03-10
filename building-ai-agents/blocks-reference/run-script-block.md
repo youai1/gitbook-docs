@@ -14,7 +14,7 @@ See [Workflow Scripts](../workflow-scripts.md) to get started.
 
 ### Source Code
 
-Select the Workflow Script file you want to run from the dropdown. This lists all `.ts` Workflow Script files for that AI agent in the Explorer.
+Select the Workflow Script file you want to run from the dropdown. Source code that will be executed when the Agent runs.
 
 ### Parameters
 
