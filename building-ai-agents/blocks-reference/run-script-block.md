@@ -32,7 +32,7 @@ Assign values to the launch variables of the selected script.
 
 Map the script's return values to workflow variables so they can be used by following blocks.
 
-<table><thead><tr><th width="206.19921875"></th><th></th></tr></thead><tbody><tr><td>Return key</td><td>The key from the script's return object (e.g., <code>summary</code>)</td></tr><tr><td>Variable</td><td>The workflow variable to store the value in (e.g., <code>{{summary}}</code>)</td></tr></tbody></table>
+<table><thead><tr><th width="206.19921875">Field</th><th>Description</th></tr></thead><tbody><tr><td>Return key</td><td>The key from the script's return object (e.g., <code>summary</code>)</td></tr><tr><td>Variable</td><td>The workflow variable to store the value in (e.g., <code>{{summary}}</code>)</td></tr></tbody></table>
 
 {% hint style="info" %}
 Map the return values of the script to workflow variables.
