@@ -117,6 +117,10 @@ Types of blocks include:
 * **Context Blocks**: Gather context for the AI. Context is saved to a variable.
 * **Routing Blocks**: Add conditional branches to route the workflow in various ways. \</aside>
 
+{% hint style="info" %}
+In addition to arranging blocks visually on the Automations Canvas, you can define workflow logic using a **Workflow Script**. See [Workflow Scripts](workflow-scripts.md) to get started.
+{% endhint %}
+
 ### **Terminator Blocks**
 
 This block marks the end of the workflow. It has customizable end behavior, such as sending email notifications or returning a structured output.

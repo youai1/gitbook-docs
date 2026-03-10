@@ -83,6 +83,7 @@
   * [Run Function Block](building-ai-agents/blocks-reference/run-function-block.md)
   * [Run Node (n8n)](building-ai-agents/blocks-reference/run-node-n8n.md)
   * [Run Scenario (Make)](building-ai-agents/blocks-reference/run-scenario-make.md)
+  * [Run Script Block](building-ai-agents/blocks-reference/run-script-block.md)
   * [Run Workflow Block](building-ai-agents/blocks-reference/run-workflow-block.md)
   * [Scrape Facebook Page](building-ai-agents/blocks-reference/scrape-facebook-page.md)
   * [Scrape LinkedIn Company](building-ai-agents/blocks-reference/scrape-linkedin-company.md)
@@ -129,6 +130,7 @@
 * [Working with JSON](building-ai-agents/working-with-json.md)
 * [Dynamic HTML & Workflow Loading Styles](building-ai-agents/dynamic-html-and-workflow-loading-styles.md)
 * [Data Sources](building-ai-agents/data-sources.md)
+* [Workflow Scripts](building-ai-agents/workflow-scripts.md)
 * [Publishing & Versioning](building-ai-agents/publishing-and-versioning.md)
 
 ## Test & Evaluate

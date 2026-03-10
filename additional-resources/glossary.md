@@ -4,6 +4,10 @@ description: Definitions of MindStudio Terms
 
 # Glossary
 
+#### Action (Script Editor)
+
+The term used for blocks within the Script Editor context. Actions and blocks refer to the same MindStudio capabilities — the same items available in the block selection modal on the Automations Canvas are available as actions when building a Workflow Script.
+
 #### **AI Agent**
 
 An AI-powered automation or workflow created within MindStudio. AI Agents are designed to perform specific tasks, ranging from data processing to content generation, and can be deployed in various applications.
@@ -51,6 +55,10 @@ Data or parameters provided by end-users or external systems that are used to gu
 #### **Variable**
 
 A placeholder used within workflows to store and pass data between steps. Variables can represent inputs, intermediate values, or outputs, ensuring data flows smoothly through the workflow.
+
+#### Workflow Script
+
+A TypeScript file that defines workflow logic in code, created from the Workflows section of the Explorer. Built using the Script Editor, where you can describe your workflow in plain language and have the AI agent generate the code, or add actions manually. Executed on the Automations Canvas via a [Run Script](../building-ai-agents/blocks-reference/run-script-block.md) block.
 
 #### **Workspace**
 
