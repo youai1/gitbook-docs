@@ -35,7 +35,7 @@ Inputs to the Workflow Script are specified as launch variables, such as from a 
 2. Click the **+** button, and then **Workflow Script**.
 3. A new script file (e.g., `index.ts`) will be created and opened in the **Script Editor**.
 
-<figure><img src="../.gitbook/assets/Run Script 01 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Run Script 01.png" alt=""><figcaption></figcaption></figure>
 
 The Script Editor has three main areas:
 
