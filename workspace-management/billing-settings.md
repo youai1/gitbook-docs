@@ -12,7 +12,7 @@ The **Billing Settings** section in MindStudio provides comprehensive tools to m
 
 ## Account Balance
 
-The [**Account Balance**](https://app.mindstudio.ai/workspace/settings/billing?page=overview) page offers an overview of your current billing plan, balance, and auto-recharge settings. Here are the primary controls available:
+The [**Account Balance**](https://app.mindstudio.ai/services/balance) page offers an overview of your current billing plan, balance, and auto-recharge settings. Here are the primary controls available:
 
 ### Current Plan
 
@@ -36,7 +36,7 @@ Make sure to click **Save** after making any changes to your auto-recharge setti
 
 ## Budgets and Limits
 
-The [**Budgets and Limits**](https://app.mindstudio.ai/workspace/settings/billing?page=limits) page allows you to manage your workspace's spending by setting monthly limits for the entire workspace and individual users. This ensures that you maintain control over costs and receive notifications if limits are exceeded.
+The [**Budgets and Limits**](https://app.mindstudio.ai/services/limits) page allows you to manage your workspace's spending by setting monthly limits for the entire workspace and individual users. This ensures that you maintain control over costs and receive notifications if limits are exceeded.
 
 ### Monthly Workspace Budget
 
@@ -50,7 +50,7 @@ Define spending limits for individual users within the workspace. If a user exce
 
 ## Payment Methods
 
-The [**Payment Methods**](https://app.mindstudio.ai/workspace/settings/billing?page=payment-methods) page is where you can manage the billing details and payment options for your workspace. Having a saved payment method ensures a seamless process for recharging your account balance and avoiding interruptions in service.
+The [**Payment Methods**](https://app.mindstudio.ai/workspace/payment-methods) page is where you can manage the billing details and payment options for your workspace. Having a saved payment method ensures a seamless process for recharging your account balance and avoiding interruptions in service.
 
 ### Billing Address
 
@@ -70,7 +70,7 @@ To add a new payment method, click on the **New Payment Method** button and foll
 
 ## Receipts
 
-The [**Receipts**](https://app.mindstudio.ai/workspace/settings/billing?page=receipts) page provides a detailed record of all billing transactions for your workspace. This section is designed to help you track payments, usage charges, and other billing activities, ensuring transparency and ease of record-keeping.
+The [**Receipts**](https://app.mindstudio.ai/workspace/receipts) page provides a detailed record of all billing transactions for your workspace. This section is designed to help you track payments, usage charges, and other billing activities, ensuring transparency and ease of record-keeping.
 
 ### Transaction Details
 
