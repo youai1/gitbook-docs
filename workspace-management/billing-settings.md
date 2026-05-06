@@ -6,7 +6,7 @@ description: Manage your workspace’s financial activities
 
 The **Billing Settings** section in MindStudio provides comprehensive tools to manage your workspace’s financial activities, including monitoring balances, setting budgets, managing payment methods, and accessing receipts.
 
-<figure><img src="../.gitbook/assets/Screenshot Capture - 2025-04-04 - 09-07-53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Billing 01.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -16,7 +16,7 @@ The [**Account Balance**](https://app.mindstudio.ai/services/balance) page offer
 
 ### Current Plan
 
-Your current subscription plan is displayed here. If you're interested in upgrading, click [**Explore Business Plans**](https://www.mindstudio.ai/pricing) to view available options.
+Your current subscription plan is displayed here. If you're interested in upgrading, click [**Explore Business Plans**](https://app.mindstudio.ai/workspace/plan) to view available options.
 
 ### Current Balance
 
