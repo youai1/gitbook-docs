@@ -1,5 +1,7 @@
 ---
 description: Get Comments data from an Instagram post in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
 # Scrape Instagram Comments

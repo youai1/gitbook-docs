@@ -1,5 +1,7 @@
 ---
 description: Get data from mentions on Instagram in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
 # Scrape Instagram Mentions

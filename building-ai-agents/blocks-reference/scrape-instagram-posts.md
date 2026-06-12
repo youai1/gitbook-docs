@@ -1,5 +1,7 @@
 ---
 description: Get posts from an Instagram profile in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
 # Scrape Instagram Posts

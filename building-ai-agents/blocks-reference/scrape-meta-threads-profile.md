@@ -1,5 +1,7 @@
 ---
 description: Get data from a Meta Threads profile in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
 # Scrape Meta Threads Profile

@@ -1,5 +1,7 @@
 ---
 description: Get general details of a Facebook page in a MindStudio workflow
+hidden: true
+noIndex: true
 ---
 
 # Scrape Facebook Page
