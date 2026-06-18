@@ -18,15 +18,15 @@ Provide text instructions for analyzing the image. Use <mark style="color:red;">
 
 ### **Image URL**
 
-Specify the URL of the image to be analyzed. Use a <mark style="color:red;">`{{variable}}`</mark> to dynamically reference image URL generated or fetched earlier in the workflow.
+Specify the URL of the image to be analyzed. Use a <mark style="color:red;">`{{variable}}`</mark> to dynamically reference the image URL generated or fetched earlier in the workflow.
 
 ### **Output Variable**
 
-Creates a new variable and saves the generated test response to it. Enter a <mark style="color:red;">`variable_name`</mark> to store the response for later use in the workflow.
+Creates a new variable and saves the generated image analysis. Enter a <mark style="color:red;">`variable_name`</mark> to store the response for later use in the workflow.
 
 ### **Model Settings**
 
-Choose the AI Model that you’d like to use for the image analysis. You may adjust the model’s **Temperature** and **Max Response Size**.
+Choose the AI model that you’d like to use for the image analysis. You may adjust the model’s **Temperature** and **Max Response Size**.
 
 ## **Writing Image Analysis Prompts**
 

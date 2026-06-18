@@ -21,6 +21,7 @@
 * [Blocks Reference](building-ai-agents/blocks-reference/README.md)
   * [Apify Block](building-ai-agents/blocks-reference/apify-block.md)
   * [Analyze Image Block](building-ai-agents/blocks-reference/analyze-image-block.md)
+  * [Analyze Video Block](building-ai-agents/blocks-reference/analyze-video-block.md)
   * [Authorize Payment Block](building-ai-agents/blocks-reference/authorize-payment-block.md)
   * [Capture Payment Block](building-ai-agents/blocks-reference/capture-payment-block.md)
   * [Chat Block](building-ai-agents/blocks-reference/chat-block.md)
