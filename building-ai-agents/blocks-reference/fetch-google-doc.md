@@ -18,9 +18,7 @@ Follow the instructions on the pop-up window to directly connect MindStudio to y
 
 ### Document&#x20;
 
-Add the document URL for the document you want to fetch. If you have connected your Google Drive account, you can search for your document by selecting the **search folder icon** next to the text field.&#x20;
-
-This section can include variables.&#x20;
+Select the Google Doc you want to fetch. If you have connected your Google Drive account, you can search for your document by selecting the **Choose Document** button.
 
 ### Export Format
 
